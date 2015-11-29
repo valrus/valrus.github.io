@@ -2,22 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>small clever rooms</title>
     
-    <link rel="alternate" href="http://ianmccowan.nfshost.com/" />
-    <link rel="self" href="http://ianmccowan.nfshost.com/feed.xml" type="application/atom+xml" />
-    <id>http://ianmccowan.nfshost.com/</id>
-    <updated>2015-11-29T18:44:09Z</updated>
+    <link rel="alternate" href="http://ian.mccowan.space/" />
+    <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
+    <id>http://ian.mccowan.space/</id>
+    <updated>2015-11-29T19:24:17Z</updated>
     
     <author>
         <name>Ian McCowan</name>
         <email>imccowan@gmail.com</email>
-        <uri>http://ianmccowan.nfshost.com/</uri>
+        <uri>http://ian.mccowan.space/</uri>
     </author>
     
     
         <entry>
             <title>Mapping Grief By Reflections</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2015/10/15/Grief/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2015/10/15/Grief/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2015/10/15/Grief/" type="text/html" />
+            <id>http://ian.mccowan.space/2015/10/15/Grief/</id>
             <updated>2015-10-15T04:07:00Z</updated>
             
             <summary type="html">I mostly grieve second-hand.</summary>
@@ -107,8 +107,8 @@ and there will be absolutely nothing I can do about it.&lt;/p&gt;
     
         <entry>
             <title>Poison Season : Kaputt :: Trouble in Dreams : Destroyer&#39;s Rubies</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2015/09/25/Poison_Season/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2015/09/25/Poison_Season/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2015/09/25/Poison_Season/" type="text/html" />
+            <id>http://ian.mccowan.space/2015/09/25/Poison_Season/</id>
             <updated>2015-09-25T03:41:00Z</updated>
             
             <summary type="html">I&amp;rsquo;ve mentioned the analogy in this post&amp;rsquo;s title to a couple hard-core Destroyer fans —
@@ -209,13 +209,13 @@ and we should all be thankful for that.&lt;/p&gt;
     
         <entry>
             <title>Spacemacs</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2015/04/07/Spacemacs/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2015/04/07/Spacemacs/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2015/04/07/Spacemacs/" type="text/html" />
+            <id>http://ian.mccowan.space/2015/04/07/Spacemacs/</id>
             <updated>2015-04-07T01:04:00Z</updated>
             
             
             <content type="html">&lt;h2&gt;A Vimmer&amp;rsquo;s Emacs Prerequisites&lt;/h2&gt;
-&lt;p&gt;In a &lt;a href=&#34;http://ianmccowan.nfshost.com/2014/11/22/My_Own_Personal_Editor_War/index.html&#34;&gt;previous post&lt;/a&gt; I explained why Vim and Sublime Text ultimately disappointed me; in this one, I&amp;rsquo;m going to describe how I finally found at least temporary respite in Emacs and what it took to get me there.&lt;/p&gt;
+&lt;p&gt;In a &lt;a href=&#34;http://ian.mccowan.space/2014/11/22/My_Own_Personal_Editor_War/index.html&#34;&gt;previous post&lt;/a&gt; I explained why Vim and Sublime Text ultimately disappointed me; in this one, I&amp;rsquo;m going to describe how I finally found at least temporary respite in Emacs and what it took to get me there.&lt;/p&gt;
 
 &lt;p&gt;I had a rocky start with Emacs. Actually I had about four of them. There was never any question that I was going to use &lt;a href=&#34;http://www.emacswiki.org/Evil&#34;&gt;Evil-mode&lt;/a&gt;, Emacs&amp;rsquo;s vi emulation layer. I understand that it arose from the ashes of several previous such efforts to become one of the most complete vi emulations available for &lt;em&gt;any&lt;/em&gt; text editor besides ones that derive from vi itself.&lt;/p&gt;
 
@@ -254,8 +254,8 @@ and we should all be thankful for that.&lt;/p&gt;
     
         <entry>
             <title>Pi Day Curmudgeonliness</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2015/03/14/Pi_Day_Curmudgeonliness/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2015/03/14/Pi_Day_Curmudgeonliness/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2015/03/14/Pi_Day_Curmudgeonliness/" type="text/html" />
+            <id>http://ian.mccowan.space/2015/03/14/Pi_Day_Curmudgeonliness/</id>
             <updated>2015-03-14T04:49:00Z</updated>
             
             <summary type="html">Happy Arbitrary Number Of Convenient Yet Also Arbitrary Time Units Elapsed
@@ -500,7 +500,7 @@ Here they are:&lt;/p&gt;
 &lt;p&gt;Soooo one of those names doesn&amp;rsquo;t tell you anything about this problem
 and the other is maybe a little dense to try to unpack, so
 this is a maybe slightly more friendly version of it:
-&lt;a href=&#34;http://en.wikipedia.org/wiki/Basel_problem&#34; title=&#34;Wikipedia page for The Basel problem.&#34;&gt;&lt;img title=&#34;The Basel Problem: what&#39;s the sum of the reciprocals of the squares of the natural numbers?&#34; src=&#34;http://ianmccowan.nfshost.com/assets/images/posts/Pi_Day/basel.png&#34; class=&#34;fullwidth&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Basel_problem&#34; title=&#34;Wikipedia page for The Basel problem.&#34;&gt;&lt;img title=&#34;The Basel Problem: what&#39;s the sum of the reciprocals of the squares of the natural numbers?&#34; src=&#34;http://ian.mccowan.space/assets/images/posts/Pi_Day/basel.png&#34; class=&#34;fullwidth&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;(Clicking that image will take you to the Wikipedia page for the problem,
 which goes &lt;em&gt;way&lt;/em&gt; more in depth than I intend to here.)&lt;/p&gt;
@@ -579,7 +579,7 @@ which &lt;em&gt;includes&lt;/em&gt; pi but isn&amp;rsquo;t really &lt;em&gt;abou
 but for my money it&amp;rsquo;s the most beautiful and elegant fact in mathematics.
 Behold:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Euler&#39;s_identity&#34; title=&#34;Wikipedia page for Euler&#39;s identity.&#34;&gt;&lt;img title=&#34;Euler&#39;s identity, the most beautiful equation in mathematics.&#34; src=&#34;http://ianmccowan.nfshost.com/assets/images/posts/Pi_Day/euler.png&#34; class=&#34;fullwidth&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Euler&#39;s_identity&#34; title=&#34;Wikipedia page for Euler&#39;s identity.&#34;&gt;&lt;img title=&#34;Euler&#39;s identity, the most beautiful equation in mathematics.&#34; src=&#34;http://ian.mccowan.space/assets/images/posts/Pi_Day/euler.png&#34; class=&#34;fullwidth&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;You don&amp;rsquo;t have to take my word for it.
 The Wikipedia article linked from the picture above
@@ -619,8 +619,8 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
     
         <entry>
             <title>My Own Personal Editor War</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2014/11/22/My_Own_Personal_Editor_War/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2014/11/22/My_Own_Personal_Editor_War/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2014/11/22/My_Own_Personal_Editor_War/" type="text/html" />
+            <id>http://ian.mccowan.space/2014/11/22/My_Own_Personal_Editor_War/</id>
             <updated>2014-11-22T05:24:00Z</updated>
             
             <summary type="html">I&amp;rsquo;m a stickler for dev tools, in particular text editors, almost to a fault. Okay, definitely to a fault. Okay, probably well past the point where any reasonable person would call it a fault.</summary>
@@ -670,12 +670,12 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
     
         <entry>
             <title>My Best Bug Fix of the Year</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2014/11/08/Bug_Fix_of_the_Year/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2014/11/08/Bug_Fix_of_the_Year/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2014/11/08/Bug_Fix_of_the_Year/" type="text/html" />
+            <id>http://ian.mccowan.space/2014/11/08/Bug_Fix_of_the_Year/</id>
             <updated>2014-11-08T23:39:00Z</updated>
             
-            <summary type="html">&lt;em&gt;If you don&amp;rsquo;t know what UTF-16 surrogates are and how they work, consider &lt;a href=&#34;http://ianmccowan.nfshost.com/study/essays/unicode&#34;&gt;my Unicode essay&lt;/a&gt; required reading for this post.&lt;/em&gt;</summary>
-            <content type="html">&lt;p&gt;&lt;em&gt;If you don&amp;rsquo;t know what UTF-16 surrogates are and how they work, consider &lt;a href=&#34;http://ianmccowan.nfshost.com/study/essays/unicode&#34;&gt;my Unicode essay&lt;/a&gt; required reading for this post.&lt;/em&gt;&lt;/p&gt;
+            <summary type="html">&lt;em&gt;If you don&amp;rsquo;t know what UTF-16 surrogates are and how they work, consider &lt;a href=&#34;http://ian.mccowan.space/study/essays/unicode&#34;&gt;my Unicode essay&lt;/a&gt; required reading for this post.&lt;/em&gt;</summary>
+            <content type="html">&lt;p&gt;&lt;em&gt;If you don&amp;rsquo;t know what UTF-16 surrogates are and how they work, consider &lt;a href=&#34;http://ian.mccowan.space/study/essays/unicode&#34;&gt;my Unicode essay&lt;/a&gt; required reading for this post.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;This is a story about the most confounding bug that I fixed at work this year.&lt;/p&gt;
 &lt;h3&gt;Mangled Emoji&lt;/h3&gt;
@@ -729,22 +729,22 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
     
         <entry>
             <title>Generating Level Maps for Tone Poem</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2014/07/11/Tone_Poem_Maps/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2014/07/11/Tone_Poem_Maps/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2014/07/11/Tone_Poem_Maps/" type="text/html" />
+            <id>http://ian.mccowan.space/2014/07/11/Tone_Poem_Maps/</id>
             <updated>2014-07-11T01:10:00Z</updated>
             
             <summary type="html">Tone Poem needs to have areas to navigate. Because my primary inspiration for the overall game design is SNES-era console JRPGs, my first impulse was just to follow the lead of games like the venerable Final Fantasy VI. That game had a fair number of caves that looked something like this:</summary>
             <content type="html">&lt;p&gt;Tone Poem needs to have areas to navigate. Because my primary inspiration for the overall game design is SNES-era console JRPGs, my first impulse was just to follow the lead of games like the venerable Final Fantasy VI. That game had a fair number of caves that looked something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://ianmccowan.nfshost.com/assets/images/posts/Tone_Poem_Maps/umaro-cave.png&#34; rel=&#34;bytebox&#34;&gt;&lt;img class=&#34;fullwidth&#34; src=&#34;http://ianmccowan.nfshost.com/assets/images/posts/Tone_Poem_Maps/umaro-cave.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ian.mccowan.space/assets/images/posts/Tone_Poem_Maps/umaro-cave.png&#34; rel=&#34;bytebox&#34;&gt;&lt;img class=&#34;fullwidth&#34; src=&#34;http://ian.mccowan.space/assets/images/posts/Tone_Poem_Maps/umaro-cave.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;But because it&amp;rsquo;s intended to be a game that teaches the player some real-world knowledge, it&amp;rsquo;s anticipated that the player may have to take multiple tries to get through Tone Poem&amp;rsquo;s areas. So I&amp;rsquo;d like to pinch the idea of procedural level generation from the &lt;a href=&#34;http://ianmccowan.nfshost.com/study/essays/roguelikes/index.html&#34;&gt;roguelike genre&lt;/a&gt; and apply it here, to prevent the player from having to slog through the exact same area several times.&lt;/p&gt;
+&lt;p&gt;But because it&amp;rsquo;s intended to be a game that teaches the player some real-world knowledge, it&amp;rsquo;s anticipated that the player may have to take multiple tries to get through Tone Poem&amp;rsquo;s areas. So I&amp;rsquo;d like to pinch the idea of procedural level generation from the &lt;a href=&#34;http://ian.mccowan.space/study/essays/roguelikes/index.html&#34;&gt;roguelike genre&lt;/a&gt; and apply it here, to prevent the player from having to slog through the exact same area several times.&lt;/p&gt;
 
 &lt;p&gt;If you look again at the map linked above, there&amp;rsquo;s kind of a lot going on in it. Even ignoring the matter of how doors link up different areas, there are tiers connected only by stairs, bridges connecting an upper tier that can be walked under if you&amp;rsquo;re on a lower one, switches that have an effect on the layout, and chests placed so as not to block the narrow corridors. And then there are also the purely aesthetic elements like the lanterns and pipes across the ceilings.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s certainly possible to generate this kind of thing on the fly, but it seems finicky and not at all fun to me, and the finickiness would only increase as I added more flavorful aspects. Perhaps more importantly, though, the more I thought about it, the more I didn&amp;rsquo;t &lt;em&gt;want&lt;/em&gt; my levels to be like this. One of the least fun things about classic JRPGs is trudging interminably across terrain at a frustratingly slow pace, being interrupted every ten seconds between points A and B to fight annoying pissant dudes when you really just want to get on with it. I want to try to avoid as much of that as I can.&lt;/p&gt;
 
-&lt;p&gt;So I want to take a completely different tack with my areas and base them on graphs, in the mathematical sense. &lt;img src=&#34;http://ianmccowan.nfshost.com/assets/images/posts/Tone_Poem_Maps/graph.png&#34; class=&#34;right&#34; /&gt; Actually, maybe it would be less ambiguous to say &amp;ldquo;in the computer science sense&amp;rdquo; or &amp;ldquo;in the discrete mathematical sense&amp;rdquo;, because I&amp;rsquo;m not talking about the kind of graphs with &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt; axes that we all dealt with in math class. I mean the kind that are covered in some detail in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Graph_theory&#34;&gt;Wikipedia entry for &amp;ldquo;graph theory&amp;rdquo;&lt;/a&gt; and that are hugely important in things like search engines.&lt;/p&gt;
+&lt;p&gt;So I want to take a completely different tack with my areas and base them on graphs, in the mathematical sense. &lt;img src=&#34;http://ian.mccowan.space/assets/images/posts/Tone_Poem_Maps/graph.png&#34; class=&#34;right&#34; /&gt; Actually, maybe it would be less ambiguous to say &amp;ldquo;in the computer science sense&amp;rdquo; or &amp;ldquo;in the discrete mathematical sense&amp;rdquo;, because I&amp;rsquo;m not talking about the kind of graphs with &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt; axes that we all dealt with in math class. I mean the kind that are covered in some detail in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Graph_theory&#34;&gt;Wikipedia entry for &amp;ldquo;graph theory&amp;rdquo;&lt;/a&gt; and that are hugely important in things like search engines.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ll try to give a sense of how I use graphs to generate maps, and what the advantages and disadvantages of them are, in a future post.&lt;/p&gt;
 </content>
@@ -752,12 +752,12 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
     
         <entry>
             <title>Music in Tone Poem</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2014/07/06/Music_in_Tone_Poem/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2014/07/06/Music_in_Tone_Poem/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2014/07/06/Music_in_Tone_Poem/" type="text/html" />
+            <id>http://ian.mccowan.space/2014/07/06/Music_in_Tone_Poem/</id>
             <updated>2014-07-06T16:16:00Z</updated>
             
-            <summary type="html">In &lt;a href=&#34;http://ianmccowan.nfshost.com/2014/02/20/MIDI_in_Python/index.html&#34;&gt;my last post about Tone Poem&lt;/a&gt; I was struggling with being able to use MIDI files as background music. The main problem was that &lt;a href=&#34;https://code.google.com/p/mingus/&#34;&gt;&lt;code&gt;mingus&lt;/code&gt;&lt;/a&gt;, the module I was using to read and represent MIDI, didn&amp;rsquo;t actually work very well for either of those things. Its MIDI file reading was &lt;a href=&#34;https://code.google.com/p/mingus/issues/detail?id=24&#34;&gt;so deficient it was effectively broken&lt;/a&gt;, and its model of a composition was too simple to represent even some pretty basic occurrences. In this post I&amp;rsquo;ll outline a couple more things I tried. Spoiler alert: the first one failed and the second seems to be working.</summary>
-            <content type="html">&lt;p&gt;In &lt;a href=&#34;http://ianmccowan.nfshost.com/2014/02/20/MIDI_in_Python/index.html&#34;&gt;my last post about Tone Poem&lt;/a&gt; I was struggling with being able to use MIDI files as background music. The main problem was that &lt;a href=&#34;https://code.google.com/p/mingus/&#34;&gt;&lt;code&gt;mingus&lt;/code&gt;&lt;/a&gt;, the module I was using to read and represent MIDI, didn&amp;rsquo;t actually work very well for either of those things. Its MIDI file reading was &lt;a href=&#34;https://code.google.com/p/mingus/issues/detail?id=24&#34;&gt;so deficient it was effectively broken&lt;/a&gt;, and its model of a composition was too simple to represent even some pretty basic occurrences. In this post I&amp;rsquo;ll outline a couple more things I tried. Spoiler alert: the first one failed and the second seems to be working.&lt;/p&gt;
+            <summary type="html">In &lt;a href=&#34;http://ian.mccowan.space/2014/02/20/MIDI_in_Python/index.html&#34;&gt;my last post about Tone Poem&lt;/a&gt; I was struggling with being able to use MIDI files as background music. The main problem was that &lt;a href=&#34;https://code.google.com/p/mingus/&#34;&gt;&lt;code&gt;mingus&lt;/code&gt;&lt;/a&gt;, the module I was using to read and represent MIDI, didn&amp;rsquo;t actually work very well for either of those things. Its MIDI file reading was &lt;a href=&#34;https://code.google.com/p/mingus/issues/detail?id=24&#34;&gt;so deficient it was effectively broken&lt;/a&gt;, and its model of a composition was too simple to represent even some pretty basic occurrences. In this post I&amp;rsquo;ll outline a couple more things I tried. Spoiler alert: the first one failed and the second seems to be working.</summary>
+            <content type="html">&lt;p&gt;In &lt;a href=&#34;http://ian.mccowan.space/2014/02/20/MIDI_in_Python/index.html&#34;&gt;my last post about Tone Poem&lt;/a&gt; I was struggling with being able to use MIDI files as background music. The main problem was that &lt;a href=&#34;https://code.google.com/p/mingus/&#34;&gt;&lt;code&gt;mingus&lt;/code&gt;&lt;/a&gt;, the module I was using to read and represent MIDI, didn&amp;rsquo;t actually work very well for either of those things. Its MIDI file reading was &lt;a href=&#34;https://code.google.com/p/mingus/issues/detail?id=24&#34;&gt;so deficient it was effectively broken&lt;/a&gt;, and its model of a composition was too simple to represent even some pretty basic occurrences. In this post I&amp;rsquo;ll outline a couple more things I tried. Spoiler alert: the first one failed and the second seems to be working.&lt;/p&gt;
 &lt;h2&gt;Independent MIDI Handling in a Separate Thread&lt;/h2&gt;
 &lt;p&gt;The MIDI handler I ended up using, &lt;a href=&#34;https://github.com/olemb/mido/&#34;&gt;&lt;code&gt;mido&lt;/code&gt;&lt;/a&gt;, does basic decoding of the inscrutable stream of bytes that makes up a MIDI file. It converts them into &lt;code&gt;Message&lt;/code&gt; objects, easily inspectable representations of what the raw bytes actually mean.&lt;/p&gt;
 
@@ -781,8 +781,8 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
     
         <entry>
             <title>The Prescriptivist&#39;s Dodge</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2014/07/03/The_Prescriptivists_Dodge/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2014/07/03/The_Prescriptivists_Dodge/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2014/07/03/The_Prescriptivists_Dodge/" type="text/html" />
+            <id>http://ian.mccowan.space/2014/07/03/The_Prescriptivists_Dodge/</id>
             <updated>2014-07-03T00:24:00Z</updated>
             
             <summary type="html">A work friend and I were talking about this unfortunate piece of ad copy on Apple&amp;rsquo;s &lt;a href=&#34;https://www.apple.com/ios/ios8/quicktype/&#34;&gt;iOS 8 QuickType web site&lt;/a&gt;.</summary>
@@ -805,7 +805,7 @@ No matter whom you’re saying it to.&lt;/p&gt;
 
 &lt;p&gt;This leads me to the &lt;em&gt;prescriptivist&amp;rsquo;s dodge&lt;/em&gt;:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://ianmccowan.nfshost.com/assets/images/posts/The_Prescriptivists_Dodge/prescriptivist-doge.jpeg&#34; rel=&#34;bytebox&#34;&gt;&lt;img class=&#34;fullwidth&#34; src=&#34;http://ianmccowan.nfshost.com/assets/images/posts/The_Prescriptivists_Dodge/prescriptivist-doge.jpeg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://ian.mccowan.space/assets/images/posts/The_Prescriptivists_Dodge/prescriptivist-doge.jpeg&#34; rel=&#34;bytebox&#34;&gt;&lt;img class=&#34;fullwidth&#34; src=&#34;http://ian.mccowan.space/assets/images/posts/The_Prescriptivists_Dodge/prescriptivist-doge.jpeg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Wait, no, I&amp;rsquo;m sorry. That&amp;rsquo;s the prescriptivist&amp;rsquo;s &lt;em&gt;doge.&lt;/em&gt; The prescriptivist&amp;rsquo;s &lt;em&gt;dodge&lt;/em&gt; is objecting to language that &lt;em&gt;happens&lt;/em&gt; to be against some prescriptive norm, but not &lt;em&gt;because&lt;/em&gt; it breaks that norm. No, the non-prescriptivist would never be so rigid and dogmatic! S/he objects only because this particular transgression—I&amp;rsquo;m sorry, I mean &amp;ldquo;choice&amp;rdquo;&amp;zwnj;—&lt;em&gt;sounds bad&lt;/em&gt;. Just adhering to the admittedly arbitrary and archaic rules would, coincidentally, in this one particular case, result in something that sounds better.&lt;/p&gt;
 
@@ -817,8 +817,8 @@ No matter whom you’re saying it to.&lt;/p&gt;
     
         <entry>
             <title>MIDI in Python</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2014/02/20/MIDI_in_Python/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2014/02/20/MIDI_in_Python/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2014/02/20/MIDI_in_Python/" type="text/html" />
+            <id>http://ian.mccowan.space/2014/02/20/MIDI_in_Python/</id>
             <updated>2014-02-20T03:17:00Z</updated>
             
             <summary type="html">&lt;a href=&#34;python.org&#34;&gt;Python&lt;/a&gt; prides itself on having &amp;ldquo;batteries included&amp;rdquo;, which means it comes with a bunch of well-tested modules that can handle most use cases for a wide variety of common tasks. Some examples:</summary>
@@ -859,8 +859,8 @@ No matter whom you’re saying it to.&lt;/p&gt;
     
         <entry>
             <title>2013 Music&#39;s Best Lines</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2014/01/14/Best_Lines_2013/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2014/01/14/Best_Lines_2013/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2014/01/14/Best_Lines_2013/" type="text/html" />
+            <id>http://ian.mccowan.space/2014/01/14/Best_Lines_2013/</id>
             <updated>2014-01-14T04:59:00Z</updated>
             
             
@@ -894,8 +894,8 @@ No matter whom you’re saying it to.&lt;/p&gt;
     
         <entry>
             <title>Thoughts on &lt;i&gt;Yeezus&lt;/i&gt;</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/12/14/Yeezus/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/12/14/Yeezus/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/12/14/Yeezus/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/12/14/Yeezus/</id>
             <updated>2013-12-14T03:35:00Z</updated>
             
             <summary type="html">&lt;em&gt;Yeezus&lt;/em&gt; makes me uncomfortable. I don&amp;rsquo;t doubt that this is a large part of the reaction Kanye West is trying to provoke. &lt;em&gt;Yeezus&lt;/em&gt; is uncomfortable music: all sawblade synths, queasy riffs, samples appearing from nowhere and disappearing just as abruptly. But shit, I fuck with Death Grips and Clipping too. The industrial techno glitch crunk grime beats or whatever are novel for Yeezy and well suited to the aggression he brings to his raps here, but they don&amp;rsquo;t make me uncomfortable. What makes me uncomfortable is &lt;em&gt;Yeezus&lt;/em&gt;&amp;rsquo;s lack of apparent sense of humor or even self-awareness as Kanye West flings that aggression outwards in all directions. Nowhere is this more jarring or nauseating than when, in &amp;ldquo;&lt;a href=&#34;http://www.youtube.com/watch?v=D0QcxWPB59o&#34;&gt;Blood on the Leaves&lt;/a&gt;&amp;rdquo;, Kanye repurposes &amp;ldquo;Strange Fruit&amp;rdquo;, a song about lynchings, into yet another screed against women using marriage (or, as he terms it, &amp;ldquo;unholy matrimony&amp;rdquo;) to soak men for their money. It&amp;rsquo;s &amp;ldquo;Gold Digger&amp;rdquo; again, except with all the winking and jokes replaced by, in case I haven&amp;rsquo;t made it clear how fucked up I think this is, &lt;em&gt;a sample from a song that is literally about actual lynchings&lt;/em&gt;. Of course there are no jokes, though. &lt;em&gt;Yeezus&lt;/em&gt;&amp;rsquo;s idea of a joke is &amp;ldquo;I&amp;rsquo;m In It&amp;rdquo;&amp;rsquo;s oft-quoted but still execrable &amp;ldquo;eating Asian pussy, all I need is sweet and sour sauce.&amp;rdquo;</summary>
@@ -915,8 +915,8 @@ No matter whom you’re saying it to.&lt;/p&gt;
     
         <entry>
             <title>Julia Holter, &lt;em&gt;Loud City Song;&lt;/em&gt; Yamantaka // Sonic Titan, &lt;em&gt;UZU&lt;/em&gt;</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/12/08/Loud_City_Song_UZU/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/12/08/Loud_City_Song_UZU/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/12/08/Loud_City_Song_UZU/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/12/08/Loud_City_Song_UZU/</id>
             <updated>2013-12-08T21:51:00Z</updated>
             
             <summary type="html">Sonically, these two albums couldn&amp;rsquo;t be much more different. &lt;em&gt;Loud City Song&lt;/em&gt; is a mellow, generally very quiet and unassuming &lt;a href=&#34;http://juliashammasholter.com/&#34;&gt;Julia Holter&lt;/a&gt; joint, ecstatically praised by music critics as was its predecessor, last year&amp;rsquo;s &lt;em&gt;Ekstasis&lt;/em&gt;. &lt;em&gt;UZU&lt;/em&gt;, on the other hand, is the long-awaited bombastic, diverse debut full-length from the Canadian visual art/music collective Yamantaka // Sonic Titan.</summary>
@@ -938,8 +938,8 @@ No matter whom you’re saying it to.&lt;/p&gt;
     
         <entry>
             <title>Woodkid, &lt;i&gt;The Golden Age&lt;/i&gt;</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/12/01/The_Golden_Age/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/12/01/The_Golden_Age/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/12/01/The_Golden_Age/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/12/01/The_Golden_Age/</id>
             <updated>2013-12-01T01:57:00Z</updated>
             
             <summary type="html">The musician who records under the name &amp;ldquo;Woodkid&amp;rdquo; is a Frenchman whose first full length album &lt;em&gt;The Golden Age&lt;/em&gt; is thoroughly lushly orchestrated but doesn&amp;rsquo;t skimp on the percussion. His beautiful, unique voice has the timbre of a bass clarinet and an accent that sounds, to my ears, not just not French but barely of this world. Over a bed of strings and horns that ebb and swell in all the right ways and drums that boom or clatter as appropriate, he deploys that voice in a way that I can only describe as &amp;ldquo;bloodless&amp;rdquo; in the hope of conveying why this album doesn&amp;rsquo;t resonate with me nearly as much as it seems to want to.</summary>
@@ -957,8 +957,8 @@ No matter whom you’re saying it to.&lt;/p&gt;
     
         <entry>
             <title>An Amendment to an Android Widget Tutorial</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/11/09/Android_Widget_Tutorial_Amendment/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/11/09/Android_Widget_Tutorial_Amendment/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/11/09/Android_Widget_Tutorial_Amendment/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/11/09/Android_Widget_Tutorial_Amendment/</id>
             <updated>2013-11-09T02:34:00Z</updated>
             
             <summary type="html">I&amp;rsquo;m trying to make an Android widget, and &lt;a href=&#34;https://www.google.com/search?&amp;amp;q=android+widget+programming&#34;&gt;Google turned up&lt;/a&gt; a &lt;a href=&#34;http://kasperholtze.com/android/how-to-make-a-simple-android-widget/trackback/&#34;&gt;pretty straightforward and well-presented tutorial&lt;/a&gt; that I decided to follow to get a feel for things.</summary>
@@ -984,8 +984,8 @@ I don&amp;rsquo;t know how to use the single image provided, so I used the downl
     
         <entry>
             <title>Cuisine Cascades</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/09/29/Cuisine_Cascades/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/09/29/Cuisine_Cascades/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/09/29/Cuisine_Cascades/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/09/29/Cuisine_Cascades/</id>
             <updated>2013-09-29T19:06:00Z</updated>
             
             <summary type="html">For a while in high school my mom and I went to an Indian buffet every Sunday, which had good and bad effects on my ability to cook for myself. On the one hand, it taught me about the variety of dishes in Indian cuisine; on the other hand, any Indian meal that lacks that variety now feels incomplete. And I can&amp;rsquo;t make an entire Indian buffet myself. Not in one night, anyway.</summary>
@@ -999,8 +999,8 @@ I don&amp;rsquo;t know how to use the single image provided, so I used the downl
     
         <entry>
             <title>Does Python Cuddle?</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/08/06/Python_Cuddles/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/08/06/Python_Cuddles/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/08/06/Python_Cuddles/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/08/06/Python_Cuddles/</id>
             <updated>2013-08-06T00:25:00Z</updated>
             
             <summary type="html">In one of my semi-regular Complain About Perl sessions with a coworker, we found ourselves looking at the &lt;a href=&#34;http://perldoc.perl.org/perlstyle.html&#34;&gt;Perl Style Guide&lt;/a&gt;. Something caught my eye almost immediately:</summary>
@@ -1029,8 +1029,8 @@ I don&amp;rsquo;t know how to use the single image provided, so I used the downl
     
         <entry>
             <title>Notes on Haskell</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/08/04/Notes_on_Haskell/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/08/04/Notes_on_Haskell/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/08/04/Notes_on_Haskell/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/08/04/Notes_on_Haskell/</id>
             <updated>2013-08-04T05:25:00Z</updated>
             
             <summary type="html">I have a fairly deep background in pure math, and Haskell appears to be the purest and mathiest of the many functional languages that are getting more and more fashionable of late. So while one of my close co-workers recently took a course in Scala and my boss has dipped his toes in Erlang, I&amp;rsquo;ve chosen Haskell for my introduction to the functional language craze. Now we just need two of my other fellow software engineers to delve into OCaml and F# and we&amp;rsquo;ll have a royal flush.</summary>
@@ -1128,8 +1128,8 @@ squareRoot n = squareRoot&amp;#x27; n (n `div` 2) (0, n)
     
         <entry>
             <title>Compiling Textual</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/07/20/Compiling_Textual/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/07/20/Compiling_Textual/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/07/20/Compiling_Textual/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/07/20/Compiling_Textual/</id>
             <updated>2013-07-20T02:29:00Z</updated>
             
             <summary type="html">Okay, I&amp;rsquo;m sure that by the time I need this again it will be defunct in some way because such is the nature of XCode, but nevertheless I&amp;rsquo;ve done this twice and struggled for way longer than necessary with what I think was more or less the same thing both times. So, for my own reference and that of anyone trying this for themselves, here&amp;rsquo;s the steps for how I successfully compiled &lt;a href=&#34;https://github.com/Codeux/Textual&#34;&gt;Textual&lt;/a&gt; 3.1.0 with XCode 4.6.3. These instructions assume you have XCode and Git installed and some basic familiarity with the command line.</summary>
@@ -1143,7 +1143,7 @@ squareRoot n = squareRoot&amp;#x27; n (n `div` 2) (0, n)
 
 &lt;ul&gt;
 &lt;li&gt;Open the folder and then the &amp;ldquo;Source&amp;rdquo; subfolder.&lt;/li&gt;
-&lt;li&gt;Drag the file with the &lt;code&gt;.xcodeproj&lt;/code&gt; extension onto the &amp;ldquo;Main Project (Textual)&amp;rdquo; project in the Project Navigator in XCode. The Project Navigator is the left-hand sidebar with the little folder icon at the top selected; you may have to left-most button above the &amp;ldquo;View&amp;rdquo; control in the toolbar to turn it on. &lt;a href=&#34;http://ianmccowan.nfshost.com/assets/images/posts/Compiling_Textual/Adding_Frameworks.png&#34; rel=&#34;bytebox&#34;&gt;Here&amp;rsquo;s a screenshot summing up what does where.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Drag the file with the &lt;code&gt;.xcodeproj&lt;/code&gt; extension onto the &amp;ldquo;Main Project (Textual)&amp;rdquo; project in the Project Navigator in XCode. The Project Navigator is the left-hand sidebar with the little folder icon at the top selected; you may have to left-most button above the &amp;ldquo;View&amp;rdquo; control in the toolbar to turn it on. &lt;a href=&#34;http://ian.mccowan.space/assets/images/posts/Compiling_Textual/Adding_Frameworks.png&#34; rel=&#34;bytebox&#34;&gt;Here&amp;rsquo;s a screenshot summing up what does where.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Turn off code signing for the resulting (sub?)project in XCode. That means repeat step 5 from the instructions linked in step 3 above.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Follow steps 6–8 in the &lt;a href=&#34;http://www.numlock.ch/news/mac_os_x/how-to-compile-textual-open-source-irc-client-on-mac-os-x/&#34;&gt;aforementioned instructions&lt;/a&gt;.&lt;/li&gt;
@@ -1154,8 +1154,8 @@ squareRoot n = squareRoot&amp;#x27; n (n `div` 2) (0, n)
     
         <entry>
             <title>Converting a Module to a Package</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/07/17/Module_to_Package/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/07/17/Module_to_Package/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/07/17/Module_to_Package/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/07/17/Module_to_Package/</id>
             <updated>2013-07-17T23:02:00Z</updated>
             
             <summary type="html">It&amp;rsquo;s happened often (well, twice) that I&amp;rsquo;ve had a Python module that started to get a little too big for its britches: maybe approaching 1000 lines, maybe just including several subclasses which are related but really ought to have their own files. Documentation on the Python packaging system can be a bit daunting. I don&amp;rsquo;t think I need to use &lt;code&gt;setuptools&lt;/code&gt; or &lt;code&gt;distutils&lt;/code&gt; or &lt;code&gt;distribute&lt;/code&gt; because this module is intended only for the use of me and my team. I just want to organize my code better.</summary>
@@ -1179,8 +1179,8 @@ parts.Widget
     
         <entry>
             <title>2013 Music Halfway Point</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/07/16/2013_Music_Halfway_Point/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/07/16/2013_Music_Halfway_Point/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/07/16/2013_Music_Halfway_Point/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/07/16/2013_Music_Halfway_Point/</id>
             <updated>2013-07-16T04:44:00Z</updated>
             
             <summary type="html">It&amp;rsquo;s over halfway through 2013 so I&amp;rsquo;m taking a second to jot down my potential favorite albums so far this year. Alphabetically by artist:</summary>
@@ -1208,8 +1208,8 @@ parts.Widget
     
         <entry>
             <title>StringIO</title>
-            <link rel="alternate" href="http://ianmccowan.nfshost.com/2013/06/21/StringIO/" type="text/html" />
-            <id>http://ianmccowan.nfshost.com/2013/06/21/StringIO/</id>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/06/21/StringIO/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/06/21/StringIO/</id>
             <updated>2013-06-21T00:46:00Z</updated>
             
             <summary type="html">I recently discovered the &lt;code&gt;StringIO&lt;/code&gt; module and have been using it surprisingly often. It&amp;rsquo;s not a terribly flashy module, being roughly equivalent to a C++ &lt;code&gt;stringstream&lt;/code&gt;, but it is proving useful more than I expected. There are a couple use cases that have come up more than once just in the last couple weeks:</summary>
