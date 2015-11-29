@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    
+
+<title>small clever rooms</title>
+
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css" />
+    
+<link href='http://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Rosario:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="/assets/css/typography.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/pygments.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/css/blogpost.css" />
+
+  </head>
+
+  <body>
+    <div id="img_logo" style="display: none;"><img src="/assets/images/title-with-bg.png" /></div>
+    
+<div id="return"><a href="
+/livingroom/
+"><img src="/assets/images/title-back.png" /></a></div>
+<div id="column">
+  <div id="main">
+  <h1>
+Music in Tone Poem
+</h1>
+  
+<p>In <a href="/2014/02/20/MIDI_in_Python/index.html">my last post about Tone Poem</a> I was struggling with being able to use MIDI files as background music. The main problem was that <a href="https://code.google.com/p/mingus/"><code>mingus</code></a>, the module I was using to read and represent MIDI, didn&rsquo;t actually work very well for either of those things. Its MIDI file reading was <a href="https://code.google.com/p/mingus/issues/detail?id=24">so deficient it was effectively broken</a>, and its model of a composition was too simple to represent even some pretty basic occurrences. In this post I&rsquo;ll outline a couple more things I tried. Spoiler alert: the first one failed and the second seems to be working.</p>
+<h2>Independent MIDI Handling in a Separate Thread</h2>
+<p>The MIDI handler I ended up using, <a href="https://github.com/olemb/mido/"><code>mido</code></a>, does basic decoding of the inscrutable stream of bytes that makes up a MIDI file. It converts them into <code>Message</code> objects, easily inspectable representations of what the raw bytes actually mean.</p>
+
+<p><code>mido</code> has a method, <code>play</code>, that applies this conversion to the data in a MIDI file and sends each message in turn to a function of your choosing <em>at the time it would occur</em> if you were listening to the MIDI file normally. Times in MIDI messages are specified in something called &ldquo;ticks&rdquo;, and converting those to real time involves some annoying calculation, but <code>mido</code>&rsquo;s <code>play</code> method handles all that for you. To use it, all I had to do was start a second thread and run <code>play</code> in it, supplying a little boring logic to turn <code>Messages</code> into <code>pyfluidsynth</code> calls.</p>
+
+<p>The trouble came when I tried to sync the thread playing the music with the one where the rest of the game&rsquo;s logic happens. Beastie attacks, which were supposed to happen in time with the music, sounded off: worse, when I tried to make the music repeat, it did so too soon. In fact, though, I was correctly scheduling it to play every eight seconds. I&rsquo;m pretty sure its sounding like it restarted too soon actually meant that it was playing too slow relative to Kivy&rsquo;s scheduling clock.</p>
+<h2>Doing it Myself With Kivy</h2>
+<p>If, as it seemed, eight seconds was enough for my MIDI thread to get out of sync with Kivy, the only sure solution I could think of was to clamp the MIDI down more tightly to Kivy&rsquo;s clock. Fortunately, I had a rough model for how to do that in <code>mido</code>&rsquo;s <a href="https://github.com/olemb/mido/blob/master/mido/midifiles.py#L362"><code>play</code></a> method; unfortunately, because that method used <code>sleep</code> to trigger messages at the right time, it effectively did its own scheduling so it wasn&rsquo;t simple to substitute Kivy&rsquo;s. I ended up doing two things I hate: copying code (<code>play</code>), and using bits of <code>mido</code> that were technically private code.</p>
+
+<p>I&rsquo;ll spare you (any more of) the details, but suffice to say that making this work was probably the hardest thing I&rsquo;ve yet had to do while making Tone Poem. MIDI timing is idiosyncratic and finicky and I had to do a bunch of things myself that I thought I&rsquo;d brought <code>mido</code> on to take care of. On the other hand, the end result:</p>
+
+<ul>
+<li>keeps MIDI background music in sync with the events in the main thread</li>
+<li>does everything using Kivy&rsquo;s clock, keeping me from having to coordinate two different scheduling systems</li>
+<li>schedules MIDI events on the fly, which should allow me to manipulate them in realtime</li>
+</ul>
+
+<p>That last item means that I should be able to change the key or tempo of background music and have it take effect on the very next MIDI event, which may not be necessary but opens up a few interesting options in the future. It&rsquo;s not a bad tradeoff for just over a hundred lines of somewhat gnarly code and a couple private API calls, and I&rsquo;ll probably able to refactor that code to reduce some of the gnarliness. I&rsquo;m cautiously happy about how it turned out.</p>
+
+
+  </div>
+  <div id="footer">
+    <div id="adjposts">
+        <div id="prevpost">←<a href="/2014/07/03/The_Prescriptivists_Dodge/">The Prescriptivist's Dodge</a></div><!--
+     --><div id="nextpost"><a href="/2014/07/11/Tone_Poem_Maps/">Generating Level Maps for Tone Poem</a>→</div>
+      </div>
+      
+    
+    <div id="colophon">
+    
+    <p>Typeset in <a href="http://www.omnibus-type.com/">Omnibus-Type</a>'s <a href="https://www.google.com/fonts/specimen/Rosario">Rosario</a> and <a href="http://www.huertatipografica.com/">Huerta Tipográfica</a>'s <a href="https://www.google.com/fonts/specimen/Bitter">Bitter</a>, hosted by <a href="https://www.google.com/fonts">Google Fonts</a>. Want to email me? My email is my first initial and last name at gmail.com. I'm also on <a href="https://twitter.com/valrus">Twitter</a>.</p>
+    
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>

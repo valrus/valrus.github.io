@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    
+
+<title>small clever rooms</title>
+
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css" />
+    
+<link href='http://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Rosario:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="/assets/css/typography.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/pygments.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/css/blogpost.css" />
+
+  </head>
+
+  <body>
+    <div id="img_logo" style="display: none;"><img src="/assets/images/title-with-bg.png" /></div>
+    
+<div id="return"><a href="
+/livingroom/
+"><img src="/assets/images/title-back.png" /></a></div>
+<div id="column">
+  <div id="main">
+  <h1>
+StringIO
+</h1>
+  
+<p>I recently discovered the <code>StringIO</code> module and have been using it surprisingly often. It&rsquo;s not a terribly flashy module, being roughly equivalent to a C++ <code>stringstream</code>, but it is proving useful more than I expected. There are a couple use cases that have come up more than once just in the last couple weeks:</p>
+
+<ul>
+<li>I&rsquo;m trying to run a command that produces output to stdout and read that output with a function that expects a file. Instead of piping the command&rsquo;s output to a file, I can just initialize a <code>StringIO</code> with the result of <code>subprocess.check_output()</code> and pass it into the function. Intermediate files suck and I hate them. Using a <code>StringIO</code>, by contrast, is so fresh and so clean, clean.</li>
+<li>I&rsquo;m trying to write unit tests for functions or methods that read things from files. A unit test that depends on a file isn&rsquo;t very, you know, unit-y. So instead I can keep it all in the test suite by putting the contents of a test file into a <code>StringIO</code> and passing that to the function or method I want to test. Poof, no filthy, error-prone external files sitting around and begriming the purity of my unit tests.</li>
+</ul>
+
+<p>In retrospect, at least the second of these things seems obvious: like it should be a bog-standard way to write unit tests that don&rsquo;t depend on external resources. But I&rsquo;ve done a fair amount of cruising StackOverflow and other places looking at Python unit test best practices and haven&rsquo;t ever stumbled across it before.</p>
+
+
+  </div>
+  <div id="footer">
+    <div id="adjposts">
+        <div id="prevpost"></div><!--
+     --><div id="nextpost"><a href="/2013/07/16/2013_Music_Halfway_Point/">2013 Music Halfway Point</a>→</div>
+      </div>
+      
+    
+    <div id="colophon">
+    
+    <p>Typeset in <a href="http://www.omnibus-type.com/">Omnibus-Type</a>'s <a href="https://www.google.com/fonts/specimen/Rosario">Rosario</a> and <a href="http://www.huertatipografica.com/">Huerta Tipográfica</a>'s <a href="https://www.google.com/fonts/specimen/Bitter">Bitter</a>, hosted by <a href="https://www.google.com/fonts">Google Fonts</a>. Want to email me? My email is my first initial and last name at gmail.com. I'm also on <a href="https://twitter.com/valrus">Twitter</a>.</p>
+    
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>

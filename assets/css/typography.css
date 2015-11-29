@@ -1,0 +1,306 @@
+body {
+  font-family: "Rosario","lucida sans unicode", sans-serif;
+  line-height: 1.5em;
+  background-color:rgb(37, 58, 107);
+  color: rgb(64, 82, 124);
+  font-size-adjust:none;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:400;
+}
+
+#column, #footer {
+  margin: 0 auto;
+}
+
+#main {
+  background: #FFFEF0;
+  padding: 2em 3em;
+  margin-bottom: 0;
+}
+
+#column {
+  width: 36em;
+  position: relative;
+}
+
+#return {
+  position: fixed;
+  right: 0;
+  background-color:rgb(37, 58, 107);
+}
+
+#footer {
+  font-family: "Rosario","lucida sans unicode", sans-serif;
+  color: #FFFEF0;
+  margin: 20px 0;
+}
+
+#colophon {
+  margin-top: 1em;
+  font-size: 90%;
+}
+
+p {
+  font-weight:300;
+  margin: .8125em 0;
+}
+
+body i {
+  font-style: italic;
+}
+
+#footer p {
+  padding: 0 3em;
+  font-weight: normal;
+}
+
+#footer a {
+  color: #ffd792;
+}
+
+img {
+    max-width: 95%;
+}
+
+.fullwidth {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+p img {
+  float:left;
+  margin:.5em .8125em .8125em 0;
+  padding:0;
+}
+
+p img.right {
+  float:right;
+  margin:.5em 0 .8125em .8125em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bitter", "Palatino Linotype", "Georgia", serif;
+  font-weight: normal;
+  line-height: 1.15em;
+  color: rgb(37, 58, 107);
+}
+
+h1 {
+  font-size:2.125em;
+  margin:.765em 0;
+}
+
+h2 {
+  font-size:1.9em;
+  margin:.855em 0;
+}
+
+h3 {
+  font-size:1.7em;
+  margin:.956em 0;
+}
+
+h4 {
+  font-size:1.4em;
+  margin:1.161em 0;
+}
+
+h5,h6 {
+  font-size:1.313em;
+  margin:1.238em 0;
+}
+
+dl dd {
+  margin-left:1.625em;
+}
+
+a {
+  color:#005AF2;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+table {
+  margin-bottom:1.625em;
+  border-collapse:collapse;
+}
+
+tr,th,td {
+  height:26px;
+  margin:0;
+  padding:0 1.625em 0 1em;
+}
+
+caption {
+  text-align:center;
+  font-family:Georgia, serif;
+}
+
+abbr,acronym {
+  border-bottom:1px dotted #000;
+}
+
+address {
+  margin-top:1.625em;
+  font-style:italic;
+}
+
+del {
+  color:#000;
+}
+
+small {
+  font-size: 80%;
+  line-height: 80%;
+}
+
+blockquote {
+  text-indent: 1em;
+  font-style:italic;
+  padding: 0 1em;
+  background: #F1F0E1;
+}
+
+blockquote:before {
+  content:"\201C";
+  font-size:3em;
+  margin-right:0.15em;
+  margin-left:-0.4em;
+  vertical-align: -0.45em;
+  color:#aaa;
+  line-height:0;
+}
+
+blockquote > p {
+  display:inline;
+  margin:0;
+  padding:0;
+}
+
+blockquote > pre {
+  font-style: normal;
+  text-indent: 0;
+}
+
+blockquote > code {
+  background-color: #fffef0;
+}
+
+pre,code {
+  white-space:pre;
+}
+
+pre,code,tt {
+  line-height:1.25;
+}
+
+tt {
+  display:block;
+  margin:1.625em 0;
+}
+
+hr {
+  margin-top:1.625em;
+  margin-bottom:1.625em;
+}
+
+ol, ul {
+  list-style-position: outside;
+}
+
+li ol, li ul {
+  padding-left: 1em;
+}
+
+dl {
+  margin:0 0 1.625em;
+}
+
+dl dt,th,strong,dfn {
+  font-weight:700;
+  margin-top: 1em;
+}
+
+tfoot,em,dfn {
+  font-style:italic;
+}
+
+.oldbook {
+  font-family:"Warnock Pro","Goudy Old Style","Book Antiqua",Palatino,Georgia,serif;
+}
+
+.note {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-style:italic;
+  font-size:.9em;
+  color:#333;
+  margin:.1em;
+}
+
+pre {
+  font-family: "Ubuntu Mono", "Courier New", Courier, monospace;
+  font-size: 85%;
+}
+
+code {
+  font-family: "Ubuntu Mono", "Courier New", Courier, monospace;
+  background-color: #ffefd3;
+}
+
+.code table {
+  margin-left: -1.5em;
+}
+
+.code tr,th,td {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.linenos {
+  width: 1.5em;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.albumcover {
+  width: 25%;
+  float: right;
+  margin: 1em;
+}
+
+/* Footnotes */
+sup {
+  font-size: 0.85em;
+  line-height: 0;
+}
+
+body {
+  counter-reset: footnotecounter;
+}
+
+a.ref {
+  text-decoration: none;
+  outline: none;
+}
+
+a.ref:before {
+  content:counter(footnotecounter);
+  counter-increment: footnotecounter;
+}
+
+ol#footnotes {
+  counter-reset:footnotecounter;
+}
+
+.score {
+  font-size: 125%;
+  font-weight: bold;
+  text-align: right;
+}
