@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2015-11-29T19:24:17Z</updated>
+    <updated>2015-12-23T01:00:24Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -13,6 +13,65 @@
         <uri>http://ian.mccowan.space/</uri>
     </author>
     
+    
+        <entry>
+            <title>MPD + Quicksilver on OS X</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2015/12/21/MPD_OSX/" type="text/html" />
+            <id>http://ian.mccowan.space/2015/12/21/MPD_OSX/</id>
+            <updated>2015-12-21T00:56:00Z</updated>
+            
+            <summary type="html">I don&amp;rsquo;t know about you, but I let iTunes manage my music on Mac OS X and have done so for years, 
+since when it was only kind of bloated and annoying
+instead of incredibly bloated and annoying like it is now.
+So even though iTunes itself is &lt;a href=&#34;http://www.wired.com/2015/11/itunes-alternatives/&#34;&gt;kind of awful at this point&lt;/a&gt;,
+all my music is organized the way iTunes likes to organize it,
+and most options for buying music have iTunes integration.
+iTunes is and has always been the path of least resistance
+for music management on a Mac.</summary>
+            <content type="html">&lt;p&gt;I don&amp;rsquo;t know about you, but I let iTunes manage my music on Mac OS X and have done so for years, 
+since when it was only kind of bloated and annoying
+instead of incredibly bloated and annoying like it is now.
+So even though iTunes itself is &lt;a href=&#34;http://www.wired.com/2015/11/itunes-alternatives/&#34;&gt;kind of awful at this point&lt;/a&gt;,
+all my music is organized the way iTunes likes to organize it,
+and most options for buying music have iTunes integration.
+iTunes is and has always been the path of least resistance
+for music management on a Mac.&lt;/p&gt;
+
+&lt;p&gt;But I don&amp;rsquo;t like using iTunes to play music anymore.
+Hell, I don&amp;rsquo;t even like to have it open most of the time,
+if I can avoid it.
+So I use &lt;a href=&#34;http://www.musicpd.org&#34;&gt;mpd&lt;/a&gt; to play music instead.
+It stands for &lt;strong&gt;m&lt;/strong&gt;usic &lt;strong&gt;p&lt;/strong&gt;layer &lt;strong&gt;d&lt;/strong&gt;aemon and it&amp;rsquo;s just a process that runs
+constantly in the background and plays music when you ask it to.
+It&amp;rsquo;s not very user-friendly out of the box.
+With the help of the venerable and surprisingly still actually alive &lt;a href=&#34;https://qsapp.com&#34;&gt;Quicksilver&lt;/a&gt;,
+I was able to make it more convenient and user-friendly.
+I set up a &lt;a href=&#34;https://github.com/valrus/mpd_on_osx&#34;&gt;Git repository&lt;/a&gt; containing the helpers I used to set this up.&lt;/p&gt;
+
+&lt;p&gt;My music playing needs are pretty minimal but I like to have them streamlined.
+Here&amp;rsquo;s what this setup can do in one keystroke:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Search and play albums that iTunes knows about using Quicksilver&amp;rsquo;s fuzzy searching&lt;/li&gt;
+&lt;li&gt;Get the name of the song being played&lt;/li&gt;
+&lt;li&gt;Manage playback using media keys on a standard Apple keyboard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unfortunately this path is not for the faint of heart.
+You should be comfortable with a terminal for it.
+At many points while setting it up
+I got the feeling I was continuing to work on it
+more out of sheer cussedness
+than because I thought it would ultimately be worth the time I was putting in.
+But now that I&amp;rsquo;ve blazed the trail maybe it will work a little better for you.
+Many of the difficulties stemmed from figuring out which dark corners of Quicksilver
+actually work as they&amp;rsquo;re supposed to,
+so hopefully those won&amp;rsquo;t cause you the same difficulty.&lt;/p&gt;
+
+&lt;p&gt;Good luck! If you try this, let me know about it on &lt;a href=&#34;http://twitter.com/valrus&#34;&gt;Twitter&lt;/a&gt;
+or star (or open an issue on) my &lt;a href=&#34;https://github.com/valrus/mpd_on_osx&#34;&gt;GitHub repo&lt;/a&gt;!&lt;/p&gt;
+</content>
+        </entry>
     
         <entry>
             <title>Mapping Grief By Reflections</title>
