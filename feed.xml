@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2016-07-04T03:56:54Z</updated>
+    <updated>2016-07-04T21:41:22Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -18,7 +18,7 @@
             <title>Bish Bosch</title>
             <link rel="alternate" href="http://ian.mccowan.space/2016/07/03/Bish_Bosch/" type="text/html" />
             <id>http://ian.mccowan.space/2016/07/03/Bish_Bosch/</id>
-            <updated>2016-07-03T03:49:00Z</updated>
+            <updated>2016-07-03T21:39:00Z</updated>
             
             <summary type="html">My &lt;a href=&#34;http://ianmccowan.nfshost.com/writing/music/music2012.shtml&#34;&gt;Favorite Albums of 2012&lt;/a&gt; list omitted what was probably one of my most anticipated albums of the year.
 In fact, it didn&amp;rsquo;t make that list.
@@ -231,7 +231,7 @@ I promise it will be unlike anything you&amp;rsquo;ve heard before.&lt;/p&gt;
             <title>MPD + Quicksilver on OS X</title>
             <link rel="alternate" href="http://ian.mccowan.space/2015/12/21/MPD_OSX/" type="text/html" />
             <id>http://ian.mccowan.space/2015/12/21/MPD_OSX/</id>
-            <updated>2015-12-21T15:28:00Z</updated>
+            <updated>2015-12-21T00:56:00Z</updated>
             
             <summary type="html">I don&amp;rsquo;t know about you, but I let iTunes manage my music on Mac OS X and have done so for years, 
 since when it was only kind of bloated and annoying
@@ -290,7 +290,7 @@ or star (or open an issue on) my &lt;a href=&#34;https://github.com/valrus/mpd_o
             <title>Mapping Grief By Reflections</title>
             <link rel="alternate" href="http://ian.mccowan.space/2015/10/15/Grief/" type="text/html" />
             <id>http://ian.mccowan.space/2015/10/15/Grief/</id>
-            <updated>2015-10-15T15:28:00Z</updated>
+            <updated>2015-10-15T04:07:00Z</updated>
             
             <summary type="html">I mostly grieve second-hand.</summary>
             <content type="html">&lt;p&gt;I mostly grieve second-hand.&lt;/p&gt;
@@ -381,7 +381,7 @@ and there will be absolutely nothing I can do about it.&lt;/p&gt;
             <title>Poison Season : Kaputt :: Trouble in Dreams : Destroyer&#39;s Rubies</title>
             <link rel="alternate" href="http://ian.mccowan.space/2015/09/25/Poison_Season/" type="text/html" />
             <id>http://ian.mccowan.space/2015/09/25/Poison_Season/</id>
-            <updated>2015-09-25T15:28:00Z</updated>
+            <updated>2015-09-25T03:41:00Z</updated>
             
             <summary type="html">I&amp;rsquo;ve mentioned the analogy in this post&amp;rsquo;s title to a couple hard-core Destroyer fans —
 my brother, and my best friend I&amp;rsquo;ve never met in person &lt;a href=&#34;http://jeff.hume.ca&#34;&gt;Jeff Hume&lt;/a&gt; —
@@ -483,7 +483,7 @@ and we should all be thankful for that.&lt;/p&gt;
             <title>Spacemacs</title>
             <link rel="alternate" href="http://ian.mccowan.space/2015/04/07/Spacemacs/" type="text/html" />
             <id>http://ian.mccowan.space/2015/04/07/Spacemacs/</id>
-            <updated>2015-04-07T15:28:00Z</updated>
+            <updated>2015-04-07T01:04:00Z</updated>
             
             
             <content type="html">&lt;h2&gt;A Vimmer&amp;rsquo;s Emacs Prerequisites&lt;/h2&gt;
@@ -528,7 +528,7 @@ and we should all be thankful for that.&lt;/p&gt;
             <title>Pi Day Curmudgeonliness</title>
             <link rel="alternate" href="http://ian.mccowan.space/2015/03/14/Pi_Day_Curmudgeonliness/" type="text/html" />
             <id>http://ian.mccowan.space/2015/03/14/Pi_Day_Curmudgeonliness/</id>
-            <updated>2015-03-14T15:28:00Z</updated>
+            <updated>2015-03-14T04:49:00Z</updated>
             
             <summary type="html">Happy Arbitrary Number Of Convenient Yet Also Arbitrary Time Units Elapsed
 Since The Death of a Historical Figure—
@@ -893,7 +893,7 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
             <title>My Own Personal Editor War</title>
             <link rel="alternate" href="http://ian.mccowan.space/2014/11/22/My_Own_Personal_Editor_War/" type="text/html" />
             <id>http://ian.mccowan.space/2014/11/22/My_Own_Personal_Editor_War/</id>
-            <updated>2014-11-22T15:28:00Z</updated>
+            <updated>2014-11-22T05:24:00Z</updated>
             
             <summary type="html">I&amp;rsquo;m a stickler for dev tools, in particular text editors, almost to a fault. Okay, definitely to a fault. Okay, probably well past the point where any reasonable person would call it a fault.</summary>
             <content type="html">&lt;p&gt;I&amp;rsquo;m a stickler for dev tools, in particular text editors, almost to a fault. Okay, definitely to a fault. Okay, probably well past the point where any reasonable person would call it a fault.&lt;/p&gt;
@@ -944,7 +944,7 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
             <title>My Best Bug Fix of the Year</title>
             <link rel="alternate" href="http://ian.mccowan.space/2014/11/08/Bug_Fix_of_the_Year/" type="text/html" />
             <id>http://ian.mccowan.space/2014/11/08/Bug_Fix_of_the_Year/</id>
-            <updated>2014-11-08T15:28:00Z</updated>
+            <updated>2014-11-08T23:39:00Z</updated>
             
             <summary type="html">&lt;em&gt;If you don&amp;rsquo;t know what UTF-16 surrogates are and how they work, consider &lt;a href=&#34;http://ian.mccowan.space/study/essays/unicode&#34;&gt;my Unicode essay&lt;/a&gt; required reading for this post.&lt;/em&gt;</summary>
             <content type="html">&lt;p&gt;&lt;em&gt;If you don&amp;rsquo;t know what UTF-16 surrogates are and how they work, consider &lt;a href=&#34;http://ian.mccowan.space/study/essays/unicode&#34;&gt;my Unicode essay&lt;/a&gt; required reading for this post.&lt;/em&gt;&lt;/p&gt;
@@ -1003,7 +1003,7 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
             <title>Generating Level Maps for Tone Poem</title>
             <link rel="alternate" href="http://ian.mccowan.space/2014/07/11/Tone_Poem_Maps/" type="text/html" />
             <id>http://ian.mccowan.space/2014/07/11/Tone_Poem_Maps/</id>
-            <updated>2014-07-11T19:38:00Z</updated>
+            <updated>2014-07-11T21:39:00Z</updated>
             
             <summary type="html">Tone Poem needs to have areas to navigate. Because my primary inspiration for the overall game design is SNES-era console JRPGs, my first impulse was just to follow the lead of games like the venerable Final Fantasy VI. That game had a fair number of caves that looked something like this:</summary>
             <content type="html">&lt;p&gt;Tone Poem needs to have areas to navigate. Because my primary inspiration for the overall game design is SNES-era console JRPGs, my first impulse was just to follow the lead of games like the venerable Final Fantasy VI. That game had a fair number of caves that looked something like this:&lt;/p&gt;
@@ -1026,7 +1026,7 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
             <title>Music in Tone Poem</title>
             <link rel="alternate" href="http://ian.mccowan.space/2014/07/06/Music_in_Tone_Poem/" type="text/html" />
             <id>http://ian.mccowan.space/2014/07/06/Music_in_Tone_Poem/</id>
-            <updated>2014-07-06T15:28:00Z</updated>
+            <updated>2014-07-06T16:16:00Z</updated>
             
             <summary type="html">In &lt;a href=&#34;http://ian.mccowan.space/2014/02/20/MIDI_in_Python/index.html&#34;&gt;my last post about Tone Poem&lt;/a&gt; I was struggling with being able to use MIDI files as background music. The main problem was that &lt;a href=&#34;https://code.google.com/p/mingus/&#34;&gt;&lt;code&gt;mingus&lt;/code&gt;&lt;/a&gt;, the module I was using to read and represent MIDI, didn&amp;rsquo;t actually work very well for either of those things. Its MIDI file reading was &lt;a href=&#34;https://code.google.com/p/mingus/issues/detail?id=24&#34;&gt;so deficient it was effectively broken&lt;/a&gt;, and its model of a composition was too simple to represent even some pretty basic occurrences. In this post I&amp;rsquo;ll outline a couple more things I tried. Spoiler alert: the first one failed and the second seems to be working.</summary>
             <content type="html">&lt;p&gt;In &lt;a href=&#34;http://ian.mccowan.space/2014/02/20/MIDI_in_Python/index.html&#34;&gt;my last post about Tone Poem&lt;/a&gt; I was struggling with being able to use MIDI files as background music. The main problem was that &lt;a href=&#34;https://code.google.com/p/mingus/&#34;&gt;&lt;code&gt;mingus&lt;/code&gt;&lt;/a&gt;, the module I was using to read and represent MIDI, didn&amp;rsquo;t actually work very well for either of those things. Its MIDI file reading was &lt;a href=&#34;https://code.google.com/p/mingus/issues/detail?id=24&#34;&gt;so deficient it was effectively broken&lt;/a&gt;, and its model of a composition was too simple to represent even some pretty basic occurrences. In this post I&amp;rsquo;ll outline a couple more things I tried. Spoiler alert: the first one failed and the second seems to be working.&lt;/p&gt;
@@ -1055,7 +1055,7 @@ if you&amp;rsquo;re only looking at a tiny piece of it. &lt;a href=&#34;#ref1&#3
             <title>The Prescriptivist&#39;s Dodge</title>
             <link rel="alternate" href="http://ian.mccowan.space/2014/07/03/The_Prescriptivists_Dodge/" type="text/html" />
             <id>http://ian.mccowan.space/2014/07/03/The_Prescriptivists_Dodge/</id>
-            <updated>2014-07-03T15:28:00Z</updated>
+            <updated>2014-07-03T00:24:00Z</updated>
             
             <summary type="html">A work friend and I were talking about this unfortunate piece of ad copy on Apple&amp;rsquo;s &lt;a href=&#34;https://www.apple.com/ios/ios8/quicktype/&#34;&gt;iOS 8 QuickType web site&lt;/a&gt;.</summary>
             <content type="html">&lt;p&gt;A work friend and I were talking about this unfortunate piece of ad copy on Apple&amp;rsquo;s &lt;a href=&#34;https://www.apple.com/ios/ios8/quicktype/&#34;&gt;iOS 8 QuickType web site&lt;/a&gt;.&lt;/p&gt;
@@ -1091,7 +1091,7 @@ No matter whom you’re saying it to.&lt;/p&gt;
             <title>MIDI in Python</title>
             <link rel="alternate" href="http://ian.mccowan.space/2014/02/20/MIDI_in_Python/" type="text/html" />
             <id>http://ian.mccowan.space/2014/02/20/MIDI_in_Python/</id>
-            <updated>2014-02-20T15:28:00Z</updated>
+            <updated>2014-02-20T03:17:00Z</updated>
             
             <summary type="html">&lt;a href=&#34;python.org&#34;&gt;Python&lt;/a&gt; prides itself on having &amp;ldquo;batteries included&amp;rdquo;, which means it comes with a bunch of well-tested modules that can handle most use cases for a wide variety of common tasks. Some examples:</summary>
             <content type="html">&lt;p&gt;&lt;a href=&#34;python.org&#34;&gt;Python&lt;/a&gt; prides itself on having &amp;ldquo;batteries included&amp;rdquo;, which means it comes with a bunch of well-tested modules that can handle most use cases for a wide variety of common tasks. Some examples:&lt;/p&gt;
@@ -1133,7 +1133,7 @@ No matter whom you’re saying it to.&lt;/p&gt;
             <title>2013 Music&#39;s Best Lines</title>
             <link rel="alternate" href="http://ian.mccowan.space/2014/01/14/Best_Lines_2013/" type="text/html" />
             <id>http://ian.mccowan.space/2014/01/14/Best_Lines_2013/</id>
-            <updated>2014-01-14T15:28:00Z</updated>
+            <updated>2014-01-14T04:59:00Z</updated>
             
             
             <content type="html">&lt;dl&gt;
@@ -1168,7 +1168,7 @@ No matter whom you’re saying it to.&lt;/p&gt;
             <title>Thoughts on &lt;i&gt;Yeezus&lt;/i&gt;</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/12/14/Yeezus/" type="text/html" />
             <id>http://ian.mccowan.space/2013/12/14/Yeezus/</id>
-            <updated>2013-12-14T15:28:00Z</updated>
+            <updated>2013-12-14T03:35:00Z</updated>
             
             <summary type="html">&lt;em&gt;Yeezus&lt;/em&gt; makes me uncomfortable. I don&amp;rsquo;t doubt that this is a large part of the reaction Kanye West is trying to provoke. &lt;em&gt;Yeezus&lt;/em&gt; is uncomfortable music: all sawblade synths, queasy riffs, samples appearing from nowhere and disappearing just as abruptly. But shit, I fuck with Death Grips and Clipping too. The industrial techno glitch crunk grime beats or whatever are novel for Yeezy and well suited to the aggression he brings to his raps here, but they don&amp;rsquo;t make me uncomfortable. What makes me uncomfortable is &lt;em&gt;Yeezus&lt;/em&gt;&amp;rsquo;s lack of apparent sense of humor or even self-awareness as Kanye West flings that aggression outwards in all directions. Nowhere is this more jarring or nauseating than when, in &amp;ldquo;&lt;a href=&#34;http://www.youtube.com/watch?v=D0QcxWPB59o&#34;&gt;Blood on the Leaves&lt;/a&gt;&amp;rdquo;, Kanye repurposes &amp;ldquo;Strange Fruit&amp;rdquo;, a song about lynchings, into yet another screed against women using marriage (or, as he terms it, &amp;ldquo;unholy matrimony&amp;rdquo;) to soak men for their money. It&amp;rsquo;s &amp;ldquo;Gold Digger&amp;rdquo; again, except with all the winking and jokes replaced by, in case I haven&amp;rsquo;t made it clear how fucked up I think this is, &lt;em&gt;a sample from a song that is literally about actual lynchings&lt;/em&gt;. Of course there are no jokes, though. &lt;em&gt;Yeezus&lt;/em&gt;&amp;rsquo;s idea of a joke is &amp;ldquo;I&amp;rsquo;m In It&amp;rdquo;&amp;rsquo;s oft-quoted but still execrable &amp;ldquo;eating Asian pussy, all I need is sweet and sour sauce.&amp;rdquo;</summary>
             <content type="html">&lt;p&gt;&lt;em&gt;Yeezus&lt;/em&gt; makes me uncomfortable. I don&amp;rsquo;t doubt that this is a large part of the reaction Kanye West is trying to provoke. &lt;em&gt;Yeezus&lt;/em&gt; is uncomfortable music: all sawblade synths, queasy riffs, samples appearing from nowhere and disappearing just as abruptly. But shit, I fuck with Death Grips and Clipping too. The industrial techno glitch crunk grime beats or whatever are novel for Yeezy and well suited to the aggression he brings to his raps here, but they don&amp;rsquo;t make me uncomfortable. What makes me uncomfortable is &lt;em&gt;Yeezus&lt;/em&gt;&amp;rsquo;s lack of apparent sense of humor or even self-awareness as Kanye West flings that aggression outwards in all directions. Nowhere is this more jarring or nauseating than when, in &amp;ldquo;&lt;a href=&#34;http://www.youtube.com/watch?v=D0QcxWPB59o&#34;&gt;Blood on the Leaves&lt;/a&gt;&amp;rdquo;, Kanye repurposes &amp;ldquo;Strange Fruit&amp;rdquo;, a song about lynchings, into yet another screed against women using marriage (or, as he terms it, &amp;ldquo;unholy matrimony&amp;rdquo;) to soak men for their money. It&amp;rsquo;s &amp;ldquo;Gold Digger&amp;rdquo; again, except with all the winking and jokes replaced by, in case I haven&amp;rsquo;t made it clear how fucked up I think this is, &lt;em&gt;a sample from a song that is literally about actual lynchings&lt;/em&gt;. Of course there are no jokes, though. &lt;em&gt;Yeezus&lt;/em&gt;&amp;rsquo;s idea of a joke is &amp;ldquo;I&amp;rsquo;m In It&amp;rdquo;&amp;rsquo;s oft-quoted but still execrable &amp;ldquo;eating Asian pussy, all I need is sweet and sour sauce.&amp;rdquo;&lt;/p&gt;
@@ -1189,7 +1189,7 @@ No matter whom you’re saying it to.&lt;/p&gt;
             <title>Julia Holter, &lt;em&gt;Loud City Song;&lt;/em&gt; Yamantaka // Sonic Titan, &lt;em&gt;UZU&lt;/em&gt;</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/12/08/Loud_City_Song_UZU/" type="text/html" />
             <id>http://ian.mccowan.space/2013/12/08/Loud_City_Song_UZU/</id>
-            <updated>2013-12-08T15:28:00Z</updated>
+            <updated>2013-12-08T21:51:00Z</updated>
             
             <summary type="html">Sonically, these two albums couldn&amp;rsquo;t be much more different. &lt;em&gt;Loud City Song&lt;/em&gt; is a mellow, generally very quiet and unassuming &lt;a href=&#34;http://juliashammasholter.com/&#34;&gt;Julia Holter&lt;/a&gt; joint, ecstatically praised by music critics as was its predecessor, last year&amp;rsquo;s &lt;em&gt;Ekstasis&lt;/em&gt;. &lt;em&gt;UZU&lt;/em&gt;, on the other hand, is the long-awaited bombastic, diverse debut full-length from the Canadian visual art/music collective Yamantaka // Sonic Titan.</summary>
             <content type="html">&lt;p&gt;Sonically, these two albums couldn&amp;rsquo;t be much more different. &lt;em&gt;Loud City Song&lt;/em&gt; is a mellow, generally very quiet and unassuming &lt;a href=&#34;http://juliashammasholter.com/&#34;&gt;Julia Holter&lt;/a&gt; joint, ecstatically praised by music critics as was its predecessor, last year&amp;rsquo;s &lt;em&gt;Ekstasis&lt;/em&gt;. &lt;em&gt;UZU&lt;/em&gt;, on the other hand, is the long-awaited bombastic, diverse debut full-length from the Canadian visual art/music collective Yamantaka // Sonic Titan.&lt;/p&gt;
@@ -1212,7 +1212,7 @@ No matter whom you’re saying it to.&lt;/p&gt;
             <title>Woodkid, &lt;i&gt;The Golden Age&lt;/i&gt;</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/12/01/The_Golden_Age/" type="text/html" />
             <id>http://ian.mccowan.space/2013/12/01/The_Golden_Age/</id>
-            <updated>2013-12-01T15:28:00Z</updated>
+            <updated>2013-12-01T01:57:00Z</updated>
             
             <summary type="html">The musician who records under the name &amp;ldquo;Woodkid&amp;rdquo; is a Frenchman whose first full length album &lt;em&gt;The Golden Age&lt;/em&gt; is thoroughly lushly orchestrated but doesn&amp;rsquo;t skimp on the percussion. His beautiful, unique voice has the timbre of a bass clarinet and an accent that sounds, to my ears, not just not French but barely of this world. Over a bed of strings and horns that ebb and swell in all the right ways and drums that boom or clatter as appropriate, he deploys that voice in a way that I can only describe as &amp;ldquo;bloodless&amp;rdquo; in the hope of conveying why this album doesn&amp;rsquo;t resonate with me nearly as much as it seems to want to.</summary>
             <content type="html">&lt;p&gt;The musician who records under the name &amp;ldquo;Woodkid&amp;rdquo; is a Frenchman whose first full length album &lt;em&gt;The Golden Age&lt;/em&gt; is thoroughly lushly orchestrated but doesn&amp;rsquo;t skimp on the percussion. His beautiful, unique voice has the timbre of a bass clarinet and an accent that sounds, to my ears, not just not French but barely of this world. Over a bed of strings and horns that ebb and swell in all the right ways and drums that boom or clatter as appropriate, he deploys that voice in a way that I can only describe as &amp;ldquo;bloodless&amp;rdquo; in the hope of conveying why this album doesn&amp;rsquo;t resonate with me nearly as much as it seems to want to.&lt;/p&gt;
@@ -1231,7 +1231,7 @@ No matter whom you’re saying it to.&lt;/p&gt;
             <title>An Amendment to an Android Widget Tutorial</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/11/09/Android_Widget_Tutorial_Amendment/" type="text/html" />
             <id>http://ian.mccowan.space/2013/11/09/Android_Widget_Tutorial_Amendment/</id>
-            <updated>2013-11-09T15:28:00Z</updated>
+            <updated>2013-11-09T02:34:00Z</updated>
             
             <summary type="html">I&amp;rsquo;m trying to make an Android widget, and &lt;a href=&#34;https://www.google.com/search?&amp;amp;q=android+widget+programming&#34;&gt;Google turned up&lt;/a&gt; a &lt;a href=&#34;http://kasperholtze.com/android/how-to-make-a-simple-android-widget/trackback/&#34;&gt;pretty straightforward and well-presented tutorial&lt;/a&gt; that I decided to follow to get a feel for things.</summary>
             <content type="html">&lt;p&gt;I&amp;rsquo;m trying to make an Android widget, and &lt;a href=&#34;https://www.google.com/search?&amp;amp;q=android+widget+programming&#34;&gt;Google turned up&lt;/a&gt; a &lt;a href=&#34;http://kasperholtze.com/android/how-to-make-a-simple-android-widget/trackback/&#34;&gt;pretty straightforward and well-presented tutorial&lt;/a&gt; that I decided to follow to get a feel for things.&lt;/p&gt;
@@ -1258,7 +1258,7 @@ I don&amp;rsquo;t know how to use the single image provided, so I used the downl
             <title>Cuisine Cascades</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/09/29/Cuisine_Cascades/" type="text/html" />
             <id>http://ian.mccowan.space/2013/09/29/Cuisine_Cascades/</id>
-            <updated>2013-09-29T15:28:00Z</updated>
+            <updated>2013-09-29T19:06:00Z</updated>
             
             <summary type="html">For a while in high school my mom and I went to an Indian buffet every Sunday, which had good and bad effects on my ability to cook for myself. On the one hand, it taught me about the variety of dishes in Indian cuisine; on the other hand, any Indian meal that lacks that variety now feels incomplete. And I can&amp;rsquo;t make an entire Indian buffet myself. Not in one night, anyway.</summary>
             <content type="html">&lt;p&gt;For a while in high school my mom and I went to an Indian buffet every Sunday, which had good and bad effects on my ability to cook for myself. On the one hand, it taught me about the variety of dishes in Indian cuisine; on the other hand, any Indian meal that lacks that variety now feels incomplete. And I can&amp;rsquo;t make an entire Indian buffet myself. Not in one night, anyway.&lt;/p&gt;
@@ -1273,7 +1273,7 @@ I don&amp;rsquo;t know how to use the single image provided, so I used the downl
             <title>Does Python Cuddle?</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/08/06/Python_Cuddles/" type="text/html" />
             <id>http://ian.mccowan.space/2013/08/06/Python_Cuddles/</id>
-            <updated>2013-08-06T15:28:00Z</updated>
+            <updated>2013-08-06T00:25:00Z</updated>
             
             <summary type="html">In one of my semi-regular Complain About Perl sessions with a coworker, we found ourselves looking at the &lt;a href=&#34;http://perldoc.perl.org/perlstyle.html&#34;&gt;Perl Style Guide&lt;/a&gt;. Something caught my eye almost immediately:</summary>
             <content type="html">&lt;p&gt;In one of my semi-regular Complain About Perl sessions with a coworker, we found ourselves looking at the &lt;a href=&#34;http://perldoc.perl.org/perlstyle.html&#34;&gt;Perl Style Guide&lt;/a&gt;. Something caught my eye almost immediately:&lt;/p&gt;
@@ -1303,7 +1303,7 @@ I don&amp;rsquo;t know how to use the single image provided, so I used the downl
             <title>Notes on Haskell</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/08/04/Notes_on_Haskell/" type="text/html" />
             <id>http://ian.mccowan.space/2013/08/04/Notes_on_Haskell/</id>
-            <updated>2013-08-04T15:28:00Z</updated>
+            <updated>2013-08-04T05:25:00Z</updated>
             
             <summary type="html">I have a fairly deep background in pure math, and Haskell appears to be the purest and mathiest of the many functional languages that are getting more and more fashionable of late. So while one of my close co-workers recently took a course in Scala and my boss has dipped his toes in Erlang, I&amp;rsquo;ve chosen Haskell for my introduction to the functional language craze. Now we just need two of my other fellow software engineers to delve into OCaml and F# and we&amp;rsquo;ll have a royal flush.</summary>
             <content type="html">&lt;p&gt;I have a fairly deep background in pure math, and Haskell appears to be the purest and mathiest of the many functional languages that are getting more and more fashionable of late. So while one of my close co-workers recently took a course in Scala and my boss has dipped his toes in Erlang, I&amp;rsquo;ve chosen Haskell for my introduction to the functional language craze. Now we just need two of my other fellow software engineers to delve into OCaml and F# and we&amp;rsquo;ll have a royal flush.&lt;/p&gt;
@@ -1402,7 +1402,7 @@ squareRoot n = squareRoot&amp;#x27; n (n `div` 2) (0, n)
             <title>Compiling Textual</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/07/20/Compiling_Textual/" type="text/html" />
             <id>http://ian.mccowan.space/2013/07/20/Compiling_Textual/</id>
-            <updated>2013-07-20T15:28:00Z</updated>
+            <updated>2013-07-20T02:29:00Z</updated>
             
             <summary type="html">Okay, I&amp;rsquo;m sure that by the time I need this again it will be defunct in some way because such is the nature of XCode, but nevertheless I&amp;rsquo;ve done this twice and struggled for way longer than necessary with what I think was more or less the same thing both times. So, for my own reference and that of anyone trying this for themselves, here&amp;rsquo;s the steps for how I successfully compiled &lt;a href=&#34;https://github.com/Codeux/Textual&#34;&gt;Textual&lt;/a&gt; 3.1.0 with XCode 4.6.3. These instructions assume you have XCode and Git installed and some basic familiarity with the command line.</summary>
             <content type="html">&lt;p&gt;Okay, I&amp;rsquo;m sure that by the time I need this again it will be defunct in some way because such is the nature of XCode, but nevertheless I&amp;rsquo;ve done this twice and struggled for way longer than necessary with what I think was more or less the same thing both times. So, for my own reference and that of anyone trying this for themselves, here&amp;rsquo;s the steps for how I successfully compiled &lt;a href=&#34;https://github.com/Codeux/Textual&#34;&gt;Textual&lt;/a&gt; 3.1.0 with XCode 4.6.3. These instructions assume you have XCode and Git installed and some basic familiarity with the command line.&lt;/p&gt;
@@ -1426,9 +1426,9 @@ squareRoot n = squareRoot&amp;#x27; n (n `div` 2) (0, n)
     
         <entry>
             <title>Converting a Module to a Package</title>
-            <link rel="alternate" href="http://ian.mccowan.space/2013/07/17/Module_To_Package/" type="text/html" />
-            <id>http://ian.mccowan.space/2013/07/17/Module_To_Package/</id>
-            <updated>2013-07-17T15:28:00Z</updated>
+            <link rel="alternate" href="http://ian.mccowan.space/2013/07/17/Module_to_Package/" type="text/html" />
+            <id>http://ian.mccowan.space/2013/07/17/Module_to_Package/</id>
+            <updated>2013-07-17T23:02:00Z</updated>
             
             <summary type="html">It&amp;rsquo;s happened often (well, twice) that I&amp;rsquo;ve had a Python module that started to get a little too big for its britches: maybe approaching 1000 lines, maybe just including several subclasses which are related but really ought to have their own files. Documentation on the Python packaging system can be a bit daunting. I don&amp;rsquo;t think I need to use &lt;code&gt;setuptools&lt;/code&gt; or &lt;code&gt;distutils&lt;/code&gt; or &lt;code&gt;distribute&lt;/code&gt; because this module is intended only for the use of me and my team. I just want to organize my code better.</summary>
             <content type="html">&lt;p&gt;It&amp;rsquo;s happened often (well, twice) that I&amp;rsquo;ve had a Python module that started to get a little too big for its britches: maybe approaching 1000 lines, maybe just including several subclasses which are related but really ought to have their own files. Documentation on the Python packaging system can be a bit daunting. I don&amp;rsquo;t think I need to use &lt;code&gt;setuptools&lt;/code&gt; or &lt;code&gt;distutils&lt;/code&gt; or &lt;code&gt;distribute&lt;/code&gt; because this module is intended only for the use of me and my team. I just want to organize my code better.&lt;/p&gt;
@@ -1453,7 +1453,7 @@ parts.Widget
             <title>2013 Music Halfway Point</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/07/16/2013_Music_Halfway_Point/" type="text/html" />
             <id>http://ian.mccowan.space/2013/07/16/2013_Music_Halfway_Point/</id>
-            <updated>2013-07-16T15:28:00Z</updated>
+            <updated>2013-07-16T04:44:00Z</updated>
             
             <summary type="html">It&amp;rsquo;s over halfway through 2013 so I&amp;rsquo;m taking a second to jot down my potential favorite albums so far this year. Alphabetically by artist:</summary>
             <content type="html">&lt;p&gt;It&amp;rsquo;s over halfway through 2013 so I&amp;rsquo;m taking a second to jot down my potential favorite albums so far this year. Alphabetically by artist:&lt;/p&gt;
@@ -1482,7 +1482,7 @@ parts.Widget
             <title>StringIO</title>
             <link rel="alternate" href="http://ian.mccowan.space/2013/06/21/StringIO/" type="text/html" />
             <id>http://ian.mccowan.space/2013/06/21/StringIO/</id>
-            <updated>2013-06-21T15:28:00Z</updated>
+            <updated>2013-06-21T00:46:00Z</updated>
             
             <summary type="html">I recently discovered the &lt;code&gt;StringIO&lt;/code&gt; module and have been using it surprisingly often. It&amp;rsquo;s not a terribly flashy module, being roughly equivalent to a C++ &lt;code&gt;stringstream&lt;/code&gt;, but it is proving useful more than I expected. There are a couple use cases that have come up more than once just in the last couple weeks:</summary>
             <content type="html">&lt;p&gt;I recently discovered the &lt;code&gt;StringIO&lt;/code&gt; module and have been using it surprisingly often. It&amp;rsquo;s not a terribly flashy module, being roughly equivalent to a C++ &lt;code&gt;stringstream&lt;/code&gt;, but it is proving useful more than I expected. There are a couple use cases that have come up more than once just in the last couple weeks:&lt;/p&gt;

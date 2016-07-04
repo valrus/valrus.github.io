@@ -50,7 +50,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 <p>Generating Fibonacci numbers comes probably just after Hello World and finding factorials in the Beginner Programming Problems Hall of Fame, and a straightforward recursive solution is easy in Haskell:</p>
 <div class="code"><div><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre><span></span>fibo 0 = 0
+3</pre></div></td><td class="code"><div class="highlight"><pre>fibo 0 = 0
 fibo 1 = 1
 fibo n = fibo (n - 1) + fibo (n - 2)
 </pre></div>
@@ -62,7 +62,7 @@ fibo n = fibo (n - 1) + fibo (n - 2)
 2
 3
 4
-5</pre></div></td><td class="code"><div class="highlight"><pre><span></span>fibs ∷ [Integer]
+5</pre></div></td><td class="code"><div class="highlight"><pre>fibs ∷ [Integer]
 fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
 
 fibo ∷ Int → Integer
@@ -77,7 +77,7 @@ tail fibs 1 1 2 3 5 8  13  etc...
 sum       1 2 3 5 8 13 21
 </code></pre>
 <p>Anyway, that was fine. What was beautiful, once I had that, was the actual solution to the problem. It looked like this:</p>
-<div class="code"><div><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>sum $ filter even (takeWhile (&lt; 4000000) fibs)
+<div class="code"><div><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre>sum $ filter even (takeWhile (&lt; 4000000) fibs)
 </pre></div>
 </td></tr></table></div></div>
 <p>which is about as close as you can get to just restating the problem in code. Read function applications from right to left: take Fibonacci numbers while they&rsquo;re less than 40 million, filter out the even ones, and sum the result. It&rsquo;s beautiful. That&rsquo;s when my eyes turned into hearts.</p>
@@ -90,7 +90,7 @@ What is the largest prime factor of the number 600851475143?</p>
 </blockquote>
 
 <p>I&rsquo;ve done a whole bunch of Euler Project problems in Python, and I found it very helpful to build up a library of useful functions along the way. So I didn&rsquo;t just want to solve this problem; I wanted to use it as an opportunity to add a <code>factors</code> function, which would take an integer <code>n</code> and return a list of <code>n</code>&rsquo;s prime factors, to my repertoire. After I did so, the solution to Problem 3 was a joke:</p>
-<div class="code"><div><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span>last $ Euler.factors 600851475143
+<div class="code"><div><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre>last $ Euler.factors 600851475143
 </pre></div>
 </td></tr></table></div></div>
 <p>Coming up with <code>factors</code> was the part that gave me problems. Here&rsquo;s the basic approach that I used and to which my eventual success hewed pretty closely:</p>
@@ -108,7 +108,7 @@ What is the largest prime factor of the number 600851475143?</p>
 2
 3
 4
-5</pre></div></td><td class="code"><div class="highlight"><pre><span></span>squareRoot ∷ Int → Int
+5</pre></div></td><td class="code"><div class="highlight"><pre>squareRoot ∷ Int → Int
 squareRoot n 
     | n ==  1              = 1 
     | otherwise            = div (k + ( div n k)) 2
@@ -132,7 +132,7 @@ where k = squareRoot(n-1)
 6
 7
 8
-9</pre></div></td><td class="code"><div class="highlight"><pre><span></span>squareRoot&#39; ∷ Integer → Integer → (Integer, Integer) → Integer
+9</pre></div></td><td class="code"><div class="highlight"><pre>squareRoot&#39; ∷ Integer → Integer → (Integer, Integer) → Integer
 squareRoot&#39; n g (min, max)
     | g^2 &lt; n   = if (g + 1)^2 &gt; n
                       then g
