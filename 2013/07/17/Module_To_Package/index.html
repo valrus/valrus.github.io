@@ -39,13 +39,13 @@ Converting a Module to a Package
 
 <p>First, create a directory named <code>parts</code> in the same location and two files named <code>Widget.py</code> and <code>Grommet.py</code> in it; move the source for each class into the corresponding file. Then create a text file in the <code>parts</code> directory named <code>__init__.py</code>. Edit <code>__init__.py</code> and add the following:</p>
 <div class="code"><div><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span></span>from Widget import Widget
+2</pre></div></td><td class="code"><div class="highlight"><pre>from Widget import Widget
 from Grommet import Grommet
 </pre></div>
 </td></tr></table></div></div>
 <p>This makes <code>Widget</code> and <code>Grommet</code> accessible by using, e.g., <code>from parts import Widget</code> or</p>
 <div class="code"><div><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span></span>import parts
+2</pre></div></td><td class="code"><div class="highlight"><pre>import parts
 parts.Widget
 </pre></div>
 </td></tr></table></div></div>
