@@ -28,11 +28,14 @@
 /livingroom/
 "><img src="/assets/images/title-back.png" /></a></div>
 <div id="column">
-  <div id="main">
-  <h1>
+    <div id="main">
+        <header>
+            <h1 >
 Music in Tone Poem
 </h1>
-  
+            
+        </header>
+        
 <p>In <a href="/2014/02/20/MIDI_in_Python/index.html">my last post about Tone Poem</a> I was struggling with being able to use MIDI files as background music. The main problem was that <a href="https://code.google.com/p/mingus/"><code>mingus</code></a>, the module I was using to read and represent MIDI, didn&rsquo;t actually work very well for either of those things. Its MIDI file reading was <a href="https://code.google.com/p/mingus/issues/detail?id=24">so deficient it was effectively broken</a>, and its model of a composition was too simple to represent even some pretty basic occurrences. In this post I&rsquo;ll outline a couple more things I tried. Spoiler alert: the first one failed and the second seems to be working.</p>
 <h2>Independent MIDI Handling in a Separate Thread</h2>
 <p>The MIDI handler I ended up using, <a href="https://github.com/olemb/mido/"><code>mido</code></a>, does basic decoding of the inscrutable stream of bytes that makes up a MIDI file. It converts them into <code>Message</code> objects, easily inspectable representations of what the raw bytes actually mean.</p>
@@ -54,20 +57,20 @@ Music in Tone Poem
 <p>That last item means that I should be able to change the key or tempo of background music and have it take effect on the very next MIDI event, which may not be necessary but opens up a few interesting options in the future. It&rsquo;s not a bad tradeoff for just over a hundred lines of somewhat gnarly code and a couple private API calls, and I&rsquo;ll probably able to refactor that code to reduce some of the gnarliness. I&rsquo;m cautiously happy about how it turned out.</p>
 
 
-  </div>
-  <div id="footer">
-    <div id="adjposts">
+    </div>
+    <div id="footer">
+        <div id="adjposts">
         <div id="prevpost">←<a href="/2014/07/03/The_Prescriptivists_Dodge/">The Prescriptivist's Dodge</a></div><!--
      --><div id="nextpost"><a href="/2014/07/11/Tone_Poem_Maps/">Generating Level Maps for Tone Poem</a>→</div>
       </div>
       
-    
-    <div id="colophon">
-    
-    <p>Want to email me? My email is my first initial and last name at gmail.com. I'm also on <a href="https://twitter.com/valrus">Twitter</a>.</p>
-    
+        
+        <div id="colophon">
+            
+            <p>Contact me? My email is my first initial and last name at gmail.com. I'm also on <a href="https://twitter.com/valrus">Twitter</a> as @valrus (mostly defunct) and <a href="https://joinmastodon.org/">Mastodon</a> as @valrus@aleph.land.</p>
+            
+        </div>
     </div>
-  </div>
 </div>
 
   </body>
