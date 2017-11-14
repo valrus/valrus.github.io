@@ -10,13 +10,15 @@
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css" />
+    <!--  link rel="stylesheet" type="text/css" href="/assets/css/reset.css" /> -->
     
 <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css' />
 <link href='https://fonts.googleapis.com/css?family=Rosario:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
-<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
-<link rel="stylesheet" type="text/css" href="/assets/css/typography.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/pygments.css" />
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> 
+<!--  link rel="stylesheet" type="text/css" href="/assets/css/tufte-pandoc-css/pandoc.css" /> -->
+<link rel="stylesheet" type="text/css" href="/assets/css/tufte-pandoc-css/pandoc-solarized.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/tufte-pandoc-css/tufte-extra.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/blogpost.css" />
 
@@ -29,29 +31,31 @@
     <div id="img_logo" style="display: none;"><img src="/assets/images/title-with-bg.png" /></div>
     
 
-<div id="return"><a href="
+<article>
+    <p id="blog-p">
+        <span id="blogdesc" class="marginnote">
+            Back to
+            <a href="
 /livingroom/
-"><img src="/assets/images/title-back.png" /></a></div>
-<div id="column">
-    <div id="main">
-        <header>
-            <h1 >
+">
+                <span class="newthought">Small Clever Rooms</span>
+            </a>
+        </span>
+    </p>
+    <h1>
 Compiling Textual
 </h1>
-            
-        </header>
-        
-<p>Okay, I&rsquo;m sure that by the time I need this again it will be defunct in some way because such is the nature of XCode, but nevertheless I&rsquo;ve done this twice and struggled for way longer than necessary with what I think was more or less the same thing both times. So, for my own reference and that of anyone trying this for themselves, here&rsquo;s the steps for how I successfully compiled <a href="https://github.com/Codeux/Textual">Textual</a> 3.1.0 with XCode 4.6.3. These instructions assume you have XCode and Git installed and some basic familiarity with the command line.</p>
-
-<ol>
-<li>Clone <a href="https://github.com/Codeux/Textual.git">the Textual repo</a> into some directory. I used <code>~/Code/Textual</code> and did it with the <a href="http://mac.github.com/">Mac Github app</a> by clicking the &ldquo;Clone in Desktop&rdquo; button on the right side of <a href="https://github.com/Codeux/Textual">Textual&rsquo;s Github page</a>.</li>
+    
+    
+<p>Okay, I’m sure that by the time I need this again it will be defunct in some way because such is the nature of XCode, but nevertheless I’ve done this twice and struggled for way longer than necessary with what I think was more or less the same thing both times. So, for my own reference and that of anyone trying this for themselves, here’s the steps for how I successfully compiled <a href="https://github.com/Codeux/Textual">Textual</a> 3.1.0 with XCode 4.6.3. These instructions assume you have XCode and Git installed and some basic familiarity with the command line.</p>
+<ol type="1">
+<li>Clone <a href="https://github.com/Codeux/Textual.git">the Textual repo</a> into some directory. I used <code>~/Code/Textual</code> and did it with the <a href="http://mac.github.com/">Mac Github app</a> by clicking the “Clone in Desktop” button on the right side of <a href="https://github.com/Codeux/Textual">Textual’s Github page</a>.</li>
 <li>Check out a released version of Textual. Go to the folder where you checked it out and issue the command <code>git tag -l</code> to list the available tags. Pick one (probably the one with the biggest number, I dunno) and do <code>git checkout tags/&lt;tag&gt;</code> where <tag> is the tag you chose. In this case it was <code>v3.1.0</code>.</li>
 <li>Follow steps 3–5 in <a href="http://www.numlock.ch/news/mac_os_x/how-to-compile-textual-open-source-irc-client-on-mac-os-x/">these instructions</a>.</li>
-<li>Open the &ldquo;Frameworks&rdquo; folder in your checked out Textual folder. It will have some subfolders in it: five, as of this writing. You care about three of them: &ldquo;Auto Hyperlinks&rdquo;, &ldquo;Blowfish Encryption&rdquo; and &ldquo;System Information&rdquo;. For each of these three, do the following:
-
+<li>Open the “Frameworks” folder in your checked out Textual folder. It will have some subfolders in it: five, as of this writing. You care about three of them: “Auto Hyperlinks”, “Blowfish Encryption” and “System Information”. For each of these three, do the following:
 <ul>
-<li>Open the folder and then the &ldquo;Source&rdquo; subfolder.</li>
-<li>Drag the file with the <code>.xcodeproj</code> extension onto the &ldquo;Main Project (Textual)&rdquo; project in the Project Navigator in XCode. The Project Navigator is the left-hand sidebar with the little folder icon at the top selected; you may have to left-most button above the &ldquo;View&rdquo; control in the toolbar to turn it on. <a href="/assets/images/posts/Compiling_Textual/Adding_Frameworks.png" rel="bytebox">Here&rsquo;s a screenshot summing up what does where.</a></li>
+<li>Open the folder and then the “Source” subfolder.</li>
+<li>Drag the file with the <code>.xcodeproj</code> extension onto the “Main Project (Textual)” project in the Project Navigator in XCode. The Project Navigator is the left-hand sidebar with the little folder icon at the top selected; you may have to left-most button above the “View” control in the toolbar to turn it on. <a href="/assets/images/posts/Compiling_Textual/Adding_Frameworks.png" rel="bytebox">Here’s a screenshot summing up what does where.</a></li>
 <li>Turn off code signing for the resulting (sub?)project in XCode. That means repeat step 5 from the instructions linked in step 3 above.</li>
 </ul></li>
 <li>Follow steps 6–8 in the <a href="http://www.numlock.ch/news/mac_os_x/how-to-compile-textual-open-source-irc-client-on-mac-os-x/">aforementioned instructions</a>.</li>
@@ -59,15 +63,14 @@ Compiling Textual
 </ol>
 
 
-    </div>
-    <div id="footer">
+    <div class="thefooter">
         <div id="adjposts">
         <div id="prevpost">←<a href="/2013/07/17/Module_to_Package/">Converting a Module to a Package</a></div><!--
      --><div id="nextpost"><a href="/2013/08/04/Notes_on_Haskell/">Notes on Haskell</a>→</div>
       </div>
       
         
-        <div id="colophon">
+        <div class="colophon">
             
 
             <p>Contact me? My email is my first initial and last name at gmail.com. I'm also on <a href="https://twitter.com/valrus">Twitter</a> as @valrus (mostly defunct) and <a href="https://joinmastodon.org/">Mastodon</a> as @valrus@aleph.land.</p>
@@ -76,7 +79,7 @@ Compiling Textual
 
         </div>
     </div>
-</div>
+</article>
 
 <script type="text/javascript">bytebox.init();</script>
 

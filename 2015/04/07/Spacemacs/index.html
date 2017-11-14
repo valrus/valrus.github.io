@@ -9,13 +9,15 @@
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css" />
+    <!--  link rel="stylesheet" type="text/css" href="/assets/css/reset.css" /> -->
     
 <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css' />
 <link href='https://fonts.googleapis.com/css?family=Rosario:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
-<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
-<link rel="stylesheet" type="text/css" href="/assets/css/typography.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/pygments.css" />
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet"> 
+<!--  link rel="stylesheet" type="text/css" href="/assets/css/tufte-pandoc-css/pandoc.css" /> -->
+<link rel="stylesheet" type="text/css" href="/assets/css/tufte-pandoc-css/pandoc-solarized.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/tufte-pandoc-css/tufte-extra.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/blogpost.css" />
 
@@ -24,70 +26,68 @@
   <body>
     <div id="img_logo" style="display: none;"><img src="/assets/images/title-with-bg.png" /></div>
     
-<div id="return"><a href="
+<article>
+    <p id="blog-p">
+        <span id="blogdesc" class="marginnote">
+            Back to
+            <a href="
 /livingroom/
-"><img src="/assets/images/title-back.png" /></a></div>
-<div id="column">
-    <div id="main">
-        <header>
-            <h1 >
+">
+                <span class="newthought">Small Clever Rooms</span>
+            </a>
+        </span>
+    </p>
+    <h1>
 Spacemacs
 </h1>
-            
-        </header>
-        
-<h2>A Vimmer&rsquo;s Emacs Prerequisites</h2>
-<p>In a <a href="/2014/11/22/My_Own_Personal_Editor_War/index.html">previous post</a> I explained why Vim and Sublime Text ultimately disappointed me; in this one, I&rsquo;m going to describe how I finally found at least temporary respite in Emacs and what it took to get me there.</p>
-
-<p>I had a rocky start with Emacs. Actually I had about four of them. There was never any question that I was going to use <a href="http://www.emacswiki.org/Evil">Evil-mode</a>, Emacs&rsquo;s vi emulation layer. I understand that it arose from the ashes of several previous such efforts to become one of the most complete vi emulations available for <em>any</em> text editor besides ones that derive from vi itself.</p>
-
-<p>Coming from Sublime Text&rsquo;s deeply inadequate or flawed vi emulation packages, Evil was a revelation. With very few exceptions, it really is just like using Vim. It&rsquo;s all that other crap that Emacs does that I had to make sense of somehow and that tripped me up the first several times I made a serious attempt at learning it.</p>
-
-<p>One of the popular jokes about Emacs is that it stands for &ldquo;Escape Meta Alt Control Shift&rdquo;, a jab at the countless arcane key chords that you&rsquo;re expected to use to invoke its mind-boggling array of features. Almost immediately, I decided that finding a way to avoid those chords in favor of using Vim-style key sequences mostly without modifiers would be a prerequisite for my using Emacs full time.</p>
-
-<p>To make this distinction a bit clearer: The key command to quit Emacs is <code>C-x C-c</code>, which means &ldquo;control-x followed by control-c&rdquo;. Take a look at this <a href="http://wttools.sourceforge.net/emacs-stuff/emacs-keybindings.html">table of Emacs commands</a> and you&rsquo;ll get an idea why there&rsquo;s a <a href="http://en.wikipedia.org/wiki/Emacs#.22Emacs_pinky.22">whole flavor of RSI</a> named for Emacs and why I wanted to just swap those key bindings out from the get go. What I really wanted was to bulk-convert all of Emacs&rsquo;s RSI-inducing chords to key sequences like ones using Vim&rsquo;s leader keys: for example, the aforementioned <code>C-x C-c</code> might become <code>\xc</code> or something.</p>
-
-<p>My first pass at this had me using <a href="https://github.com/chrisdone/god-mode/">god-mode</a> to take a bunch of the modifiers out of Emacs commands. But I had some trouble getting god-mode to play nice with Evil, even when I used the charmingly titled <a href="https://github.com/gridaphobe/evil-god-state">evil-god-state</a> to tie the two together. I suspect that this was actually a perfectly viable way to achieve what I wanted and some misunderstanding on my part prevented me from getting it working; I was too new to Emacs and tried to deviate from its norms too much too fast. If you use evil-mode and god-mode together I&rsquo;d be interested to hear how it works for you.</p>
-
-<p>By this point I&rsquo;d dipped my toes into Emacs enough to have a handle on Emacs Lisp, the (far superior to Vimscript) language used to do all of Emacs&rsquo;s extensive customization. I&rsquo;d tried the &ldquo;build up an Emacs config from scratch&rdquo; thing a couple times and ended up frustrated with it due to its being a total crap shoot whether any given plugin would play nice with evil-mode. So when I came across a starter kit  whose tagline is &ldquo;The best editor is neither Emacs nor Vim, it&rsquo;s Emacs <em>and</em> Vim!&rdquo;, and which <a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.md#who-can-benefit-from-this-">purports to be</a> &ldquo;first intended to be used by <strong>Vim users</strong> who want to go to the next level by using Emacs&rdquo;, I was 100% ready to jump feet-first into an unabashedly Evil-centric starter kit.</p>
+    
+    
+<section id="a-vimmers-emacs-prerequisites" class="level2">
+<h2>A Vimmer’s Emacs Prerequisites</h2>
+<p>In a <a href="/2014/11/22/My_Own_Personal_Editor_War/index.html">previous post</a> I explained why Vim and Sublime Text ultimately disappointed me; in this one, I’m going to describe how I finally found at least temporary respite in Emacs and what it took to get me there.</p>
+<p>I had a rocky start with Emacs. Actually I had about four of them. There was never any question that I was going to use <a href="http://www.emacswiki.org/Evil">Evil-mode</a>, Emacs’s vi emulation layer. I understand that it arose from the ashes of several previous such efforts to become one of the most complete vi emulations available for <em>any</em> text editor besides ones that derive from vi itself.</p>
+<p>Coming from Sublime Text’s deeply inadequate or flawed vi emulation packages, Evil was a revelation. With very few exceptions, it really is just like using Vim. It’s all that other crap that Emacs does that I had to make sense of somehow and that tripped me up the first several times I made a serious attempt at learning it.</p>
+<p>One of the popular jokes about Emacs is that it stands for “Escape Meta Alt Control Shift”, a jab at the countless arcane key chords that you’re expected to use to invoke its mind-boggling array of features. Almost immediately, I decided that finding a way to avoid those chords in favor of using Vim-style key sequences mostly without modifiers would be a prerequisite for my using Emacs full time.</p>
+<p>To make this distinction a bit clearer: The key command to quit Emacs is <code>C-x C-c</code>, which means “control-x followed by control-c”. Take a look at this <a href="http://wttools.sourceforge.net/emacs-stuff/emacs-keybindings.html">table of Emacs commands</a> and you’ll get an idea why there’s a <a href="http://en.wikipedia.org/wiki/Emacs#.22Emacs_pinky.22">whole flavor of RSI</a> named for Emacs and why I wanted to just swap those key bindings out from the get go. What I really wanted was to bulk-convert all of Emacs’s RSI-inducing chords to key sequences like ones using Vim’s leader keys: for example, the aforementioned <code>C-x C-c</code> might become <code>\xc</code> or something.</p>
+<p>My first pass at this had me using <a href="https://github.com/chrisdone/god-mode/">god-mode</a> to take a bunch of the modifiers out of Emacs commands. But I had some trouble getting god-mode to play nice with Evil, even when I used the charmingly titled <a href="https://github.com/gridaphobe/evil-god-state">evil-god-state</a> to tie the two together. I suspect that this was actually a perfectly viable way to achieve what I wanted and some misunderstanding on my part prevented me from getting it working; I was too new to Emacs and tried to deviate from its norms too much too fast. If you use evil-mode and god-mode together I’d be interested to hear how it works for you.</p>
+<p>By this point I’d dipped my toes into Emacs enough to have a handle on Emacs Lisp, the (far superior to Vimscript) language used to do all of Emacs’s extensive customization. I’d tried the “build up an Emacs config from scratch” thing a couple times and ended up frustrated with it due to its being a total crap shoot whether any given plugin would play nice with evil-mode. So when I came across a starter kit whose tagline is “The best editor is neither Emacs nor Vim, it’s Emacs <em>and</em> Vim!”, and which <a href="https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.md#who-can-benefit-from-this-">purports to be</a> “first intended to be used by <strong>Vim users</strong> who want to go to the next level by using Emacs”, I was 100% ready to jump feet-first into an unabashedly Evil-centric starter kit.</p>
+</section>
+<section id="spacemacs" class="level2">
 <h2>Spacemacs</h2>
-<p>Here&rsquo;s the link to that starter kit, which is called <a href="https://github.com/syl20bnr/spacemacs">Spacemacs</a>. It takes Vim&rsquo;s leader key idea and kicks it into overdrive with the help of a <a href="https://github.com/cofi/evil-leader">plugin</a> that provides the same functionality in Evil, setting the leader key to space (whence the starter kit&rsquo;s name) and using it to replace a whole bunch of Emacs chords with modifier-free key sequences.</p>
-
-<p>This approach is pretty similar to the one I had in mind with evil-god-state, though it doesn&rsquo;t automatically translate Emacs bindings like I&rsquo;d hoped. But that turned out not to be as big a problem as I thought: Emacs does so much that I don&rsquo;t really <em>want</em> to have it all at my fingertips. Manually setting up my bindings helps me compartmentalize, adding a few at a time and assimilating them while I note what continues to be most frictionful so I can try to ameliorate it in my next round of bindings. And Spacemacs sets up a <em>ton</em> of bindings for you, using a sort of &ldquo;namespaced&rdquo; hierarchy that allows all those bindings to avoid stepping on each other&rsquo;s toes while also encouraging mnemonics and working well with a nice feature that aids discoverability.</p>
-
-<p>That&rsquo;s not the only way that Spacemacs is smartly designed. Its overall architecture is such that it&rsquo;s (relatively) welcoming for the newbie but has a framework for sensible extensibility when you get further into it. I&rsquo;ll explain some of the things that were most helpful to me in making Emacs with Spacemacs my full-time editor:</p>
+<p>Here’s the link to that starter kit, which is called <a href="https://github.com/syl20bnr/spacemacs">Spacemacs</a>. It takes Vim’s leader key idea and kicks it into overdrive with the help of a <a href="https://github.com/cofi/evil-leader">plugin</a> that provides the same functionality in Evil, setting the leader key to space (whence the starter kit’s name) and using it to replace a whole bunch of Emacs chords with modifier-free key sequences.</p>
+<p>This approach is pretty similar to the one I had in mind with evil-god-state, though it doesn’t automatically translate Emacs bindings like I’d hoped. But that turned out not to be as big a problem as I thought: Emacs does so much that I don’t really <em>want</em> to have it all at my fingertips. Manually setting up my bindings helps me compartmentalize, adding a few at a time and assimilating them while I note what continues to be most frictionful so I can try to ameliorate it in my next round of bindings. And Spacemacs sets up a <em>ton</em> of bindings for you, using a sort of “namespaced” hierarchy that allows all those bindings to avoid stepping on each other’s toes while also encouraging mnemonics and working well with a nice feature that aids discoverability.</p>
+<p>That’s not the only way that Spacemacs is smartly designed. Its overall architecture is such that it’s (relatively) welcoming for the newbie but has a framework for sensible extensibility when you get further into it. I’ll explain some of the things that were most helpful to me in making Emacs with Spacemacs my full-time editor:</p>
+<section id="getting-started-with-spacemacs" class="level3">
 <h3>Getting Started with Spacemacs</h3>
-<p>Memorizing these bindings will enable you to get around in Spacemacs, if occasionally somewhat clumsily. They were my bread and butter before I started to do my own configuration. I&rsquo;m only mentioning Emacs-specific bindings here; note that most of the basic functionality of Vim also works well in Spacemacs, like invoking Ex mode with <code>:</code> and using it to do things like save and open files, split windows, etc.</p>
-
+<p>Memorizing these bindings will enable you to get around in Spacemacs, if occasionally somewhat clumsily. They were my bread and butter before I started to do my own configuration. I’m only mentioning Emacs-specific bindings here; note that most of the basic functionality of Vim also works well in Spacemacs, like invoking Ex mode with <code>:</code> and using it to do things like save and open files, split windows, etc.</p>
 <ul>
-<li><code>&lt;SPC&gt; f f</code>: Mnemonic &ldquo;find file&rdquo;. Triggers the function <code>ido-find-file</code>, which lets you use <a href="http://www.masteringemacs.org/article/introduction-to-ido-mode">Ido</a> to navigate your filesystem to find a file to open, starting from the directory of the current buffer. A crash course: <code>&lt;Tab&gt;</code> will autocomplete. Deleting when there&rsquo;s no text after a slash will go up a directory. <code>~/</code> will take you to your home directly from anywhere. <code>//</code> will take you to your filesystem root from anywhere. <code>&lt;Return&gt;</code> will go into the selected directory or open the selected file.</li>
-<li><code>&lt;SPC&gt; b s</code>: Mnemonic &ldquo;buffer switch&rdquo;. Opens a <a href="https://tuhdo.github.io/helm-intro.html">Helm</a> minibuffer with a list of all your open buffers as well as recently visited ones. The biggest thing to know about Helm is that <code>&lt;Tab&gt;</code> doesn&rsquo;t autocomplete. Instead, Helm filters the list as you type and you just select the best match using <code>&lt;Return&gt;</code>. It does a great deal of more fancy stuff too, but for switching buffers, that will probably suffice.</li>
-<li><code>&lt;SPC&gt; :</code>: no mnemonic, but think of this as the Emacs equivalent of using <code>:</code> to bring up the Ex command line in Vim. It brings up a Helm buffer that you can use to find an interactive Emacs function to run. There are about thirty million of these and I&rsquo;m not going to really mention any here, but if you&rsquo;re reading something about Emacs and you see some hyphen-separated name like <code>emacs-do-thing</code> it&rsquo;s probably a function you can call using <code>&lt;SPC&gt; :</code>. If you&rsquo;re already familiar with Emacs (or looking at non-Spacemacs-centric Emacs docs), this is the equivalent of the ubiquitous <code>M-x</code> binding, but better because of Helm&rsquo;s fuzzy matching.</li>
-<li><code>&lt;SPC&gt; h d f</code>: Mnemonic &ldquo;help define function&rdquo;. Man, so I complained about Vim and Sublime Text in my last post here. Sublime Text&rsquo;s documentation is mediocre at best whereas Vim&rsquo;s is very good and thorough, but even after working with Vim&rsquo;s generally excellent documentation, Emacs&rsquo;s is a revelation. There&rsquo;s a reason that the blurb on the official Emacs web page describes it as &ldquo;the extensible, customizable, <em>self-documenting</em> real-time display editor.&rdquo; Being able to use this binding, in conjunction with Helm for fuzzy matching, to quickly find any function defined anywhere in Emacs including custom ones, and get generally very useful information about how to use it&hellip; it&rsquo;s amazing how much of a difference it makes in learning how to use Emacs productively. Seriously, learn to love this binding. It even reports any custom bindings that are defined to invoke the function that you&rsquo;re getting help on.</li>
-<li><code>&lt;SPC&gt; h d k</code>: Mnemonic &ldquo;help define key&rdquo;. Another example of Emacs&rsquo;s excellent built-in help, this binding prompts for more keys and then tells you what they do. If you accidentally hit some key or something doesn&rsquo;t do what you expect, this binding will tell you what it did. It&rsquo;s slightly less useful than the previous binding in my experience, but still very useful.</li>
-<li><code>&lt;SPC&gt;</code>: As in, hit the space bar and then just wait. A feature (alluded to above) called <a href="https://github.com/kai2nenobu/guide-key">guide-key</a> will kick in and list the keys you can use to continue issuing a command, with a short description of what each does. At first most of them will start with &ldquo;group&rdquo;; this is the &ldquo;namespacing&rdquo; I was referring to earlier. For example, the previous two bindings in this list are in the &ldquo;help-describe&rdquo; subgroup of the &ldquo;helm/help/highlight&rdquo; top-level group. This hierarchical organization of bindings makes it reasonably plausible that you can discover the binding for a task you want using guide-key alone.</li>
+<li><code>&lt;SPC&gt; f f</code>: Mnemonic “find file”. Triggers the function <code>ido-find-file</code>, which lets you use <a href="http://www.masteringemacs.org/article/introduction-to-ido-mode">Ido</a> to navigate your filesystem to find a file to open, starting from the directory of the current buffer. A crash course: <code>&lt;Tab&gt;</code> will autocomplete. Deleting when there’s no text after a slash will go up a directory. <code>~/</code> will take you to your home directly from anywhere. <code>//</code> will take you to your filesystem root from anywhere. <code>&lt;Return&gt;</code> will go into the selected directory or open the selected file.</li>
+<li><code>&lt;SPC&gt; b s</code>: Mnemonic “buffer switch”. Opens a <a href="https://tuhdo.github.io/helm-intro.html">Helm</a> minibuffer with a list of all your open buffers as well as recently visited ones. The biggest thing to know about Helm is that <code>&lt;Tab&gt;</code> doesn’t autocomplete. Instead, Helm filters the list as you type and you just select the best match using <code>&lt;Return&gt;</code>. It does a great deal of more fancy stuff too, but for switching buffers, that will probably suffice.</li>
+<li><code>&lt;SPC&gt; :</code>: no mnemonic, but think of this as the Emacs equivalent of using <code>:</code> to bring up the Ex command line in Vim. It brings up a Helm buffer that you can use to find an interactive Emacs function to run. There are about thirty million of these and I’m not going to really mention any here, but if you’re reading something about Emacs and you see some hyphen-separated name like <code>emacs-do-thing</code> it’s probably a function you can call using <code>&lt;SPC&gt; :</code>. If you’re already familiar with Emacs (or looking at non-Spacemacs-centric Emacs docs), this is the equivalent of the ubiquitous <code>M-x</code> binding, but better because of Helm’s fuzzy matching.</li>
+<li><code>&lt;SPC&gt; h d f</code>: Mnemonic “help define function”. Man, so I complained about Vim and Sublime Text in my last post here. Sublime Text’s documentation is mediocre at best whereas Vim’s is very good and thorough, but even after working with Vim’s generally excellent documentation, Emacs’s is a revelation. There’s a reason that the blurb on the official Emacs web page describes it as “the extensible, customizable, <em>self-documenting</em> real-time display editor.” Being able to use this binding, in conjunction with Helm for fuzzy matching, to quickly find any function defined anywhere in Emacs including custom ones, and get generally very useful information about how to use it… it’s amazing how much of a difference it makes in learning how to use Emacs productively. Seriously, learn to love this binding. It even reports any custom bindings that are defined to invoke the function that you’re getting help on.</li>
+<li><code>&lt;SPC&gt; h d k</code>: Mnemonic “help define key”. Another example of Emacs’s excellent built-in help, this binding prompts for more keys and then tells you what they do. If you accidentally hit some key or something doesn’t do what you expect, this binding will tell you what it did. It’s slightly less useful than the previous binding in my experience, but still very useful.</li>
+<li><code>&lt;SPC&gt;</code>: As in, hit the space bar and then just wait. A feature (alluded to above) called <a href="https://github.com/kai2nenobu/guide-key">guide-key</a> will kick in and list the keys you can use to continue issuing a command, with a short description of what each does. At first most of them will start with “group”; this is the “namespacing” I was referring to earlier. For example, the previous two bindings in this list are in the “help-describe” subgroup of the “helm/help/highlight” top-level group. This hierarchical organization of bindings makes it reasonably plausible that you can discover the binding for a task you want using guide-key alone.</li>
 </ul>
+<p>Those bindings, along with Spacemacs’s <a href="https://github.com/syl20bnr/spacemacs/blob/master/DOCUMENTATION.md">very good documentation</a> of its own, should be enough to get you started on getting used to the brave new world of Emacs: if you’re a Vim user already, you’re probably familiar with the process of starting with a small set of commands and gradually incorporating new ones into your workflow as you learn where your friction areas are. You’ll have to go through that again with Spacemacs, but having a huge chunk of Vim’s functionality already available makes the process a lot smoother. I know, for example, that there’s a Spacemacs binding for saving a buffer, but I don’t yet know what it is because I always just use the Vim-style <code>:w</code> instead.</p>
+<p>Hopefully that’s enough for you to get started using Spacemacs! It’s a really nice piece of work and it seems to be deservedly catching on like wildfire, so if you’re familiar with Vim and anything I’ve said here sounds appealing, you should give it a try.</p>
+</section>
+</section>
 
-<p>Those bindings, along with Spacemacs&rsquo;s <a href="https://github.com/syl20bnr/spacemacs/blob/master/DOCUMENTATION.md">very good documentation</a> of its own, should be enough to get you started on getting used to the brave new world of Emacs: if you&rsquo;re a Vim user already, you&rsquo;re probably familiar with the process of starting with a small set of commands and gradually incorporating new ones into your workflow as you learn where your friction areas are. You&rsquo;ll have to go through that again with Spacemacs, but having a huge chunk of Vim&rsquo;s functionality already available makes the process a lot smoother. I know, for example, that there&rsquo;s a Spacemacs binding for saving a buffer, but I don&rsquo;t yet know what it is because I always just use the Vim-style <code>:w</code> instead. </p>
 
-<p>Hopefully that&rsquo;s enough for you to get started using Spacemacs! It&rsquo;s a really nice piece of work and it seems to be deservedly catching on like wildfire, so if you&rsquo;re familiar with Vim and anything I&rsquo;ve said here sounds appealing, you should give it a try.</p>
-
-
-    </div>
-    <div id="footer">
+    <div class="thefooter">
         <div id="adjposts">
         <div id="prevpost">←<a href="/2015/03/14/Pi_Day_Curmudgeonliness/">Pi Day Curmudgeonliness</a></div><!--
      --><div id="nextpost"><a href="/2015/09/25/Poison_Season/">Poison Season : Kaputt :: Trouble in Dreams : Destroyer's Rubies</a>→</div>
       </div>
       
         
-        <div id="colophon">
+        <div class="colophon">
             
             <p>Contact me? My email is my first initial and last name at gmail.com. I'm also on <a href="https://twitter.com/valrus">Twitter</a> as @valrus (mostly defunct) and <a href="https://joinmastodon.org/">Mastodon</a> as @valrus@aleph.land.</p>
             
         </div>
     </div>
-</div>
+</article>
 
   </body>
 </html>
