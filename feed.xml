@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2018-04-15T05:27:55Z</updated>
+    <updated>2018-04-15T05:36:48Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -18,7 +18,7 @@
             <title>Bayesian In-toot-ition</title>
             <link rel="alternate" href="http://ian.mccowan.space/2018/04/14/Bayesian_Intootition/" type="text/html" />
             <id>http://ian.mccowan.space/2018/04/14/Bayesian_Intootition/</id>
-            <updated>2018-04-14T05:27:00Z</updated>
+            <updated>2018-04-14T05:36:00Z</updated>
             
             <summary type="html">Someone in &lt;a href=&#34;https://fediverse.party/&#34;&gt;the Fediverse&lt;/a&gt; tooted&lt;span&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;The Fediverse is, loosely speaking, a constellation of open source social media replacements, of which &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt;, on which &lt;a href=&#34;https://icosahedron.website/@valrus&#34;&gt;I have an account&lt;/a&gt;, is one. Yes, the analogue of “tweeting” is called “tooting” there.&lt;br /&gt;
 &lt;br /&gt;
@@ -151,6 +151,7 @@
 &lt;p&gt;We were looking for &lt;span class=&#34;math inline&#34;&gt;\(P(X|E)\)&lt;/span&gt;. That doesn’t actually require a detour through Bayes’s theorem: we could have just used the definition of conditional probability, combined with the truth table above. &lt;span class=&#34;math inline&#34;&gt;\(P(X \cap E)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X)\)&lt;/span&gt; are the same, so:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[P(X|E) = {P(X \cap E) \over P(E)} = { {5 \over 27 } \over {13 \over 27} } = {5 \over 13}\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;But I just thought this post was more fun with a detour through Bayes’s theorem, which is quite possibly the most important theorem in probability theory.&lt;/p&gt;
+&lt;p&gt;(Thanks to &lt;a href=&#34;https://ask.metafilter.com/321013/Help-me-figure-out-whats-up-with-this-probability-question&#34;&gt;Ask MetaFilter&lt;/a&gt; for backing me up when I was doubting myself on this one. The discussion there is worth reading, especially &lt;a href=&#34;https://ask.metafilter.com/321013/Help-me-figure-out-whats-up-with-this-probability-question#4629395&#34;&gt;this comment&lt;/a&gt; for a concise justification of why we need to take the information about B and C into account.)&lt;/p&gt;
 &lt;/section&gt;
 </content>
         </entry>
