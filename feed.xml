@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2018-03-11T06:33:54Z</updated>
+    <updated>2018-04-15T05:27:55Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -13,6 +13,147 @@
         <uri>http://ian.mccowan.space/</uri>
     </author>
     
+    
+        <entry>
+            <title>Bayesian In-toot-ition</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2018/04/14/Bayesian_Intootition/" type="text/html" />
+            <id>http://ian.mccowan.space/2018/04/14/Bayesian_Intootition/</id>
+            <updated>2018-04-14T05:27:00Z</updated>
+            
+            <summary type="html">Someone in &lt;a href=&#34;https://fediverse.party/&#34;&gt;the Fediverse&lt;/a&gt; tooted&lt;span&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;The Fediverse is, loosely speaking, a constellation of open source social media replacements, of which &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt;, on which &lt;a href=&#34;https://icosahedron.website/@valrus&#34;&gt;I have an account&lt;/a&gt;, is one. Yes, the analogue of “tweeting” is called “tooting” there.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; a probability problem:</summary>
+            <content type="html">&lt;p&gt;Someone in &lt;a href=&#34;https://fediverse.party/&#34;&gt;the Fediverse&lt;/a&gt; tooted&lt;span&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;The Fediverse is, loosely speaking, a constellation of open source social media replacements, of which &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt;, on which &lt;a href=&#34;https://icosahedron.website/@valrus&#34;&gt;I have an account&lt;/a&gt;, is one. Yes, the analogue of “tweeting” is called “tooting” there.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; a probability problem:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A, B and C toot the truth with a probability of 1/3 and lie with a probability of 2/3.&lt;/p&gt;
+&lt;p&gt;A makes a toot and B toots an observation on whether or not A was tooting the truth or not. C toots that B confirmed A was truthful.&lt;/p&gt;
+&lt;p&gt;What is the actual probability that A’s toot was truthful?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you’re into solving this kind of problem, please stop reading this post and work it out for yourself now. Subsequent paragraphs will discuss the solution in detail.&lt;/p&gt;
+&lt;section id=&#34;the-obvious-answer&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;The Obvious Answer&lt;/h2&gt;
+&lt;p&gt;My first guess, and the obvious “this is a trick question” answer, was ⅓, on the assumption that the only relevant information is in the first sentence. But I second guessed myself, because the question seemed naggingly similar to the infamous &lt;a href=&#34;http://marilynvossavant.com/game-show-problem/&#34;&gt;Monty Hall problem&lt;/a&gt;, where the “obvious” answer is also wrong, and quite counterintuitively so to most people including myself. I worked out the problem in a different way, and got a different answer. But the poster of the original toot asserted that the correct answer is ⅓: the information about B and C is all irrelevant, and the answer is given to you in the first paragraph.&lt;/p&gt;
+&lt;p&gt;Still, that feeling of similarity to the Monty Hall problem bothered me, and though my probability class is pretty far behind me now, I did dimly recall learning about something called &lt;a href=&#34;https://en.wikipedia.org/wiki/Bayesian_inference&#34;&gt;Bayesian inference&lt;/a&gt;, which basically lets you update the probability of a hypothesis (in this case, “A told the truth”) as you get more information with the use of a pretty simple equation.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;bayesd-and-confused&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;Bayes’d and Confused&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Bayes%27_theorem&#34;&gt;Bayes’s Theorem&lt;/a&gt; isn’t generally stated this way, but I like the following statement of it: think of &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; as the event whose probability we’re trying to determine and &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; as the event that we consider to be evidence for (or against) it.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[P(X|E) = {P(E|X) \over P(E)} \cdot P(X) \]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Since &lt;span class=&#34;math inline&#34;&gt;\(P(X|E)\)&lt;/span&gt; is the probability that &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; occurred given that we’ve observed &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(P(X)\)&lt;/span&gt; is the probability of &lt;span class=&#34;math inline&#34;&gt;\(P(X)\)&lt;/span&gt; happening in absence of any other information, this formulation is nice because you can think of that factor &lt;span class=&#34;math inline&#34;&gt;\(P(E|X) / P(E)\)&lt;/span&gt; as the effect that our observing &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; has on the likelihood that &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; occurred.&lt;/p&gt;
+&lt;p&gt;What does that factor mean, though? First off, it’s not a probability. If &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; makes &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; more likely, the numerator will be larger than the demoninator, so it won’t be less than 1 like a good probability should. But that framing also lets us think of it as a regular old ratio: since the numerator is “&lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; given &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;” and the demoninator is “&lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; alone,” the ratio is basically “how much more likely does &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; make &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt;?” So the full theorem, using this formulation, can be stated as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The conditional probability of some event &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;, given some evidence &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt;, is equal to the unconditional probability of &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; times the effect of &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; on the probability of &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Given that &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; has &lt;em&gt;already occurred&lt;/em&gt;, if we know that &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;’s occurring would have made it more likely, then we have more reason to believe &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; itself happened than in the absence of any information about &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; (and vice versa). That’s the intuition that Bayes’s theorem makes precise; regardless of whether the intuition is intuitive to you, the theorem is true, and I’m going to move on to applying it to the Toot Enigma and determining whether the answer actually is ⅓.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;the-toot-enigma&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;The Toot Enigma&lt;/h2&gt;
+&lt;p&gt;Alright, so first off: there is, I &lt;em&gt;suppose&lt;/em&gt;, a case to be made that by saying “actual probability,” the original tooter specifically meant “probability in the absense of any additional evidence,” in which case all the Bayes stuff is irrelevant and the answer is straightforwardly, indeed &lt;em&gt;tautologically&lt;/em&gt; ⅓. But I think that interpretation of the problem is not only contrary to how probability problems are usually understood (if you’re trying to determine how likely something is, wouldn’t you &lt;em&gt;always&lt;/em&gt; want to take into account all relevant evidence?), but also &lt;em&gt;painfully boring&lt;/em&gt;. So, Bayes to the rescue.&lt;/p&gt;
+&lt;p&gt;Here, &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; is the event whose probability we’re trying to determine: “A told the truth.” &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; is the available evidence: “C said B confirmed A told the truth.” Since we’re told that &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; has occurred, we’re interested in finding $P(X|E). We’re also given that &lt;span class=&#34;math inline&#34;&gt;\(P(X) = 1/3\)&lt;/span&gt;. So to finish the calculation, we need &lt;span class=&#34;math inline&#34;&gt;\(P(E)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(P(E|X)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;I made a truth table for this, to take into account the eight (&lt;span class=&#34;math inline&#34;&gt;\(2^3\)&lt;/span&gt;) different combinations of truth or falsehood on the part of A, B and C. For each of these, “T” means “told the truth” and “F” means “lied.”&lt;/p&gt;
+&lt;table style=&#34;width:47%;&#34;&gt;
+&lt;colgroup&gt;
+&lt;col style=&#34;width: 9%&#34; /&gt;
+&lt;col style=&#34;width: 5%&#34; /&gt;
+&lt;col style=&#34;width: 5%&#34; /&gt;
+&lt;col style=&#34;width: 5%&#34; /&gt;
+&lt;col style=&#34;width: 20%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;Case number&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;A&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;B&lt;/th&gt;
+&lt;th style=&#34;text-align: center;&#34;&gt;C&lt;/th&gt;
+&lt;th style=&#34;text-align: left;&#34;&gt;Interpretation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;1&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;A tells the truth. B confirms it. C says B confirmed A.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;2&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;A tells the truth. B confirms it. C lies that B didn’t confirm A.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;A tells the truth. B says A lied. C says B says A lied.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;4&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;A tells the truth. B says A lied. C lies that B confirmed A.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;5&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;A lies. B says A lied. C says B didn’t confirm A.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;6&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;A lies. B says A lied. C lies and says B confirmed A.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;7&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;T&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;A lies. B lies that A told the truth. C says B confirmed A.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;8&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: center;&#34;&gt;F&lt;/td&gt;
+&lt;td style=&#34;text-align: left;&#34;&gt;A lies. B lies that A told the truth. C lies that B didn’t confirm A.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;First let’s find &lt;span class=&#34;math inline&#34;&gt;\(P(E)\)&lt;/span&gt;. &lt;span class=&#34;math inline&#34;&gt;\(E\)&lt;/span&gt; is any case where C says B confirmed A: 1, 4, 6 and 7. The probabilities of those cases are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1: &lt;code&gt;TTT&lt;/code&gt; - &lt;span class=&#34;math inline&#34;&gt;\((1/3)^3 = 1/27\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;4: &lt;code&gt;TFF&lt;/code&gt; - &lt;span class=&#34;math inline&#34;&gt;\((1/3)(2/3)^2 = 4/27\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;6: &lt;code&gt;FTF&lt;/code&gt; - &lt;span class=&#34;math inline&#34;&gt;\((2/3)(1/3)(2/3) = 4/27\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;7: &lt;code&gt;FFT&lt;/code&gt; - &lt;span class=&#34;math inline&#34;&gt;\((2/3)^2(1/3) = 4/27\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;with a sum of &lt;span class=&#34;math inline&#34;&gt;\(13/27\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Next, &lt;span class=&#34;math inline&#34;&gt;\(P(E|X)\)&lt;/span&gt;: the conditional probability that C says B confirmed A, given that A told the truth. This is easiest to calculate as &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X) / P(X)\)&lt;/span&gt;: &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X)\)&lt;/span&gt;, the probability that A tells the truth &lt;em&gt;and&lt;/em&gt; C says B confirms A, is just the subset of the cases of &lt;span class=&#34;math inline&#34;&gt;\(P(E)\)&lt;/span&gt; where A also told the truth: 1 and 4. Those have a combined probability of &lt;span class=&#34;math inline&#34;&gt;\(5/27\)&lt;/span&gt;. Finally, &lt;span class=&#34;math inline&#34;&gt;\(P(X) = 1/3\)&lt;/span&gt;. So, $P(E|X) = &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X) / P(X) = (5/27) / (1/3) = 5/9\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Putting this all together in Bayes’s theorem:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[P(X|E) = {P(E|X) \over P(E)} \cdot P(X) = { { 5 \over 9} \over {13 \over 27} } \cdot {1 \over 3 } = {5 \over 9} \cdot {27 \over 13} \cdot {1 \over 3} = { 5 \over 13 }\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;That’s a bit more than ⅓: the additional information about B and C actually did give us a little more confidence that A told the truth!&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;conclusion&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Probability is complicated and counterintuitive. Never trust your intuition unless you’ve got a theorem backing it up.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;epilogue-a-simpler-solution&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;Epilogue: A Simpler Solution&lt;/h2&gt;
+&lt;p&gt;We were looking for &lt;span class=&#34;math inline&#34;&gt;\(P(X|E)\)&lt;/span&gt;. That doesn’t actually require a detour through Bayes’s theorem: we could have just used the definition of conditional probability, combined with the truth table above. &lt;span class=&#34;math inline&#34;&gt;\(P(X \cap E)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X)\)&lt;/span&gt; are the same, so:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[P(X|E) = {P(X \cap E) \over P(E)} = { {5 \over 27 } \over {13 \over 27} } = {5 \over 13}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;But I just thought this post was more fun with a detour through Bayes’s theorem, which is quite possibly the most important theorem in probability theory.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+        </entry>
     
         <entry>
             <title>A Different Kind of Freedom February</title>
