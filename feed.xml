@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2018-04-15T15:43:30Z</updated>
+    <updated>2018-04-16T04:18:03Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -18,7 +18,7 @@
             <title>Bayesian In-toot-ition</title>
             <link rel="alternate" href="http://ian.mccowan.space/2018/04/14/Bayesian_Intootition/" type="text/html" />
             <id>http://ian.mccowan.space/2018/04/14/Bayesian_Intootition/</id>
-            <updated>2018-04-14T15:42:00Z</updated>
+            <updated>2018-04-14T04:17:00Z</updated>
             
             <summary type="html">Someone in &lt;a href=&#34;https://fediverse.party/&#34;&gt;the Fediverse&lt;/a&gt; tooted&lt;span&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;The Fediverse is, loosely speaking, a constellation of open source social media replacements, of which &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt;, on which &lt;a href=&#34;https://icosahedron.website/@valrus&#34;&gt;I have an account&lt;/a&gt;, is one. Yes, the analogue of “tweeting” is called “tooting” there.&lt;br /&gt;
 &lt;br /&gt;
@@ -137,7 +137,7 @@
 &lt;li&gt;7: &lt;code&gt;FFT&lt;/code&gt; - &lt;span class=&#34;math inline&#34;&gt;\((2/3)^2(1/3) = 4/27\)&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;with a sum of &lt;span class=&#34;math inline&#34;&gt;\(13/27\)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;Next, &lt;span class=&#34;math inline&#34;&gt;\(P(E|X)\)&lt;/span&gt;: the conditional probability that C says B confirmed A, given that A told the truth. This is easiest to calculate as &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X) / P(X)\)&lt;/span&gt;: &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X)\)&lt;/span&gt;, the probability that A tells the truth &lt;em&gt;and&lt;/em&gt; C says B confirms A, is just the subset of the cases of &lt;span class=&#34;math inline&#34;&gt;\(P(E)\)&lt;/span&gt; where A also told the truth: 1 and 4. Those have a combined probability of &lt;span class=&#34;math inline&#34;&gt;\(5/27\)&lt;/span&gt;. Finally, &lt;span class=&#34;math inline&#34;&gt;\(P(X) = 1/3\)&lt;/span&gt;. So, $P(E|X) = &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X) / P(X) = (5/27) / (1/3) = 5/9\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Next, &lt;span class=&#34;math inline&#34;&gt;\(P(E|X)\)&lt;/span&gt;: the conditional probability that C says B confirmed A, given that A told the truth. This is easiest to calculate as &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X) / P(X)\)&lt;/span&gt;: &lt;span class=&#34;math inline&#34;&gt;\(P(E \cap X)\)&lt;/span&gt;, the probability that A tells the truth &lt;em&gt;and&lt;/em&gt; C says B confirms A, is just the subset of the cases of &lt;span class=&#34;math inline&#34;&gt;\(P(E)\)&lt;/span&gt; where A also told the truth: 1 and 4. Those have a combined probability of &lt;span class=&#34;math inline&#34;&gt;\(5/27\)&lt;/span&gt;. Finally, &lt;span class=&#34;math inline&#34;&gt;\(P(X) = 1/3\)&lt;/span&gt;. So, &lt;span class=&#34;math inline&#34;&gt;\(P(E|X) = P(E \cap X) / P(X) = (5/27) / (1/3) = 5/9\)&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Putting this all together in Bayes’s theorem:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[P(X|E) = {P(E|X) \over P(E)} \cdot P(X) = { { 5 \over 9} \over {13 \over 27} } \cdot {1 \over 3 } = {5 \over 9} \cdot {27 \over 13} \cdot {1 \over 3} = { 5 \over 13 }\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;That’s a bit more than ⅓: the additional information about B and C actually did give us a little more confidence that A told the truth!&lt;/p&gt;
