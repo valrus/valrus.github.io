@@ -1,11 +1,9 @@
-.playlist
-{
+.playlist {
     padding-top: 15px;
     text-align: left;
 }
 
-h1
-{
+h1 {
     color: #FFFEF0;
     font-size: 1.2em;
     padding: 14px 2px 0px 0;
@@ -13,26 +11,22 @@ h1
     line-height: 1.2em;
 }
 
-h1 em
-{
+h1 em {
     font-style: normal;
     color: #fff;
 }
 
-a
-{
+a {
     color: #fff;
     text-decoration: none;
 }
 
-#wrapper
-{
+#wrapper {
     width: 400px;
     margin: 10px auto;
 }
 
-ol
-{
+ol {
     padding: 0px;
     margin: 0px 0px 10px;
     list-style: decimal inside;
@@ -42,8 +36,7 @@ ol
     font-size: 0.9em;
 }
 
-ol li
-{
+ol li {
     position: relative;
     margin: 0px;
     color: #fff;
@@ -52,31 +45,26 @@ ol li
     cursor: pointer;
 }
 
-ol li>a
-{
+ol li>a {
     text-indent: -3.3ex;
     padding: 0px 0px 0px 15px;
 }
 
-span.music_icons
-{
+span.music_icons {
     right: 5px;
     position: absolute;
     cursor: s-resize default;
 }
 
-li.playing
-{
+li.playing {
     color: #fff;
 }
 
-li.playing a
-{
+li.playing a {
     color: #fff;
 }
 
-li.playing:before
-{
+li.playing:before {
     content: '♬';
     width: 14px;
     height: 14px;
@@ -90,8 +78,7 @@ li.playing:before
     font-size: 13px;
 }
 
-#shortcuts
-{
+#shortcuts {
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -103,24 +90,20 @@ li.playing:before
     background: rgba(240, 240, 240, 0.7);
 }
 
-#shortcuts div
-{
+#shortcuts div {
     width: 460px;
     margin: 0px auto;
 }
 
-#shortcuts h1
-{
+#shortcuts h1 {
     margin: 0px 0px 6px;
 }
 
-#shortcuts p
-{
+#shortcuts p {
     margin: 0px 0px 18px;
 }
 
-#shortcuts em
-{
+#shortcuts em {
     font-style: normal;
     background: #d3d3d3;
     padding: 3px 9px;
@@ -134,4 +117,31 @@ li.playing:before
     -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     -o-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.album {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    margin-bottom: 1em;
+}
+
+.album:hover {
+    border-color: #ffb332;
+    color: #ffb332;
+}
+
+.album_cover {
+    margin-right: 20px;
+}
+
+.album_title {
+    display: inline;
+    padding: 0;
+}
+
+.album_details {
+    margin-top: 0.1ex;
+    margin-bottom: 0;
+    font-size: 90%;
 }
