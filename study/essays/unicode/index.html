@@ -138,53 +138,53 @@ A Contextual, Narrative Introduction to Unicode
 <ol>
 <li class="foot" id="foot1">
 <p>
-I could include several layers below this one, I think, but they would involve materials science, physics and other things about which I can’t really claim any knowledge. <a href="#ref1">↩</a>
+I could include several layers below this one, I think, but they would involve materials science, physics and other things about which I can’t really claim any knowledge. <a href="#ref1">↩︎</a>
 </p>
 </li>
 <li class="foot" id="foot2">
 <p>
 <p>Another way to look at a file’s content is that it is just <em>one huge, colossal number</em>, where by “huge, colossal” I mean that the number representing a single average English sentence would be in the vicinity of the number of atoms in the Universe.</p>
-This perspective leads to some pretty interesting results. <a href="https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29">One of the most widely used cryptosystems</a> treats a message as a single huge number and thereby gets a lot of mileage out of how hard it is to reverse some operations involving huge numbers. Somewhat more obliquely, <a href="https://en.wikipedia.org/wiki/Gödel's_incompleteness_theorems">Gödel’s incompleteness theorems</a>, which prove very deep mathematical results by viewing entire mathematical systems as very large numbers. <a href="#ref2">↩</a>
+This perspective leads to some pretty interesting results. <a href="https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29">One of the most widely used cryptosystems</a> treats a message as a single huge number and thereby gets a lot of mileage out of how hard it is to reverse some operations involving huge numbers. Somewhat more obliquely, <a href="https://en.wikipedia.org/wiki/Gödel's_incompleteness_theorems">Gödel’s incompleteness theorems</a>, which prove very deep mathematical results by viewing entire mathematical systems as very large numbers. <a href="#ref2">↩︎</a>
 </p>
 </li>
 <li class="foot" id="foot3">
 <p>
-Fun fact: the “ASCII to decimal converter” I linked in the previous section is a liar, or at least it’s not telling the whole truth. If you type a character like é into the top box, it will happily convert it into a number larger than 127 in the “Result” box. But ASCII does not designate characters corresponding to such numbers. In fact the tool uses the Microsoft-devised single-byte encoding <a href="https://en.wikipedia.org/wiki/Windows-1252">CP-1252</a>. <a href="#ref3">↩</a>
+Fun fact: the “ASCII to decimal converter” I linked in the previous section is a liar, or at least it’s not telling the whole truth. If you type a character like é into the top box, it will happily convert it into a number larger than 127 in the “Result” box. But ASCII does not designate characters corresponding to such numbers. In fact the tool uses the Microsoft-devised single-byte encoding <a href="https://en.wikipedia.org/wiki/Windows-1252">CP-1252</a>. <a href="#ref3">↩︎</a>
 </p>
 </li>
 <li class="foot" id="foot4">
 <p>
-Among the complications I’m glossing over in this explanation: Should <code>é</code> be considered one character or two (<code>e</code> + <code>´</code>)? How do you account for the fact that the uppercase version of <code>i</code> is <code>I</code> in every language except Turkish, where it is <code>İ</code> (and it is <a href="http://gizmodo.com/382026/a-cellphones-missing-dot-kills-two-people-puts-three-more-in-jail">very important</a> to get things like this right)? What about the case of the Greek letter sigma, which should be written as <code>σ</code> in the middle of a word and <code>ς</code> at the end? What about the German <code>ß</code>, which is usually written as <em>two</em> characters, <code>SS</code>, in uppercase? These considerations and many others are addressed in the full Unicode spec. <a href="#ref4">↩</a>
+Among the complications I’m glossing over in this explanation: Should <code>é</code> be considered one character or two (<code>e</code> + <code>´</code>)? How do you account for the fact that the uppercase version of <code>i</code> is <code>I</code> in every language except Turkish, where it is <code>İ</code> (and it is <a href="http://gizmodo.com/382026/a-cellphones-missing-dot-kills-two-people-puts-three-more-in-jail">very important</a> to get things like this right)? What about the case of the Greek letter sigma, which should be written as <code>σ</code> in the middle of a word and <code>ς</code> at the end? What about the German <code>ß</code>, which is usually written as <em>two</em> characters, <code>SS</code>, in uppercase? These considerations and many others are addressed in the full Unicode spec. <a href="#ref4">↩︎</a>
 </p>
 </li>
 <li class="foot" id="foot5">
 <p>
-“In principle” because as of this writing (Unicode version 7.0) only about a tenth of the code points are currently assigned to characters. But even the 113,021 characters claiming those code points are enough to represent a <a href="http://www.unicode.org/standard/supported.html">whole lot</a> of the world’s scripts. <a href="#ref5">↩</a>
+“In principle” because as of this writing (Unicode version 7.0) only about a tenth of the code points are currently assigned to characters. But even the 113,021 characters claiming those code points are enough to represent a <a href="http://www.unicode.org/standard/supported.html">whole lot</a> of the world’s scripts. <a href="#ref5">↩︎</a>
 </p>
 </li>
 <li class="foot" id="foot6">
 <p>
-I’m omitting another detail here: something called a <a href="http://en.wikipedia.org/wiki/Byte_order_mark">byte order mark</a>, which (for reasons you’ll have to click that link to read about because they’re outside the scope even of this footnote) is necessary just to tell computers how to read UTF-32-encoded text correctly. That’s just one more reason UTF-32 isn’t widely used. <a href="#ref6">↩</a>
+I’m omitting another detail here: something called a <a href="http://en.wikipedia.org/wiki/Byte_order_mark">byte order mark</a>, which (for reasons you’ll have to click that link to read about because they’re outside the scope even of this footnote) is necessary just to tell computers how to read UTF-32-encoded text correctly. That’s just one more reason UTF-32 isn’t widely used. <a href="#ref6">↩︎</a>
 </p>
 </li>
 <li class="foot" id="foot7">
 <p>
-c.f. <em><a href="http://www.unicode.org/history/earlyyears.html">Early Years of Unicode</a></em> <a href="#ref7">↩</a>
+c.f. <em><a href="http://www.unicode.org/history/earlyyears.html">Early Years of Unicode</a></em> <a href="#ref7">↩︎</a>
 </p>
 </li>
 <li class="foot" id="foot8">
 <p>
-“<em>Six??</em>”, you might say. “Even UTF-32, enormous waste of space that it is, only needs four!” Well, it <em>could</em> take six, if you needed to support over two billion different characters. For the mere million or so that actually exist in Unicode as of this writing, four bytes suffice. <a href="#ref8">↩</a>
+“<em>Six??</em>”, you might say. “Even UTF-32, enormous waste of space that it is, only needs four!” Well, it <em>could</em> take six, if you needed to support over two billion different characters. For the mere million or so that actually exist in Unicode as of this writing, four bytes suffice. <a href="#ref8">↩︎</a>
 </p>
 </li>
 <li class="foot" id="foot9">
 <p>
-There are one and a half interesting related concepts worth mentioning here. One is that UTF-8 is an example of a <a href="http://en.wikipedia.org/wiki/Prefix_code">prefix code</a>, which is an important thing for an encoding to be to reduce ambiguity when you’re trying to decode it. The half-related concept is that of <a href="http://en.wikipedia.org/wiki/Huffman_coding">Huffman coding</a>, which is a way of devising an encoding for each character in a text so that the encoded text takes up as little space as possible. UTF-8 is not a Huffman code, because a Huffman code is specific to a particular message. But its use of only one byte for the most common characters and more bytes for more esoteric ones seems similarly motivated. <a href="#ref9">↩</a>
+There are one and a half interesting related concepts worth mentioning here. One is that UTF-8 is an example of a <a href="http://en.wikipedia.org/wiki/Prefix_code">prefix code</a>, which is an important thing for an encoding to be to reduce ambiguity when you’re trying to decode it. The half-related concept is that of <a href="http://en.wikipedia.org/wiki/Huffman_coding">Huffman coding</a>, which is a way of devising an encoding for each character in a text so that the encoded text takes up as little space as possible. UTF-8 is not a Huffman code, because a Huffman code is specific to a particular message. But its use of only one byte for the most common characters and more bytes for more esoteric ones seems similarly motivated. <a href="#ref9">↩︎</a>
 </p>
 </li>
 <li class="foot" id="foot10">
 <p>
-There are two possible exceptions to this. One is CJI text: many CJI characters take three bytes in UTF-8 and only two in UTF-16. But on the Web, there’s often enough plain ASCII in the HTML and other cruft required to turn plain text into a Web page to still make UTF-8 competitive with UTF-16, space-wise. The other exception is the dystopian near-future where everyone communicates entirely using emoji. But in that case we can probably do better than any encodings currently in use. <a href="#ref10">↩</a>
+There are two possible exceptions to this. One is CJI text: many CJI characters take three bytes in UTF-8 and only two in UTF-16. But on the Web, there’s often enough plain ASCII in the HTML and other cruft required to turn plain text into a Web page to still make UTF-8 competitive with UTF-16, space-wise. The other exception is the dystopian near-future where everyone communicates entirely using emoji. But in that case we can probably do better than any encodings currently in use. <a href="#ref10">↩︎</a>
 </p>
 </li>
 </ol>
