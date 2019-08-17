@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/valrus
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ian.mccowan.space
+  * I am valrus (https://keybase.io/valrus) on keybase.
+  * I have a public key with fingerprint 9CE2 25EE F2CF 57A1 7ED4  0A0A 26FB 07BC 36F7 0E2E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01016cf99fa221fc114491615045b8ab85c7101e5ae278dfa472b8fead6c3c807e910a",
+      "fingerprint": "9ce225eef2cf57a17ed40a0a26fb07bc36f70e2e",
+      "host": "keybase.io",
+      "key_id": "26fb07bc36f70e2e",
+      "kid": "01016cf99fa221fc114491615045b8ab85c7101e5ae278dfa472b8fead6c3c807e910a",
+      "uid": "36d0d7c35ce5cea9dcff94b9928dca19",
+      "username": "valrus"
+    },
+    "service": {
+      "hostname": "ian.mccowan.space",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1566059691,
+  "expire_in": 157680000,
+  "prev": "3b058c0798399c0d03e12aff82f737b0b82cb5cf86ee39509be586c57d5cd3b6",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIsAnicrVJbSBRRGF7NMhfK6IJoQXW6gKFyZmbPzJwtBakgMDAfgpRiOXPmjE7q
+zrYz62ZqYVBsPViJWmwU2eVBuyH1IgWZ5ZIpJJb1YCJCgl0pJMjodkbsrccOB37O
+/3/fd77/53+8aJ7HmzSRi9fNXDnbljTwMB7x7NuTc70OaJZeC/x1oJLNBlalM9sJ
+VJo68AMoQEGmBsYGEUXBoILg82FBFhD0IU0lmoqowiEMESYqqm4QnyJqqsGILlOJ
+qlBhWIAE5ADDDJazcChsBh0uiykTRcSYIVIDKURQmO6DBBJRNjSoaFSSDQUykXFi
+hWW7DG5OIzbLMy2e44/ArL1/4P+z78isnCTrUFeohCjjl2CdGgb2aRiLqk6JgF2g
+zcJBUs04uoZUhSM2aMgBPFdjUuaO1e1jrm6SYF41pVaURztEqGs7FLYci1pVvFzh
+OCHb79Kd2pCLjzItMKcU0MygzkfJGTUsbJtWEPgFjqSO6UoLSJYhwjIWcgA7GDLD
+LGC6CKTIKuTH/YfVuA1pEKkUKliVMKZQhxITRGIYqmgokqJBTRWphqihyoxJGEGs
+MaTKFCk6orqkycDt7UDQAn6J2yTlXNI2y4PEiYQZaOjt2ZviSfJ6FsxPdlfM401b
+8nfxTiWn/o46p2PdG6yOO0UZC+tG6ppGd5clZ05J60c6+5/1ZY4X1Ta+Xj3Vcjy7
+c9O3+9GBLY8+HG2ZenRkw/6u4nvt3Zc3gv6Th96XtfoL0Wf/yszjQ4uH2hJlzdsn
+S2JHt+afm1zUeHfF1Uj+mta7M0OTT3wFV/XrWbcOf9Jp4eCZnmXg3tLpksSbpwXD
+7bFVo+PpfWMPXsR3dfcXVtHR7o+blZTUsz+ueccyvq8eSKTVp2Y1tKwt/fK2qLXp
+/NdicKM+P7d4aG3Hpa70U82N8Z4F3vXlHc7zdGdnPNYbW971UorfvJA7PvhOXVa6
+7VXi4jRthdkVP+Vjw3J8z9Rt747RXycmVM8fVD9HCw==
+=YkIA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/valrus
+
+==================================================================
