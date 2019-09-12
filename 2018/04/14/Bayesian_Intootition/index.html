@@ -51,7 +51,7 @@ Bayesian In-toot-ition
 </h1>
     
     
-<p>Someone in <a href="https://fediverse.party/">the Fediverse</a> tooted<span><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span class="sidenote">The Fediverse is, loosely speaking, a constellation of open source social media replacements, of which <a href="https://joinmastodon.org/">Mastodon</a>, on which <a href="https://icosahedron.website/@valrus">I have an account</a>, is one. Yes, the analogue of “tweeting” is called “tooting” there.<br />
+<p>Someone in <a href="https://fediverse.party/">the Fediverse</a> tooted<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">The Fediverse is, loosely speaking, a constellation of open source social media replacements, of which <a href="https://joinmastodon.org/">Mastodon</a>, on which <a href="https://icosahedron.website/@valrus">I have an account</a>, is one. Yes, the analogue of “tweeting” is called “tooting” there.<br />
 <br />
 </span></span> a probability problem:</p>
 <blockquote>
@@ -68,7 +68,7 @@ Bayesian In-toot-ition
 <section id="bayesd-and-confused" class="level2">
 <h2>Bayes’d and Confused</h2>
 <p><a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes’s Theorem</a> isn’t generally stated this way, but I like the following statement of it: think of <span class="math inline">\(X\)</span> as the event whose probability we’re trying to determine and <span class="math inline">\(E\)</span> as the event that we consider to be evidence for (or against) it.</p>
-<p><span class="math display">\[P(X|E) = {P(E|X) \over P(E)} \cdot P(X) \]</span></p>
+<p><span class="math display">\[ P(X|E) = {P(E|X) \over P(E)} \cdot P(X) \]</span></p>
 <p>Since <span class="math inline">\(P(X|E)\)</span> is the probability that <span class="math inline">\(X\)</span> occurred given that we’ve observed <span class="math inline">\(E\)</span> and <span class="math inline">\(P(X)\)</span> is the probability of <span class="math inline">\(P(X)\)</span> happening in absence of any other information, this formulation is nice because you can think of that factor <span class="math inline">\(P(E|X) / P(E)\)</span> as the effect that our observing <span class="math inline">\(E\)</span> has on the likelihood that <span class="math inline">\(X\)</span> occurred.</p>
 <p>What does that factor mean, though? First off, it’s not a probability. If <span class="math inline">\(X\)</span> makes <span class="math inline">\(E\)</span> more likely, the numerator will be larger than the demoninator, so it won’t be less than 1 like a good probability should. But that framing also lets us think of it as a regular old ratio: since the numerator is “<span class="math inline">\(E\)</span> given <span class="math inline">\(X\)</span>” and the demoninator is “<span class="math inline">\(E\)</span> alone,” the ratio is basically “how much more likely does <span class="math inline">\(X\)</span> make <span class="math inline">\(E\)</span>?” So the full theorem, using this formulation, can be stated as:</p>
 <blockquote>
@@ -192,7 +192,7 @@ Bayesian In-toot-ition
         
         <div class="colophon">
             
-            <p>Contact me? My email is my first initial and last name, which you can deduce from this website's URL, at gmail.com. I'm also on <a href="https://joinmastodon.org/">Mastodon</a> as <a href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>.</p>
+            <p>Contact me? My email is my first initial and last name, which you can deduce from this website's URL, at gmail.com. I'm also on <a href="https://joinmastodon.org/">Mastodon</a> as <a rel="me" href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>.</p>
             
         </div>
     </div>
