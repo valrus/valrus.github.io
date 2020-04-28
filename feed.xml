@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2020-04-28T05:21:52Z</updated>
+    <updated>2020-04-28T05:24:12Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -20,63 +20,10 @@
             <id>http://ian.mccowan.space/2020/04/27/Foraged_And_Found_Week_1/</id>
             <updated>2020-04-27T05:11:00Z</updated>
             
-            
-            <content type="html">&lt;!DOCTYPE html&gt;
-
-&lt;html xmlns=&#34;https://www.w3.org/1999/xhtml&#34; xml:lang=&#34;en&#34; lang=&#34;en&#34;&gt;
-  &lt;head&gt;
-    
-
-
-&lt;title&gt;small clever rooms&lt;/title&gt;
-
-    &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; href=&#34;http://ian.mccowan.space/assets/images/favicon.png&#34; /&gt;
-    &lt;link rel=&#34;shortcut icon&#34; type=&#34;image/png&#34; href=&#34;http://ian.mccowan.space/assets/images/favicon.png&#34; /&gt;
-    &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html;charset=utf-8&#34; /&gt;
-    &lt;!--  link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/reset.css&#34; /&gt; --&gt;
-    
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/rosario.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/bitter.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/inconsolata.css&#34; /&gt;
-&lt;!--  link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-pandoc-css/pandoc.css&#34; /&gt; --&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/pandoc-solarized.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/tufte-extra.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/tufte.css&#34; /&gt;
-
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/blogpost.css&#34; /&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://ian.mccowan.space/assets/css/bytebox.css&#34; type=&#34;text/css&#34; media=&#34;screen&#34; /&gt;
-&lt;script src=&#34;http://ian.mccowan.space/assets/js/bytebox.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
-
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;div id=&#34;img_logo&#34; style=&#34;display: none;&#34;&gt;&lt;img src=&#34;http://ian.mccowan.space/assets/images/title-with-bg.png&#34; /&gt;&lt;/div&gt;
-    
-
-&lt;article&gt;
-    &lt;p id=&#34;blog-p&#34;&gt;
-        &lt;span id=&#34;blogdesc&#34; class=&#34;marginnote&#34;&gt;
-            
-
-            Back to
-            &lt;a href=&#34;
-/livingroom/
-&#34;&gt;
-                &lt;span class=&#34;newthought&#34;&gt;Small Clever Rooms&lt;/span&gt;
-            &lt;/a&gt;
-            
+            <summary type="html">I signed up for a six-week CSA&lt;span&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;Community Supported Agriculture, basically a delivery service for getting produce from a local farm. Typically a CSA will deliver to a local drop point for you to pick up, rather than straight to you.&lt;br /&gt;
 &lt;br /&gt;
-&lt;a class=&#34;sidebar-item&#34; href=&#34;http://ian.mccowan.space/feed.xml&#34;&gt;RSS Feed&lt;/a&gt;
-
-        &lt;/span&gt;
-    &lt;/p&gt;
-    &lt;h1&gt;
-Foraged &amp; Found CSA: Week 1
-&lt;/h1&gt;
-    
-    
-&lt;p&gt;I signed up for a six-week CSA&lt;span&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;Community Supported Agriculture, basically a delivery service for getting produce from a local farm. Typically a CSA will deliver to a local drop point for you to pick up, rather than straight to you.&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; with &lt;a href=&#34;https://www.foragedandfoundedibles.com/&#34;&gt;Foraged and Found Edibles&lt;/a&gt; on something of a whim: it looked interesting and, based on a preview of the foods I’d be getting, like a fun cooking challenge to try to figure out how to use a bunch of stuff I’d rarely if ever cooked with or even eaten before. Then I decided, why not blog about the ingredients and what I made with them too. Week one went a little something like this:</summary>
+            <content type="html">&lt;p&gt;I signed up for a six-week CSA&lt;span&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;Community Supported Agriculture, basically a delivery service for getting produce from a local farm. Typically a CSA will deliver to a local drop point for you to pick up, rather than straight to you.&lt;br /&gt;
 &lt;br /&gt;
 &lt;/span&gt;&lt;/span&gt; with &lt;a href=&#34;https://www.foragedandfoundedibles.com/&#34;&gt;Foraged and Found Edibles&lt;/a&gt; on something of a whim: it looked interesting and, based on a preview of the foods I’d be getting, like a fun cooking challenge to try to figure out how to use a bunch of stuff I’d rarely if ever cooked with or even eaten before. Then I decided, why not blog about the ingredients and what I made with them too. Week one went a little something like this:&lt;/p&gt;
 &lt;figure&gt;
@@ -131,30 +78,7 @@ Clockwise from the left: stinging nettles, maitake mushrooms, bronze fennel fron
 &lt;/ul&gt;
 &lt;p&gt;Lots of caveats, but I didn’t feel I made anything that was both extremely good &lt;em&gt;and&lt;/em&gt; captured its signature ingredient’s uniqueness well. That’s what I’ll be striving for over these six weeks.&lt;/p&gt;
 &lt;/section&gt;
-
-
-    &lt;div class=&#34;thefooter&#34;&gt;
-        &lt;div id=&#34;adjposts&#34;&gt;
-        &lt;div id=&#34;prevpost&#34;&gt;←&lt;a href=&#34;http://ian.mccowan.space/2020/03/14/test/&#34;&gt;Testing&lt;/a&gt;&lt;/div&gt;&lt;!--
-     --&gt;&lt;div id=&#34;nextpost&#34;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      
-        
-        &lt;div class=&#34;colophon&#34;&gt;
-            
-
-            &lt;p&gt;Contact me? My email is my first initial and last name, which you can deduce from this website&#39;s URL, at gmail.com. I&#39;m also on &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt; as &lt;a rel=&#34;me&#34; href=&#34;https://icosahedron.website/@valrus&#34;&gt;@valrus@icosahedron.website&lt;/a&gt;.&lt;/p&gt;
-            
-&lt;p&gt;Images in this post are shown using a custom version of &lt;a href=&#34;http://code.google.com/p/bytebox/&#34;&gt;bytebox&lt;/a&gt; modified to be even smaller.&lt;/p&gt;
-
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/article&gt;
-
-&lt;script type=&#34;text/javascript&#34;&gt;bytebox.init();&lt;/script&gt;
-
-  &lt;/body&gt;
-&lt;/html&gt;</content>
+</content>
         </entry>
     
         <entry>
@@ -163,63 +87,8 @@ Clockwise from the left: stinging nettles, maitake mushrooms, bronze fennel fron
             <id>http://ian.mccowan.space/2020/03/08/2019_Retrospective/</id>
             <updated>2020-03-08T05:53:00Z</updated>
             
-            
-            <content type="html">&lt;!DOCTYPE html&gt;
-
-&lt;html xmlns=&#34;https://www.w3.org/1999/xhtml&#34; xml:lang=&#34;en&#34; lang=&#34;en&#34;&gt;
-  &lt;head&gt;
-    
-
-
-&lt;title&gt;small clever rooms&lt;/title&gt;
-
-    &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; href=&#34;http://ian.mccowan.space/assets/images/favicon.png&#34; /&gt;
-    &lt;link rel=&#34;shortcut icon&#34; type=&#34;image/png&#34; href=&#34;http://ian.mccowan.space/assets/images/favicon.png&#34; /&gt;
-    &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html;charset=utf-8&#34; /&gt;
-    &lt;!--  link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/reset.css&#34; /&gt; --&gt;
-    
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/rosario.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/bitter.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/inconsolata.css&#34; /&gt;
-&lt;!--  link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-pandoc-css/pandoc.css&#34; /&gt; --&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/pandoc-solarized.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/tufte-extra.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/tufte.css&#34; /&gt;
-
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/blogpost.css&#34; /&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://ian.mccowan.space/assets/css/bytebox.css&#34; type=&#34;text/css&#34; media=&#34;screen&#34; /&gt;
-&lt;script src=&#34;http://ian.mccowan.space/assets/js/bytebox.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
-
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;div id=&#34;img_logo&#34; style=&#34;display: none;&#34;&gt;&lt;img src=&#34;http://ian.mccowan.space/assets/images/title-with-bg.png&#34; /&gt;&lt;/div&gt;
-    
-
-&lt;article&gt;
-    &lt;p id=&#34;blog-p&#34;&gt;
-        &lt;span id=&#34;blogdesc&#34; class=&#34;marginnote&#34;&gt;
-            
-
-            Back to
-            &lt;a href=&#34;
-/livingroom/
-&#34;&gt;
-                &lt;span class=&#34;newthought&#34;&gt;Small Clever Rooms&lt;/span&gt;
-            &lt;/a&gt;
-            
-&lt;br /&gt;
-&lt;a class=&#34;sidebar-item&#34; href=&#34;http://ian.mccowan.space/feed.xml&#34;&gt;RSS Feed&lt;/a&gt;
-
-        &lt;/span&gt;
-    &lt;/p&gt;
-    &lt;h1&gt;
-2019 Retrospective
-&lt;/h1&gt;
-    
-    
-&lt;p&gt;After giving up on my pointless-feeling year-end music posts a few years ago, I wrote &lt;a href=&#34;http://ian.mccowan.space/2019/01/08/2018_Retrospective&#34;&gt;a more general retrospective&lt;/a&gt; last year and it turned out to be a worthwhile endeavor. So I’m gonna do it again. What’s the most interesting stuff that happened in my life in 2019?&lt;/p&gt;
+            <summary type="html">After giving up on my pointless-feeling year-end music posts a few years ago, I wrote &lt;a href=&#34;http://ian.mccowan.space/2019/01/08/2018_Retrospective&#34;&gt;a more general retrospective&lt;/a&gt; last year and it turned out to be a worthwhile endeavor. So I’m gonna do it again. What’s the most interesting stuff that happened in my life in 2019?</summary>
+            <content type="html">&lt;p&gt;After giving up on my pointless-feeling year-end music posts a few years ago, I wrote &lt;a href=&#34;http://ian.mccowan.space/2019/01/08/2018_Retrospective&#34;&gt;a more general retrospective&lt;/a&gt; last year and it turned out to be a worthwhile endeavor. So I’m gonna do it again. What’s the most interesting stuff that happened in my life in 2019?&lt;/p&gt;
 &lt;section id=&#34;about-faces&#34; class=&#34;level2&#34;&gt;
 &lt;h2&gt;About Faces&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&#34;marginnote&#34;&gt; &lt;a href=&#34;http://ian.mccowan.space/assets/images/posts/2019_Retrospective/about_faces_cover@2x.jpeg&#34; rel=&#34;bytebox&#34;&gt; &lt;img
@@ -311,30 +180,7 @@ src=&#34;http://ian.mccowan.space/assets/images/posts/2019_Retrospective/cats_cu
 &lt;h2&gt;OK I’m Done&lt;/h2&gt;
 &lt;p&gt;Last year I concluded with “Here’s to 2019 not being a total shitshow.” Now we’re already 3 months into 2020, and like: who am I kidding? Non-shitshows are clearly just not on the table anymore. But here’s to me writing a 2020 retrospective before March of 2021.&lt;/p&gt;
 &lt;/section&gt;
-
-
-    &lt;div class=&#34;thefooter&#34;&gt;
-        &lt;div id=&#34;adjposts&#34;&gt;
-        &lt;div id=&#34;prevpost&#34;&gt;←&lt;a href=&#34;http://ian.mccowan.space/2019/09/11/The_Fire_Next_Time/&#34;&gt;SPL Book Bingo Book 6: The Fire Next Time&lt;/a&gt;&lt;/div&gt;&lt;!--
-     --&gt;&lt;div id=&#34;nextpost&#34;&gt;&lt;a href=&#34;http://ian.mccowan.space/2020/03/14/test/&#34;&gt;Testing&lt;/a&gt;→&lt;/div&gt;
-      &lt;/div&gt;
-      
-        
-        &lt;div class=&#34;colophon&#34;&gt;
-            
-
-            &lt;p&gt;Contact me? My email is my first initial and last name, which you can deduce from this website&#39;s URL, at gmail.com. I&#39;m also on &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt; as &lt;a rel=&#34;me&#34; href=&#34;https://icosahedron.website/@valrus&#34;&gt;@valrus@icosahedron.website&lt;/a&gt;.&lt;/p&gt;
-            
-&lt;p&gt;Images in this post are shown using a custom version of &lt;a href=&#34;http://code.google.com/p/bytebox/&#34;&gt;bytebox&lt;/a&gt; modified to be even smaller.&lt;/p&gt;
-
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/article&gt;
-
-&lt;script type=&#34;text/javascript&#34;&gt;bytebox.init();&lt;/script&gt;
-
-  &lt;/body&gt;
-&lt;/html&gt;</content>
+</content>
         </entry>
     
         <entry>
