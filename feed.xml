@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2020-04-28T05:18:34Z</updated>
+    <updated>2020-04-28T05:21:52Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -137,97 +137,6 @@ Clockwise from the left: stinging nettles, maitake mushrooms, bronze fennel fron
         &lt;div id=&#34;adjposts&#34;&gt;
         &lt;div id=&#34;prevpost&#34;&gt;←&lt;a href=&#34;http://ian.mccowan.space/2020/03/14/test/&#34;&gt;Testing&lt;/a&gt;&lt;/div&gt;&lt;!--
      --&gt;&lt;div id=&#34;nextpost&#34;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      
-        
-        &lt;div class=&#34;colophon&#34;&gt;
-            
-
-            &lt;p&gt;Contact me? My email is my first initial and last name, which you can deduce from this website&#39;s URL, at gmail.com. I&#39;m also on &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt; as &lt;a rel=&#34;me&#34; href=&#34;https://icosahedron.website/@valrus&#34;&gt;@valrus@icosahedron.website&lt;/a&gt;.&lt;/p&gt;
-            
-&lt;p&gt;Images in this post are shown using a custom version of &lt;a href=&#34;http://code.google.com/p/bytebox/&#34;&gt;bytebox&lt;/a&gt; modified to be even smaller.&lt;/p&gt;
-
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/article&gt;
-
-&lt;script type=&#34;text/javascript&#34;&gt;bytebox.init();&lt;/script&gt;
-
-  &lt;/body&gt;
-&lt;/html&gt;</content>
-        </entry>
-    
-        <entry>
-            <title>Testing</title>
-            <link rel="alternate" href="http://ian.mccowan.space/2020/03/14/test/" type="text/html" />
-            <id>http://ian.mccowan.space/2020/03/14/test/</id>
-            <updated>2020-03-14T01:43:00Z</updated>
-            
-            
-            <content type="html">&lt;!DOCTYPE html&gt;
-
-&lt;html xmlns=&#34;https://www.w3.org/1999/xhtml&#34; xml:lang=&#34;en&#34; lang=&#34;en&#34;&gt;
-  &lt;head&gt;
-    
-
-
-&lt;title&gt;small clever rooms&lt;/title&gt;
-
-    &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; href=&#34;http://ian.mccowan.space/assets/images/favicon.png&#34; /&gt;
-    &lt;link rel=&#34;shortcut icon&#34; type=&#34;image/png&#34; href=&#34;http://ian.mccowan.space/assets/images/favicon.png&#34; /&gt;
-    &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html;charset=utf-8&#34; /&gt;
-    &lt;!--  link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/reset.css&#34; /&gt; --&gt;
-    
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/rosario.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/bitter.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/inconsolata.css&#34; /&gt;
-&lt;!--  link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-pandoc-css/pandoc.css&#34; /&gt; --&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/pandoc-solarized.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/tufte-extra.css&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/tufte.css&#34; /&gt;
-
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/blogpost.css&#34; /&gt;
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://ian.mccowan.space/assets/css/bytebox.css&#34; type=&#34;text/css&#34; media=&#34;screen&#34; /&gt;
-&lt;script src=&#34;http://ian.mccowan.space/assets/js/bytebox.min.js&#34; type=&#34;text/javascript&#34;&gt;&lt;/script&gt;
-
-  &lt;/head&gt;
-
-  &lt;body&gt;
-    &lt;div id=&#34;img_logo&#34; style=&#34;display: none;&#34;&gt;&lt;img src=&#34;http://ian.mccowan.space/assets/images/title-with-bg.png&#34; /&gt;&lt;/div&gt;
-    
-
-&lt;article&gt;
-    &lt;p id=&#34;blog-p&#34;&gt;
-        &lt;span id=&#34;blogdesc&#34; class=&#34;marginnote&#34;&gt;
-            
-
-            Back to
-            &lt;a href=&#34;
-/livingroom/
-&#34;&gt;
-                &lt;span class=&#34;newthought&#34;&gt;Small Clever Rooms&lt;/span&gt;
-            &lt;/a&gt;
-            
-&lt;br /&gt;
-&lt;a class=&#34;sidebar-item&#34; href=&#34;http://ian.mccowan.space/feed.xml&#34;&gt;RSS Feed&lt;/a&gt;
-
-        &lt;/span&gt;
-    &lt;/p&gt;
-    &lt;h1&gt;
-Testing
-&lt;/h1&gt;
-    
-    
-&lt;p&gt;I read a couple things recently that got me thinking about what I have to grieve about the world I was born into.&lt;/p&gt;
-&lt;p&gt;The first was Audre Lorde’s essay “&lt;a href=&#34;https://uk.sagepub.com/sites/default/files/upm-binaries/11881_Chapter_5.pdf&#34;&gt;Uses of the Erotic: The Erotic as Power&lt;/a&gt;”, reproduced in its entirety in adrienne maree brown’s 2019 book [&lt;em&gt;Pleasure Activism: The Politics of Feeling Good&lt;/em&gt;][pleasure activism]. The second was a [longish essay on Mastodon]&lt;/p&gt;
-&lt;p&gt;[pleasure activism]: [longish essay on Mastodon]: https://imaginair.es/&lt;span class=&#34;citation&#34; data-cites=&#34;brinsolomon/103946670885514691&#34;&gt;@brinsolomon/103946670885514691&lt;/span&gt;&lt;/p&gt;
-
-
-    &lt;div class=&#34;thefooter&#34;&gt;
-        &lt;div id=&#34;adjposts&#34;&gt;
-        &lt;div id=&#34;prevpost&#34;&gt;←&lt;a href=&#34;http://ian.mccowan.space/2020/03/08/2019_Retrospective/&#34;&gt;2019 Retrospective&lt;/a&gt;&lt;/div&gt;&lt;!--
-     --&gt;&lt;div id=&#34;nextpost&#34;&gt;&lt;a href=&#34;http://ian.mccowan.space/2020/04/27/Foraged_And_Found_Week_1/&#34;&gt;Foraged &amp; Found CSA: Week 1&lt;/a&gt;→&lt;/div&gt;
       &lt;/div&gt;
       
         
