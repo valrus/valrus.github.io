@@ -192,18 +192,21 @@ img.mached {
   padding-right: 1em;
 }
 
-figure { -webkit-margin-start: 0;
-         -webkit-margin-end: 0; }
+figure {
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
 
-figcaption { float: right;
-             clear: right;
-             margin-right: 18.5%;
-             margin-top: 0;
-             margin-bottom: 0;
-             font-size: 1.0rem;
-             line-height: 1.6;
-             vertical-align: baseline;
-             position: relative; }
+figcaption {
+    float: right;
+    clear: right;
+    margin-right: 18.5%;
+    margin-bottom: 1em;
+    font-size: 1.0rem;
+    line-height: 1.6;
+    vertical-align: baseline;
+    position: relative;
+}
 
 figure.fullwidth figcaption { margin-right: 24%; }
 
@@ -271,18 +274,19 @@ img { max-width: 100%; margin-left: auto; margin-right: auto; display: block; }
 article>p, section>p, footer, pre, table.table-wrapper, table,
 article>ol, article>ul, section>ol, section>ul,
 article>h1, article>h2, article>h3,
-div.sourceCode, div.figure, div footnotes {width: 55%; }
+div.sourceCode, div.figure, div footnotes, figure { width: 55%; }
 
 div.sourceCode pre {width: auto;}
 
 .footnotes p {width: 100%;}
 
-@media screen and (max-width: 760px) { p, footer, pre, pre.code, table,
-                                        div.sourceCode, ol, ul,
-                                      div.figure, .footnotes p { width:
-                                       90%; }
-                                       blockquote p, blockquote footer { width: 90%; }
-                                       table.table-wrapper { width: 90%; }}
+@media screen and (max-width: 760px) {
+    p, footer, pre, pre.code, table,
+    div.sourceCode, ol, ul,
+    div.figure, .footnotes p, figure { width: 90%; }
+    blockquote p, blockquote footer { width: 90%; }
+    table.table-wrapper { width: 90%; }
+}
 
 .sans { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
 
