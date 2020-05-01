@@ -3,21 +3,36 @@
 /* Tufte CSS styles */
 html { font-size: 14px; }
 
+:root {
+    --color-body: rgb(37, 58, 107);
+    --color-body-bg: #FFFEF0;
+    --color-desc: #5D5B5B;
+    --highlight: #f00000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --color-body-bg: rgb(37, 58, 107);
+      --color-body: #FFFEF0;
+      --color-desc: #CCCCDD;
+      --highlight: #FFAAAA;
+    }
+}
+
 body { width: 87.5%;
        margin-left: auto;
        margin-right: auto;
        padding-left: 12.5%;
        font-family: "Rosario","lucida sans unicode", sans-serif;
-       background-color: #FFFEF0;
        max-width: 1400px;
        counter-reset: sidenote-counter;
-       color: rgb(37, 58, 107); }
+       color: var(--color-body);
+       background-color: var(--color-body-bg); }
 
 h1, h2, h3, h4, h5, h6, subtitle {
     font-family: "Bitter", "Palatino Linotype", "Georgia", serif;
     font-weight: normal;
-    line-height: 1.15em;
-    color: rgb(37, 58, 107); }
+    line-height: 1.15em; }
 
 h1 { font-weight: 400;
      margin-top: 4rem;
@@ -210,7 +225,7 @@ figcaption {
 
 figure.fullwidth figcaption { margin-right: 24%; }
 
-a { color: rgb(37, 58, 107);
+a { color: var(--color-body);
     text-decoration: none;
     border-bottom: 1px solid #777;
     padding-bottom: 1px; }
@@ -230,11 +245,11 @@ img { max-width: 100%; margin-left: auto; margin-right: auto; display: block; }
 
 #blogdesc {
   font-size: 1rem;
-  color: #5D5B5B;
+  color: var(--color-desc);
 }
 
 #blogdesc a {
-  color: #5D5B5B;
+  color: var(--color-desc);
 }
 
 #blogdesc a:hover {
@@ -252,10 +267,12 @@ img { max-width: 100%; margin-left: auto; margin-right: auto; display: block; }
 
 .sidenote-number { counter-increment: sidenote-counter; }
 
-.sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
-                                           position: relative;
-                                           vertical-align: baseline;
-                                           color: #f00000; }
+.sidenote-number:after, .sidenote:before {
+  content: counter(sidenote-counter) " ";
+  position: relative;
+  vertical-align: baseline;
+  color: var(--highlight);
+}
 
 .sidenote-number:after { content: counter(sidenote-counter); 
                          font-size: 0.9rem;
@@ -426,12 +443,12 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   margin-top: 30px;
   width: 60%;
   border-top: solid 1px #ddd;
-  color: #777;
+  color: var(--color-desc);
   line-height: 2rem;
 }
 
 .thefooter a {
-  color: #777;
+  color: var(--color-desc);
 }
 
 .thefooter p {
