@@ -13,7 +13,7 @@ html { font-size: 14px; }
 @media (prefers-color-scheme: dark) {
     :root {
       --color-body-bg: rgb(37, 58, 107);
-      --color-body: #FFFEF0;
+      --color-body: #EEEED0;
       --color-desc: #CCCCDD;
       --highlight: #FFAAAA;
     }
