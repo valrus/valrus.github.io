@@ -237,7 +237,7 @@ img { max-width: 100%; margin-left: auto; margin-right: auto; display: block; }
                          margin-right: -60%;
                          width: 50%;
                          margin-top: 0;
-                         margin-bottom: 0;
+                         margin-bottom: 1em;
                          font-size: 1.0rem;
                          line-height: 1.6;
                          vertical-align: baseline;
