@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2020-06-16T00:24:10Z</updated>
+    <updated>2020-10-07T01:25:00Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -13,6 +13,37 @@
         <uri>http://ian.mccowan.space/</uri>
     </author>
     
+    
+        <entry>
+            <title>My (Current) Favorite Game, My Favorite Critic: A Case Study</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2020/10/05/My-Favorite-Game-My-Favorite-Critic/" type="text/html" />
+            <id>http://ian.mccowan.space/2020/10/05/My-Favorite-Game-My-Favorite-Critic/</id>
+            <updated>2020-10-05T01:24:00Z</updated>
+            
+            <summary type="html">My latest thing is playing the shit out of &lt;em&gt;Dead Cells&lt;/em&gt;, finally. Procedurally generated games are &lt;em&gt;en vogue&lt;/em&gt; to the point where they’re practically a meme, which I guess makes me practically a meme for enjoying them so much, but what can I say? Roguelikes, or roguelites (though &lt;em&gt;Dead Cells&lt;/em&gt; doesn’t feel particularly “lite”), or procedurally generated death labyrinths, or whatever you want to call them, are the genre that I find the most engaging, and &lt;em&gt;Dead Cells&lt;/em&gt; is a pretty archetypal example of what the genre looks like when done well.</summary>
+            <content type="html">&lt;p&gt;My latest thing is playing the shit out of &lt;em&gt;Dead Cells&lt;/em&gt;, finally. Procedurally generated games are &lt;em&gt;en vogue&lt;/em&gt; to the point where they’re practically a meme, which I guess makes me practically a meme for enjoying them so much, but what can I say? Roguelikes, or roguelites (though &lt;em&gt;Dead Cells&lt;/em&gt; doesn’t feel particularly “lite”), or procedurally generated death labyrinths, or whatever you want to call them, are the genre that I find the most engaging, and &lt;em&gt;Dead Cells&lt;/em&gt; is a pretty archetypal example of what the genre looks like when done well.&lt;/p&gt;
+&lt;p&gt;However: &lt;em&gt;Dead Cells&lt;/em&gt; was also my favorite videogame critic’s &lt;a href=&#34;http://tevisthompson.com/the-worst-games-of-2018/&#34;&gt;fifth worst game of 2018&lt;/a&gt;. Tevis Thompson writes mostly short game reviews (with &lt;a href=&#34;http://tevisthompson.com/its-not-coming-back/&#34;&gt;few exceptions&lt;/a&gt;) that rely on his strong and consistent values to get to the point in at most a few hundred words. I would characterize those values as they pertain to &lt;em&gt;Dead Cells&lt;/em&gt; thus:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;Games should not aim to flatter the player.&lt;/li&gt;
+&lt;li&gt;Games should at least attempt to do something that is somehow unfamiliar.&lt;/li&gt;
+&lt;li&gt;Games should make the player feel something.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here is his review of &lt;em&gt;Dead Cells&lt;/em&gt;, in its entirety:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sometimes your first impressions are wrong. I too found &lt;em&gt;Dead Cells&lt;/em&gt; enthralling in the beginning. You stab and shoot and dodge and go: oh &lt;em&gt;this&lt;/em&gt;. But the more I played, the less &lt;em&gt;this&lt;/em&gt; mattered. What does &lt;em&gt;this&lt;/em&gt; serve?&lt;/p&gt;
+&lt;p&gt;We still care too much about gamefeel. See &lt;em&gt;Destiny&lt;/em&gt;. See also &lt;em&gt;Celeste&lt;/em&gt;. There’s something icky about the way game critics fetishize it. That luscious feedback, that perfect extension of your will, that zone you wish to stay in forever. Gross.&lt;/p&gt;
+&lt;p&gt;I’m not here for your goodfeeling weapons. I’m here for enemies that fuck with my feelings. I’m here for encounters. But &lt;em&gt;Dead Cells&lt;/em&gt; has no taste for that. Most of its enemies are locked to their tiny platforms, pacing like caged tigers, awaiting slaughter. It’s all discrete and exploitable. There’s no real dynamism. That precious &lt;em&gt;this&lt;/em&gt; becomes rote. Nothing accumulates.&lt;/p&gt;
+&lt;p&gt;Except your cells, of course. Because &lt;em&gt;Dead Cells&lt;/em&gt; never wants you to leave empty-handed. The metagame is all reassuring progress and new toys. It’s a people-pleaser wrapped in a hardcore skin. It’s roguelike comfort food, which goes against the whole point of randomness and permanent death. I don’t even care about getting good. I’m here for chance and uncertainty. I’m here to feel our contingency. And this game feeling, &lt;em&gt;this&lt;/em&gt;, is not here.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I’m trying to reconcile my having played about a hundred hours of &lt;em&gt;Dead Cells&lt;/em&gt; with my fundamental agreement with both Thompson’s general ethos and his specific criticisms of &lt;em&gt;Dead Cells&lt;/em&gt;, without resorting to “taste is subjective,” which is true but facile.&lt;/p&gt;
+&lt;p&gt;I’m thinking about Thompson’s emphasis on &lt;em&gt;contingency&lt;/em&gt; in his most recent (final?) writing on videogames. There’s no question that for a roguelike, &lt;em&gt;Dead Cells&lt;/em&gt; is remarkably short on contingency. The optimal way to play it, if you’re not some kind of Hardcore Gamer with super reflexes, is to take full advantage of the discreteness and exploitability of its level and enemy design. Scope out the pacing enemies, wait for the right moment, make a plan, kill them before they have a chance to react. There are cases where this doesn’t work, but most of my mistakes in &lt;em&gt;Dead Cells&lt;/em&gt; feel like failing to execute on a plan, rather than being forced into a situation where I have to think on my feet.&lt;/p&gt;
+&lt;p&gt;The most dynamic and exciting moments of &lt;em&gt;Dead Cells&lt;/em&gt; are the ones where it forces you out of careful, deliberate play and into things that would be foolhardy if they weren’t your only option. I’m thinking of the harmless-looking training dummies that generate shields on the enemies around them, so that you have to make your way through the shielded enemies in order to get to them. A projectile coming from off-screen that you dodge by rolling into a melee. These are the situations that feel a little outside of your control, sometimes a little improvisational in how you have to deal with them. But they can also feel frustrating rather than exciting because of how unforgiving the game is, and how stingy it becomes with its opportunities for healing. And even the training dummies can often be dealt with simply by luring enemies one at a time out of their shield radius. The safest, most effective choice is often the most boring one. I see why Thompson disdains &lt;em&gt;Dead Cells&lt;/em&gt; while regarding &lt;em&gt;Spelunky&lt;/em&gt; highly. &lt;em&gt;Spelunky&lt;/em&gt; embraces contingency, and having your hand forced. Thompson’s one-line review of it includes the sentence: “Forces consequential choices on the fly.” &lt;em&gt;Dead Cells&lt;/em&gt; seems reluctant to do this, expecting you instead to increasingly flawlessly take advantage of its enemies’ routines.&lt;/p&gt;
+&lt;p&gt;I’m thinking about the mainstream and even indie critics that Tevis Thompson takes to task for being unable or unwilling to see through the good gamefeel and people-pleasing of a game like &lt;em&gt;Dead Cells&lt;/em&gt; to its ultimately conservative and conventional heart. Because it’s true: &lt;em&gt;Dead Cells&lt;/em&gt; isn’t really doing anything new. And I don’t think Thompson is wrong to say that critics are shirking their duties in failing to acknowledge this and demand more from our games than a well-executed retread. But I still sympathize with those who crave comfort, and a feeling of progress and improvement, in a world that often seems short on all three.&lt;/p&gt;
+&lt;p&gt;I’m thinking about the phrase “everything is everything.” It’s the title of a Lauryn Hill song that I know mainly from other rappers referencing it. Weirdly, despite hearing it a few times, I never really thought about it too hard until I started trying to reconcile how much &lt;em&gt;Dead Cells&lt;/em&gt; I’ve played with how much I agree with Thompson’s criticism of it. But now it keeps popping into my head: everything, right down to a fairly popular but ultimately inconsequential video game and the critical response to it, is everything: the capitalist nightmare we’re all living in, where we’re all just trying to survive in circumstances designed to siphon off all our energy for our interests and ambitions and convert it into “productivity” for the vampires that rule us; our need for comfort food of some kind or another after being wrung out by constant work and trauma and anxiety; the risk aversion of game developers in an industry notorious for overwork and burnout where one failure could mean the end of a studio.&lt;/p&gt;
+&lt;p&gt;Toward the end of his essay on &lt;em&gt;Fortnite&lt;/em&gt;, Thompson admits: “I’m still the fool who yearns for radical change and then struggles to walk out the front door.” What a fucking mood, am I right? I don’t want Thompson to stop holding game critics to account for their conservatism and myopia. But also: I get it, kind of. I also yearn for radical change and then struggle to walk out the front door, and for the last few months, when that’s been the case, I played &lt;em&gt;Dead Cells&lt;/em&gt; instead.&lt;/p&gt;
+&lt;p&gt;I didn’t write this with a thesis in mind; I just wanted to really sit with a very incisive criticism of something I’ve been enjoying a lot recently. When I did so, I found that I didn’t really disagree with it at all. Did it make me enjoy &lt;em&gt;Dead Cells&lt;/em&gt; less? Maybe a bit. It certainly made me think more about what I’m getting out of it, and to acknowledge that “roguelike comfort food” is basically it. I don’t think there’s anything wrong with wanting comfort food, but I also agree with Tevis Thompson that we should be demanding more than that. Many critics rate &lt;em&gt;Dead Cells&lt;/em&gt; highly because it succeeds at the goals that it set out for itself. Thompson questions the goals themselves, and that’s why he’s my favorite game critic even though he trashed a game I’ve been playing the shit out of.&lt;/p&gt;
+</content>
+        </entry>
     
         <entry>
             <title>Foraged &amp; Found CSA: Week 3</title>
@@ -131,7 +162,7 @@ src=&#34;http://ian.mccowan.space/assets/images/posts/Foraged_And_Found_Week_3/s
     &lt;div class=&#34;thefooter&#34;&gt;
         &lt;div id=&#34;adjposts&#34;&gt;
         &lt;div id=&#34;prevpost&#34;&gt;←&lt;a href=&#34;http://ian.mccowan.space/2020/05/05/Foraged_And_Found_Week_2/&#34;&gt;Foraged &amp; Found CSA: Week 2&lt;/a&gt;&lt;/div&gt;&lt;!--
-     --&gt;&lt;div id=&#34;nextpost&#34;&gt;&lt;/div&gt;
+     --&gt;&lt;div id=&#34;nextpost&#34;&gt;&lt;a href=&#34;http://ian.mccowan.space/2020/10/05/My-Favorite-Game-My-Favorite-Critic/&#34;&gt;My (Current) Favorite Game, My Favorite Critic: A Case Study&lt;/a&gt;→&lt;/div&gt;
       &lt;/div&gt;
       
         
