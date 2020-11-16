@@ -4,16 +4,17 @@
   <head>
     
 
+<title>a small clever studio</title>
 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <!--  link rel="stylesheet" type="text/css" href="/assets/css/reset.css" /> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/colors.css" />
     
-<title>a small clever studio</title>
-<link rel="stylesheet" type="text/css" href="/assets/css/rosario.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/bitter.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/blueprint.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/noway-round.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/bariol-serif.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/room.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/studio.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/audio.css" />
@@ -26,36 +27,54 @@
   <body>
     <div id="img_logo" style="display: none;"><img src="/assets/images/title-with-bg.png" /></div>
     
-  <div id="first_container">
-    <div id="second_container">
-      <div id="third_container">
-
-        <ul id="menu">
+<main>
+    <nav class="navigation">
         
-          
-          <li><a href="/workshop/">Workshop</a></li>
-          
+        <h1>
+            <a class="sitename" href="/">small clever rooms</a>
+        </h1>
         
-          
-          <li><a href="/study/">Study</a></li>
-          
-        
-          
-          <li><span id="menuselected">Studio</span></li>
-          
-        
-          
-          <li><a href="/livingroom/">Living Room</a></li>
-          
-        
-        </ul>
-
-        <div class="title">&nbsp;</div>
-
-        <div class="border">
-          <div class="content">
+        <ul class="navigation-list">
             
-<div class="playlist">
+            
+            
+            
+            <li>
+                <a href="/livingroom/">
+                    
+                    Living Room
+                </a>
+            </li>
+            
+            
+            
+            <li class="active">Studio</li>
+            
+            
+            
+            <li>
+                <a href="/study/">
+                    
+                    Study
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/workshop/">
+                    
+                    Workshop
+                </a>
+            </li>
+            
+            
+        </ul>
+        
+        
+    </nav>
+    
+<div class="content">
   <div id="wrapper">
     <a href="https://walruspromenade.bandcamp.com/album/about-faces">
     <div class="album">
@@ -69,16 +88,17 @@
     <audio preload></audio>
     
       <h1>Newer Songs</h1>
-      <ol>
+      <ol class="playlist">
       
         <li><a href="#" class="music_play" title="Walrus Entourage 1" data-src="/assets/music/Walrus Entourage 1.mp3">Walrus Entourage 1</a>
           <span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/Walrus-Entourage-1.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/Walrus%20Entourage%201.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Walrus%20Entourage%201.mp3">⬇</a>
           </span>
         </li>
       
@@ -86,10 +106,11 @@
           <span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/The-Ice-World.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/The%20Ice%20World.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/The%20Ice%20World.mp3">⬇</a>
           </span>
         </li>
       
@@ -97,16 +118,17 @@
           (demo)<span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/So-Much-for-the-Tolerant-Left.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/So%20Much%20for%20the%20Tolerant%20Left.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/So%20Much%20for%20the%20Tolerant%20Left.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="The Eternally Incomprehensible Thing" data-src="/assets/music/The Eternally Incomprehensible Thing.mp3">The Eternally Incomprehensible Thing</a>
           (1/2)<span class="music_icons">
-            <a title="Download" href="/assets/music/The%20Eternally%20Incomprehensible%20Thing.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/The%20Eternally%20Incomprehensible%20Thing.mp3">⬇</a>
           </span>
         </li>
       
@@ -114,10 +136,11 @@
           (2/2)<span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/God-Does-Not-Play-Dice.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/God%20Does%20Not%20Play%20Dice.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/God%20Does%20Not%20Play%20Dice.mp3">⬇</a>
           </span>
         </li>
       
@@ -125,10 +148,11 @@
           <span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/A-Dead-Man.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/A%20Dead%20Man.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/A%20Dead%20Man.mp3">⬇</a>
           </span>
         </li>
       
@@ -136,10 +160,11 @@
           (demo)<span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/Where-No-One-Has-Gone-Before.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/Where%20No%20One%20Has%20Gone%20Before.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Where%20No%20One%20Has%20Gone%20Before.mp3">⬇</a>
           </span>
         </li>
       
@@ -147,10 +172,11 @@
           <span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/Headphones.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/Headphones.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Headphones.mp3">⬇</a>
           </span>
         </li>
       
@@ -158,10 +184,11 @@
           <span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/The-Ballad-of-Nate-Phelps.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/The%20Ballad%20of%20Nate%20Phelps.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/The%20Ballad%20of%20Nate%20Phelps.mp3">⬇</a>
           </span>
         </li>
       
@@ -169,10 +196,11 @@
           <span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/The-Librarian.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/The%20Librarian.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/The%20Librarian.mp3">⬇</a>
           </span>
         </li>
       
@@ -180,10 +208,11 @@
           <span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/My-Mouth.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/My%20Mouth.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/My%20Mouth.mp3">⬇</a>
           </span>
         </li>
       
@@ -191,10 +220,11 @@
           <span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/Open-Doors.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/Open%20Doors.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Open%20Doors.mp3">⬇</a>
           </span>
         </li>
       
@@ -202,98 +232,99 @@
           <span class="music_icons">
             
               <a title="Lyrics"
+                 class="song-icon"
                  target="_blank"
                  rel="noopener noreferrer"
                  href="/studio/lyrics/The-Other-Shoe.html">☰</a>&nbsp;
-            <a title="Download" href="/assets/music/The%20Other%20Shoe.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/The%20Other%20Shoe.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="Tentacles - Just Not That Creepy" data-src="/assets/music/Tentacles - Just Not That Creepy.mp3">Tentacles - Just Not That Creepy</a>
           <span class="music_icons">
-            <a title="Download" href="/assets/music/Tentacles%20-%20Just%20Not%20That%20Creepy.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Tentacles%20-%20Just%20Not%20That%20Creepy.mp3">⬇</a>
           </span>
         </li>
       
       </ol>
     
       <h1>Older Songs</h1>
-      <ol>
+      <ol class="playlist">
       
         <li><a href="#" class="music_play" title="Chains of Gold/Seven Months" data-src="/assets/music/Chains of Gold/Seven Months.mp3">Chains of Gold/Seven Months</a>
           <span class="music_icons">
-            <a title="Download" href="/assets/music/Chains%20of%20Gold/Seven%20Months.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Chains%20of%20Gold/Seven%20Months.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="Dreams of the Ocean" data-src="/assets/music/Dreams of the Ocean.mp3">Dreams of the Ocean</a>
           <span class="music_icons">
-            <a title="Download" href="/assets/music/Dreams%20of%20the%20Ocean.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Dreams%20of%20the%20Ocean.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="Fucking Thermodynamics" data-src="/assets/music/Fucking Thermodynamics.mp3">Fucking Thermodynamics</a>
           <span class="music_icons">
-            <a title="Download" href="/assets/music/Fucking%20Thermodynamics.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Fucking%20Thermodynamics.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="If I Tell You" data-src="/assets/music/If I Tell You.mp3">If I Tell You</a>
           <span class="music_icons">
-            <a title="Download" href="/assets/music/If%20I%20Tell%20You.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/If%20I%20Tell%20You.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="Rufous" data-src="/assets/music/Rufous.mp3">Rufous</a>
           <span class="music_icons">
-            <a title="Download" href="/assets/music/Rufous.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Rufous.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="The Semiotician's Breakup Song" data-src="/assets/music/The Semiotician's Breakup Song.mp3">The Semiotician's Breakup Song</a>
           <span class="music_icons">
-            <a title="Download" href="/assets/music/The%20Semiotician%27s%20Breakup%20Song.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/The%20Semiotician%27s%20Breakup%20Song.mp3">⬇</a>
           </span>
         </li>
       
       </ol>
     
       <h1>Covers</h1>
-      <ol>
+      <ol class="playlist">
       
         <li><a href="#" class="music_play" title="17th Street Treatment Centre" data-src="/assets/music/17th Street Treatment Centre.mp3">17th Street Treatment Centre</a>
           (John K. Samson)<span class="music_icons">
-            <a title="Download" href="/assets/music/17th%20Street%20Treatment%20Centre.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/17th%20Street%20Treatment%20Centre.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="Your Belgian Things" data-src="/assets/music/Your Belgian Things.mp3">Your Belgian Things</a>
           (the Mountain Goats)<span class="music_icons">
-            <a title="Download" href="/assets/music/Your%20Belgian%20Things.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Your%20Belgian%20Things.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="We Want a Rock" data-src="/assets/music/We Want a Rock.mp3">We Want a Rock</a>
           (They Might Be Giants)<span class="music_icons">
-            <a title="Download" href="/assets/music/We%20Want%20a%20Rock.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/We%20Want%20a%20Rock.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="+1s" data-src="/assets/music/+1s.mp3">+1s</a>
           (Okkervil River)<span class="music_icons">
-            <a title="Download" href="/assets/music/%2B1s.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/%2B1s.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="Going to Georgia" data-src="/assets/music/Going to Georgia.mp3">Going to Georgia</a>
           (the Mountain Goats)<span class="music_icons">
-            <a title="Download" href="/assets/music/Going%20to%20Georgia.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/Going%20to%20Georgia.mp3">⬇</a>
           </span>
         </li>
       
         <li><a href="#" class="music_play" title="If You See Light" data-src="/assets/music/If You See Light.mp3">If You See Light</a>
           (the Mountain Goats)<span class="music_icons">
-            <a title="Download" href="/assets/music/If%20You%20See%20Light.mp3">⬇</a>
+            <a title="Download" class="song-icon" href="/assets/music/If%20You%20See%20Light.mp3">⬇</a>
           </span>
         </li>
       
@@ -302,21 +333,20 @@
   </div>
 </div>
 
-          </div>
+    <footer>
+        
+        
+        <div class="colophon">
+            
+            <p>
+                Contact me? My email is my first initial and last name, which you can deduce from this website's URL, at gmail.com.
+                I'm also on <a href="https://joinmastodon.org/">Mastodon</a>
+                as <a rel="me" href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>.
+            </p>
+            
         </div>
-<!--
-        <ul id="submenu">
-          <li><span id="submenuselected">English</span></li>
-          <li><a href="">Dutch</a></li>
-        </ul>
--->
-        <div class="designinfo">
-          Original design <a href="http://www.oswd.org/design/preview/id/3166">Vanero</a>
-        </div>
-
-      </div>
-    </div>
-  </div>
+    </footer>
+</main>
 
   </body>
 </html>

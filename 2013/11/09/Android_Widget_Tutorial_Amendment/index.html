@@ -4,19 +4,16 @@
   <head>
     
 
-<title>small clever rooms</title>
+<title>a small clever post</title>
 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <!--  link rel="stylesheet" type="text/css" href="/assets/css/reset.css" /> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/colors.css" />
     
-<link rel="stylesheet" type="text/css" href="/assets/css/rosario.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/bitter.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/inconsolata.css" />
-<!--  link rel="stylesheet" type="text/css" href="/assets/css/tufte-pandoc-css/pandoc.css" /> -->
-<link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/pandoc-solarized.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte-extra.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/noway-round.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/bariol-serif.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/room.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/blogpost.css" />
@@ -26,29 +23,64 @@
   <body>
     <div id="img_logo" style="display: none;"><img src="/assets/images/title-with-bg.png" /></div>
     
+<main>
+    <nav class="navigation">
+        
+        <h1>
+            <a class="sitename" href="/">small clever rooms</a>
+        </h1>
+        
+        <ul class="navigation-list">
+            
+            
+            
+            
+            <li>
+                <a href="/livingroom/">
+                    «
+                    Living Room
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/studio/">
+                    
+                    Studio
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/study/">
+                    
+                    Study
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/workshop/">
+                    
+                    Workshop
+                </a>
+            </li>
+            
+            
+        </ul>
+        
+        
+    </nav>
+    
 <article>
-    <p id="blog-p">
-        <span id="blogdesc" class="marginnote">
-            
-
-            Back to
-            <a href="
-/livingroom/
-">
-                <span class="newthought">Small Clever Rooms</span>
-            </a>
-            
-<br />
-<a class="sidebar-item" href="/feed.xml">RSS Feed</a>
-
-        </span>
-    </p>
     <h1>
-An Amendment to an Android Widget Tutorial
-</h1>
+        An Amendment to an Android Widget Tutorial
+    </h1>
     
-    
-<p>I’m trying to make an Android widget, and <a href="https://www.google.com/search?&amp;q=android+widget+programming">Google turned up</a> a <a href="http://kasperholtze.com/android/how-to-make-a-simple-android-widget/trackback/">pretty straightforward and well-presented tutorial</a> that I decided to follow to get a feel for things.</p>
+    <p>I’m trying to make an Android widget, and <a href="https://www.google.com/search?&amp;q=android+widget+programming">Google turned up</a> a <a href="http://kasperholtze.com/android/how-to-make-a-simple-android-widget/trackback/">pretty straightforward and well-presented tutorial</a> that I decided to follow to get a feel for things.</p>
 <p>The tutorial was fairly easy to follow aside from the text boxes that were too narrow for the code samples, but it had some bits that were either out of date or, more likely, just wrong. So without further ado, I present some errata:</p>
 <ul>
 <li><p>In step 4, you edit the widget’s <code>main.xml</code> file, which the tutorial doesn’t explain should be located in <code>res/layout</code> in your project. Most of it works, but:</p>
@@ -62,21 +94,40 @@ An Amendment to an Android Widget Tutorial
 <li><p>In step 6, <code>android:updatePeriodMillis</code> is set to <code>1000</code>. Having any widget refresh once every second is probably a terrible idea. I set mine to <code>600000</code>.</p></li>
 </ul>
 
+</article>
 
-    <div class="thefooter">
-        <div id="adjposts">
-        <div id="prevpost">←<a href="/2013/09/29/Cuisine_Cascades/">Cuisine Cascades</a></div><!--
-     --><div id="nextpost"><a href="/2013/12/01/The_Golden_Age/">Woodkid, <i>The Golden Age</i></a>→</div>
-      </div>
-      
+    <footer>
+        <div id="adjacent-posts">
+    <div id="older-post">
+        
+        <div class="arrow">←</div>
+        <div class="older-link">
+            <a href="/2013/09/29/Cuisine_Cascades/">Cuisine Cascades</a>
+        </div>
+        
+    </div>
+    <div id="newer-post">
+        
+        <div class="newer-link">
+            <a href="/2013/12/01/The_Golden_Age/">Woodkid, <i>The Golden Age</i></a>
+        </div>
+        <div class="arrow">→</div>
+        
+    </div>
+</div>
+
         
         <div class="colophon">
             
-            <p>Contact me? My email is my first initial and last name, which you can deduce from this website's URL, at gmail.com. I'm also on <a href="https://joinmastodon.org/">Mastodon</a> as <a rel="me" href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>.</p>
+            <p>
+                Contact me? My email is my first initial and last name, which you can deduce from this website's URL, at gmail.com.
+                I'm also on <a href="https://joinmastodon.org/">Mastodon</a>
+                as <a rel="me" href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>.
+            </p>
             
         </div>
-    </div>
-</article>
+    </footer>
+</main>
 
   </body>
 </html>

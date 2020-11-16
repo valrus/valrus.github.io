@@ -10,11 +10,10 @@
     width: 100%;
     height: 26px;
     overflow: hidden;
-    float: left;
     margin-bottom: 1em;
-    background-color: #263b6a;
+    background-color: var(--color-body-bg);
     font: 12px monospace;
-    border: 1px solid #dddddd;
+    border: 1px solid var(--color-desc);
 }
 
 .audiojs:after {
@@ -25,15 +24,13 @@
 }
 
 .audiojs {
-	display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
- 
-html[xmlns] .audiojs {
-	display: block;
-}
- 
+
 * html .audiojs {
-	height: 1%;
+    height: 1%;
 }
 
 .audiojs .play-pause
@@ -42,9 +39,7 @@ html[xmlns] .audiojs {
     width: 10%;
     padding-left: 5px;
     height: 24px;
-    float: left;
     overflow: hidden;
-    // border-right: 1px dashed #dddddd;
 }
 
 .audiojs p
@@ -63,13 +58,12 @@ html[xmlns] .audiojs {
 .audiojs .scrubber
 {
     position: relative;
-    float: left;
     width: 60%;
-    background: #263b6a;
+    background: var(--color-body-bg);
     height: 14px;
     margin: 5px 0px;
     overflow: hidden;
-    border: 1px dashed #ccc;
+    border: 1px dashed var(--color-desc);
 }
 
 .audiojs .progress
@@ -79,7 +73,7 @@ html[xmlns] .audiojs {
     left: 0px;
     height: 14px;
     width: 0px;
-    background: #ccc;
+    background: var(--color-desc);
     z-index: 1;
 }
 
@@ -90,25 +84,23 @@ html[xmlns] .audiojs {
     left: 0px;
     height: 14px;
     width: 0px;
-    background-color: #6181c6;
+    background-color: var(--color-body-bg-highlight);
 }
 
 .audiojs .time
 {
-    float: right;
-    width: 25%;
     height: 24px;
     line-height: 24px;
     margin: 0px auto;
     padding: 0;
-    // border-left: 1px dashed #dddddd;
-    color: #ddd;
+    color: var(--color-desc);
+    align-self: center;
 }
 
 .audiojs .time em
 {
     padding: 0px 2px 0px 0px;
-    color: #f9f9f9;
+    color: var(--color-body);
     font-style: normal;
 }
 
@@ -121,7 +113,6 @@ html[xmlns] .audiojs {
 
 .audiojs .error-message
 {
-    float: left;
     display: none;
     margin: 0px 10px;
     height: 24px;
@@ -132,7 +123,6 @@ html[xmlns] .audiojs {
     color: #fff;
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
-    -icab-text-overflow: ellipsis;
     -khtml-text-overflow: ellipsis;
     -moz-text-overflow: ellipsis;
     -webkit-text-overflow: ellipsis;
@@ -140,10 +130,10 @@ html[xmlns] .audiojs {
 
 .audiojs .error-message a
 {
-    color: #eee;
+    color: var(--color-highlight);
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid var(--color-desc);
     white-space: wrap;
 }
 

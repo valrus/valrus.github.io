@@ -1,0 +1,144 @@
+body
+{
+  font-family: "Noway Round", Tahoma, Verdana, sans-serif;
+  letter-spacing: 0.5px;
+  color: var(--color-body);
+  background-color: var(--color-body-bg);
+}
+
+/* === Navigation === */
+
+.sitename {
+  border-bottom: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: left;
+  margin-bottom: 4rem;
+}
+
+.navigation h1 {
+  font-size: 1.8rem;
+  flex-shrink: 1;
+  border-bottom: none;
+  color: var(--color-active);
+}
+
+.navigation-list {
+  text-align: right;
+  padding-left: 0px;
+  margin-top: -5px;
+  font-size: 1.2rem;
+}
+
+.navigation li {
+  list-style-image: none;
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.navigation li.active {
+  color: var(--color-hover);
+}
+
+.navigation a {
+  color: var(--color-active);
+}
+
+.navigation a:hover {
+  color: var(--color-hover);
+}
+
+.navigation a:visited {
+  /* color: var(--color-desc); */
+}
+
+/* === Inline Text Styles === */
+
+.details {
+  display: none;
+  font-size: 10px;
+  color: var(--color-highlight);
+}
+
+.content-container {
+  line-height: 1.7em;
+  margin: 1rem;
+}
+
+.content-container h2 {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  font-family: "Bariol Serif", "Palatino Linotype", "Georgia", serif;
+}
+
+.content-container p {
+  display: block;
+  font-size: 1.1rem;
+  margin: 5px 5px 5px 12px;
+  color: var(--color-body);
+}
+
+.content-container em, .content-container i
+{
+  font-style: italic;
+}
+
+.content-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.content-item-title {
+  margin-top: 0;
+}
+
+.content-item-info {
+  color: var(--color-desc);
+}
+
+blockquote
+{
+  margin: 3px 0 3px 0;
+  padding: 5px 10px 5px 10px;
+}
+
+.note
+{
+  display: block;
+  margin: 10px 15px 10px 15px;
+  color: var(--color-desc);
+}
+
+.bold
+{
+  font-weight: bold;
+}
+
+li ol, li ul {
+  padding-left: 1em;
+}
+
+dt {
+  margin-top: 0.5ex;
+}
+
+dd {
+  padding-left: 1em;
+}
+
+h1 {
+  font-size: large;
+  padding-left: 0;
+  font-weight: 700;
+  padding-bottom: 0.125ex;
+}

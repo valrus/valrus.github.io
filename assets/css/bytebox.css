@@ -28,7 +28,8 @@ div#bb_div img  {
     padding: 5px;
     color: #FFFEF0;
     text-indent: 10px;
-    font-family: "Bitter", "Palatino Linotype", "Georgia", serif;
+    font-family: "Bariol Serif", "Palatino Linotype", "Georgia", serif;
+    font-weight: bold;
     text-decoration: none;
     font-size: 18px;
 }

@@ -4,19 +4,16 @@
   <head>
     
 
-<title>small clever rooms</title>
+<title>a small clever post</title>
 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <!--  link rel="stylesheet" type="text/css" href="/assets/css/reset.css" /> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/colors.css" />
     
-<link rel="stylesheet" type="text/css" href="/assets/css/rosario.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/bitter.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/inconsolata.css" />
-<!--  link rel="stylesheet" type="text/css" href="/assets/css/tufte-pandoc-css/pandoc.css" /> -->
-<link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/pandoc-solarized.css" />
-<link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte-extra.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/noway-round.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/bariol-serif.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/room.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/blogpost.css" />
@@ -26,29 +23,64 @@
   <body>
     <div id="img_logo" style="display: none;"><img src="/assets/images/title-with-bg.png" /></div>
     
+<main>
+    <nav class="navigation">
+        
+        <h1>
+            <a class="sitename" href="/">small clever rooms</a>
+        </h1>
+        
+        <ul class="navigation-list">
+            
+            
+            
+            
+            <li>
+                <a href="/livingroom/">
+                    «
+                    Living Room
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/studio/">
+                    
+                    Studio
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/study/">
+                    
+                    Study
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/workshop/">
+                    
+                    Workshop
+                </a>
+            </li>
+            
+            
+        </ul>
+        
+        
+    </nav>
+    
 <article>
-    <p id="blog-p">
-        <span id="blogdesc" class="marginnote">
-            
-
-            Back to
-            <a href="
-/livingroom/
-">
-                <span class="newthought">Small Clever Rooms</span>
-            </a>
-            
-<br />
-<a class="sidebar-item" href="/feed.xml">RSS Feed</a>
-
-        </span>
-    </p>
     <h1>
-Notes on Haskell
-</h1>
+        Notes on Haskell
+    </h1>
     
-    
-<p>I have a fairly deep background in pure math, and Haskell appears to be the purest and mathiest of the many functional languages that are getting more and more fashionable of late. So while one of my close co-workers recently took a course in Scala and my boss has dipped his toes in Erlang, I’ve chosen Haskell for my introduction to the functional language craze. Now we just need two of my other fellow software engineers to delve into OCaml and F# and we’ll have a royal flush.</p>
+    <p>I have a fairly deep background in pure math, and Haskell appears to be the purest and mathiest of the many functional languages that are getting more and more fashionable of late. So while one of my close co-workers recently took a course in Scala and my boss has dipped his toes in Erlang, I’ve chosen Haskell for my introduction to the functional language craze. Now we just need two of my other fellow software engineers to delve into OCaml and F# and we’ll have a royal flush.</p>
 <p>I’m still a rank amateur at Haskell and am going about it in a completely unsystematic way, but nevertheless I am making progress and wanted to document a couple recent breakthroughs of sorts that I’ve had with it. The first came so easily and elegantly that my eyes turned into hearts and I almost titled this blog post “Haskell is Cheating.” But then the second was a series of battles with foggy comprehension and unfamiliar paradigms that quickly eroded my optimism and then continued until I was nearly sure Haskell and I didn’t have a future.</p>
 <p>Eventually I worked it out, though, so now that I’ve bounced back a little I think I should document all this. The two breakthroughs came on <a href="http://projecteuler.net/">Project Euler</a> problems 2 and 3, which is a little embarrassing but I did say I was a rank amateur. Just a little less of one today than I was yesterday.</p>
 <section id="problem-2" class="level3">
@@ -116,21 +148,40 @@ sum       1 2 3 5 8 13 21</code></pre>
 <p>On the plus side, according to the same profiling I’d done before, it appears that my code ran in about 2 μs, which I must admit is a significant improvement on 200 days (if the old slow code was linear) or the lifespan of the universe (if it was exponential). At some point I may go back and see which of my optimizations were necessary, but I think I’m done touching this code for now. Fighting with it was demoralizing at first, but I think it was necessary for me to get a more realistic idea of how Haskell operates.</p>
 </section>
 
+</article>
 
-    <div class="thefooter">
-        <div id="adjposts">
-        <div id="prevpost">←<a href="/2013/07/20/Compiling_Textual/">Compiling Textual</a></div><!--
-     --><div id="nextpost"><a href="/2013/08/06/Python_Cuddles/">Does Python Cuddle?</a>→</div>
-      </div>
-      
+    <footer>
+        <div id="adjacent-posts">
+    <div id="older-post">
+        
+        <div class="arrow">←</div>
+        <div class="older-link">
+            <a href="/2013/07/20/Compiling_Textual/">Compiling Textual</a>
+        </div>
+        
+    </div>
+    <div id="newer-post">
+        
+        <div class="newer-link">
+            <a href="/2013/08/06/Python_Cuddles/">Does Python Cuddle?</a>
+        </div>
+        <div class="arrow">→</div>
+        
+    </div>
+</div>
+
         
         <div class="colophon">
             
-            <p>Contact me? My email is my first initial and last name, which you can deduce from this website's URL, at gmail.com. I'm also on <a href="https://joinmastodon.org/">Mastodon</a> as <a rel="me" href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>.</p>
+            <p>
+                Contact me? My email is my first initial and last name, which you can deduce from this website's URL, at gmail.com.
+                I'm also on <a href="https://joinmastodon.org/">Mastodon</a>
+                as <a rel="me" href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>.
+            </p>
             
         </div>
-    </div>
-</article>
+    </footer>
+</main>
 
   </body>
 </html>

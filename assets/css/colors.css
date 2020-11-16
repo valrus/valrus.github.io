@@ -1,0 +1,27 @@
+/* https://coolors.co/190845-d9ddff-5242a1-2d011a-0f285e-0a3194 */
+:root {
+    --color-body-bg: #D9DDFF;
+    --color-body-bg-highlight: #5242A1;
+    --color-body: #190845;
+    --color-desc: #251E4A;
+    --color-active: #0F285E;
+    --color-hover: #0A3194;
+    --color-highlight: #2D011A;
+    --font-weight: 400;
+    --line-weight: 1px;
+}
+
+/* https://coolors.co/251e4a-d9ddff-b9b9f0-ccfffc-f1fec6 */
+@media (prefers-color-scheme: dark) {
+    :root {
+      --color-body-bg: #251E4A;
+      --color-body-bg-highlight: #5242A1;
+      --color-body: #FEFFF0;
+      --color-desc: #D9DDFF;
+      --color-active: #CCFFFC;
+      --color-hover: #3DFFF5;
+      --color-highlight: #FFAAAA;
+      --font-weight: 300;
+      --line-weight: 0.5px;
+    }
+}

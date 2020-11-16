@@ -1,5 +1,5 @@
 body {
-  font-family: "Rosario","lucida sans unicode", sans-serif;
+  font-family: "Noway Round","lucida sans unicode", sans-serif;
   line-height: 1.5em;
   background-color:rgb(37, 58, 107);
   color: rgb(64, 82, 124);
@@ -31,7 +31,7 @@ body {
 }
 
 #footer {
-  font-family: "Rosario","lucida sans unicode", sans-serif;
+  font-family: "Noway Round","lucida sans unicode", sans-serif;
   color: #FFFEF0;
   margin: 20px 0;
 }
@@ -75,8 +75,8 @@ p img.right {
 }
 
 h1, h2, h3, h4, h5, h6, div.subhead {
-  font-family: "Bitter", "Palatino Linotype", "Georgia", serif;
-  font-weight: normal;
+  font-family: "Bariol Serif", "Palatino Linotype", "Georgia", serif;
+  font-weight: bold;
   line-height: 1.15em;
   color: rgb(37, 58, 107);
 }
