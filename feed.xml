@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2020-12-29T20:31:37Z</updated>
+    <updated>2020-12-29T23:29:39Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -18,7 +18,7 @@
             <title>A System Font Stack</title>
             <link rel="alternate" href="http://ian.mccowan.space/2020/12/29/A_System_Font_Stack/" type="text/html" />
             <id>http://ian.mccowan.space/2020/12/29/A_System_Font_Stack/</id>
-            <updated>2020-12-29T20:31:00Z</updated>
+            <updated>2020-12-29T23:29:00Z</updated>
             
             <summary type="html">Allow me to indulge for a bit in some bloviating about the design of this blog, the thing that bloggers love most to do. I suppressed it when I carried out a pretty significant redesign a while ago, doing away with the “blueprint” gimmick that—while cute—confined the content to a tiny rectangle and locked me into a color scheme that I didn’t love and that played poorly with light themes. This enabled me to</summary>
             <content type="html">&lt;p&gt;Allow me to indulge for a bit in some bloviating about the design of this blog, the thing that bloggers love most to do. I suppressed it when I carried out a pretty significant redesign a while ago, doing away with the “blueprint” gimmick that—while cute—confined the content to a tiny rectangle and locked me into a color scheme that I didn’t love and that played poorly with light themes. This enabled me to&lt;/p&gt;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, subtitle {
 &lt;section id=&#34;other-references-and-rejected-alternatives&#34; class=&#34;level2&#34;&gt;
 &lt;h2&gt;Other References and Rejected Alternatives&lt;/h2&gt;
 &lt;p&gt;I also referred heavily to Wikipedia for information about fonts included with &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS&#34;&gt;MacOS&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows&#34;&gt;Windows&lt;/a&gt;. I really like the friendly old workhorse &lt;a href=&#34;https://en.wikipedia.org/wiki/Trebuchet_MS&#34;&gt;Trebuchet MS&lt;/a&gt; as well as what seems to me its spiritual successor &lt;a href=&#34;https://en.wikipedia.org/wiki/Calibri&#34;&gt;Calibri&lt;/a&gt;, but Trebuchet MS seems to be a little heaver than I prefer, especially for a dark theme, and I couldn’t find any good Calibri equivalents with high Mac support. On the other hand, &lt;a href=&#34;https://en.wikipedia.org/wiki/Optima&#34;&gt;Optima&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Candara&#34;&gt;Candara&lt;/a&gt; seemed to have a similar character (pun intended) and also a possibly somewhat widely available Linux counterpart in &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux_Libertine&#34;&gt;Linux Biolinum&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Also, despite that I’m no longer using them here, I do really love &lt;a href=&#34;https://www.atipofoundry.com/&#34;&gt;Atipo’s fonts&lt;/a&gt; They’re great looking and the price is right.&lt;/p&gt;
+&lt;p&gt;Also, despite that I’m no longer using them here, I do really love &lt;a href=&#34;https://www.atipofoundry.com/&#34;&gt;Atipo’s fonts&lt;/a&gt;. They’re great looking and the price is right.&lt;/p&gt;
 &lt;/section&gt;
 </content>
         </entry>
