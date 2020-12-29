@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    
+
+<title>a small clever post</title>
+
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/colors.css" />
+    
+<link rel="stylesheet" type="text/css" href="/assets/css/room.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/css/blogpost.css" />
+
+  </head>
+
+  <body>
+    
+<main>
+    <nav class="navigation">
+        
+        <h1>
+            <a class="sitename" href="/">small clever rooms</a>
+        </h1>
+        
+        <ul class="navigation-list">
+            
+            
+            
+            
+            <li>
+                <a href="/livingroom/">
+                    «
+                    Living Room
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/studio/">
+                    
+                    Studio
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/study/">
+                    
+                    Study
+                </a>
+            </li>
+            
+            
+            
+            <li>
+                <a href="/workshop/">
+                    
+                    Workshop
+                </a>
+            </li>
+            
+            
+        </ul>
+        
+        
+    </nav>
+    
+<article>
+    <h1>
+        A System Font Stack
+    </h1>
+    
+    <p>Allow me to indulge for a bit in some bloviating about the design of this blog, the thing that bloggers love most to do. I suppressed it when I carried out a pretty significant redesign a while ago, doing away with the “blueprint” gimmick that—while cute—confined the content to a tiny rectangle and locked me into a color scheme that I didn’t love and that played poorly with light themes. This enabled me to</p>
+<ul>
+<li>Switch colors to favor purples and teals, a combination I’ve always liked.</li>
+<li>Implement light and dark themes using the new-ish <code>prefers-color-scheme</code> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">CSS feature</a>, along with some judicious use of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/var()">custom properties</a>.</li>
+<li>Change the fonts to something more purple-and-teal-esque, using the round, friendly <a href="https://www.atipofoundry.com/fonts/bariol-serif">Bariol Serif</a> and <a href="https://www.atipofoundry.com/fonts/noway-round">Noway</a> from <a href="https://www.atipofoundry.com/">atipo foundry</a>.</li>
+</ul>
+<p>But the more I thought about it, the less able I felt to justify loading like, hundreds of KBs of fonts to display a few KBs of text. For what? <em>Branding?</em> Let’s be real here.</p>
+<p>So I’ve switched to a font stack that relies on fonts already installed on your system, though not the <a href="https://systemfontstack.com/">defaults</a> that “system font stack” often refers to. Much as I like having a reasonably minimalist web site, I’ve also always enjoyed the aesthetics of fonts, so I do like to exercise a little agency in what things look like. I’m sticking with the sans serif body text, but switching to the widely available <a href="https://en.wikipedia.org/wiki/Optima">Optima</a> (for Macs) and <a href="https://en.wikipedia.org/wiki/Candara">Candara</a> (for more recent Windows machines) with a hodgepodge of fallbacks for various Linux systems. They’re a little more austere and less friendly and playful than Noway Round was, but they still look fine. Headers are still serifs, using the classic Baskerville which is widely available on both Mac and Windows machines, falling back to Microsoft’s Constantia and then to Georgia, one of the OG webfonts, where necessary.</p>
+<p>Here are the full CSS declarations, with many of the fallbacks taken from <a href="https://bitsofco.de/the-new-system-font-stack/">The New System Font Stack</a>:</p>
+<pre><code>body {
+  font-family:
+      Optima,
+      Candara,
+      &quot;Linux Biolinum&quot;,
+      &quot;Libertinus Sans&quot;,
+      -apple-system,
+      BlinkMacSystemFont,
+      &quot;Segoe UI&quot;,
+      Cantarell,
+      &quot;Helvetica Neue&quot;,
+      Helvetica,
+      Ubuntu,
+      Roboto,
+      &quot;Oxygen-Sans&quot;,
+      Noto,
+      Arial,
+      sans-serif,
+      &quot;Apple Color Emoji&quot;,
+      &quot;Segoe UI Emoji&quot;,
+      &quot;Segoe UI Symbol&quot;;
+}
+
+h1, h2, h3, h4, h5, h6, subtitle {
+  font-family:
+      Baskerville,
+      Constantia,
+      Georgia,
+      &quot;Droid Serif&quot;,
+      &quot;Times New Roman&quot;,
+      &quot;Source Serif Pro&quot;,
+      serif,
+      &quot;Apple Color Emoji&quot;,
+      &quot;Segoe UI Emoji&quot;,
+      &quot;Segoe UI Symbol&quot;;
+  font-weight: bold;
+}</code></pre>
+<section id="other-references-and-rejected-alternatives" class="level2">
+<h2>Other References and Rejected Alternatives</h2>
+<p>I also referred heavily to Wikipedia for information about fonts included with <a href="https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS">MacOS</a> and <a href="https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows">Windows</a>. I really like the friendly old workhorse <a href="https://en.wikipedia.org/wiki/Trebuchet_MS">Trebuchet MS</a> as well as what seems to me its spiritual successor <a href="https://en.wikipedia.org/wiki/Calibri">Calibri</a>, but Trebuchet MS seems to be a little heaver than I prefer, especially for a dark theme, and I couldn’t find any good Calibri equivalents with high Mac support. On the other hand, <a href="https://en.wikipedia.org/wiki/Optima">Optima</a> and <a href="https://en.wikipedia.org/wiki/Candara">Candara</a> seemed to have a similar character (pun intended) and also a possibly somewhat widely available Linux counterpart in <a href="https://en.wikipedia.org/wiki/Linux_Libertine">Linux Biolinum</a>.</p>
+<p>Also, despite that I’m no longer using them here, I do really love <a href="https://www.atipofoundry.com/">Atipo’s fonts</a> They’re great looking and the price is right.</p>
+</section>
+
+</article>
+
+    <footer>
+        <div id="adjacent-posts">
+    <div id="older-post">
+        
+        <div class="arrow">←</div>
+        <div class="older-link">
+            <a href="/2020/10/05/My-Favorite-Game-My-Favorite-Critic/">My (Current) Favorite Game, My Favorite Critic: A Case Study</a>
+        </div>
+        
+    </div>
+    <div id="newer-post">
+        
+    </div>
+</div>
+
+        
+        <div class="colophon">
+            
+            <p>
+                Contact me? My email is my first initial and last name, which you can deduce from this website's URL, at gmail.com.
+                I'm also on <a href="https://joinmastodon.org/">Mastodon</a>
+                as <a rel="me" href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>.
+            </p>
+            
+        </div>
+    </footer>
+</main>
+
+  </body>
+</html>
