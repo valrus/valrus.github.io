@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2020-12-29T23:29:39Z</updated>
+    <updated>2020-12-31T02:48:22Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -18,7 +18,7 @@
             <title>A System Font Stack</title>
             <link rel="alternate" href="http://ian.mccowan.space/2020/12/29/A_System_Font_Stack/" type="text/html" />
             <id>http://ian.mccowan.space/2020/12/29/A_System_Font_Stack/</id>
-            <updated>2020-12-29T23:29:00Z</updated>
+            <updated>2020-12-29T02:48:00Z</updated>
             
             <summary type="html">Allow me to indulge for a bit in some bloviating about the design of this blog, the thing that bloggers love most to do. I suppressed it when I carried out a pretty significant redesign a while ago, doing away with the “blueprint” gimmick that—while cute—confined the content to a tiny rectangle and locked me into a color scheme that I didn’t love and that played poorly with light themes. This enabled me to</summary>
             <content type="html">&lt;p&gt;Allow me to indulge for a bit in some bloviating about the design of this blog, the thing that bloggers love most to do. I suppressed it when I carried out a pretty significant redesign a while ago, doing away with the “blueprint” gimmick that—while cute—confined the content to a tiny rectangle and locked me into a color scheme that I didn’t love and that played poorly with light themes. This enabled me to&lt;/p&gt;
@@ -30,43 +30,43 @@
 &lt;p&gt;But the more I thought about it, the less able I felt to justify loading like, hundreds of KBs of fonts to display a few KBs of text. For what? &lt;em&gt;Branding?&lt;/em&gt; Let’s be real here.&lt;/p&gt;
 &lt;p&gt;So I’ve switched to a font stack that relies on fonts already installed on your system, though not the &lt;a href=&#34;https://systemfontstack.com/&#34;&gt;defaults&lt;/a&gt; that “system font stack” often refers to. Much as I like having a reasonably minimalist web site, I’ve also always enjoyed the aesthetics of fonts, so I do like to exercise a little agency in what things look like. I’m sticking with the sans serif body text, but switching to the widely available &lt;a href=&#34;https://en.wikipedia.org/wiki/Optima&#34;&gt;Optima&lt;/a&gt; (for Macs) and &lt;a href=&#34;https://en.wikipedia.org/wiki/Candara&#34;&gt;Candara&lt;/a&gt; (for more recent Windows machines) with a hodgepodge of fallbacks for various Linux systems. They’re a little more austere and less friendly and playful than Noway Round was, but they still look fine. Headers are still serifs, using the classic Baskerville which is widely available on both Mac and Windows machines, falling back to Microsoft’s Constantia and then to Georgia, one of the OG webfonts, where necessary.&lt;/p&gt;
 &lt;p&gt;Here are the full CSS declarations, with many of the fallbacks taken from &lt;a href=&#34;https://bitsofco.de/the-new-system-font-stack/&#34;&gt;The New System Font Stack&lt;/a&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;body {
-  font-family:
-      Optima,
-      Candara,
-      &amp;quot;Linux Biolinum&amp;quot;,
-      &amp;quot;Libertinus Sans&amp;quot;,
-      -apple-system,
-      BlinkMacSystemFont,
-      &amp;quot;Segoe UI&amp;quot;,
-      Cantarell,
-      &amp;quot;Helvetica Neue&amp;quot;,
-      Helvetica,
-      Ubuntu,
-      Roboto,
-      &amp;quot;Oxygen-Sans&amp;quot;,
-      Noto,
-      Arial,
-      sans-serif,
-      &amp;quot;Apple Color Emoji&amp;quot;,
-      &amp;quot;Segoe UI Emoji&amp;quot;,
-      &amp;quot;Segoe UI Symbol&amp;quot;;
-}
-
-h1, h2, h3, h4, h5, h6, subtitle {
-  font-family:
-      Baskerville,
-      Constantia,
-      Georgia,
-      &amp;quot;Droid Serif&amp;quot;,
-      &amp;quot;Times New Roman&amp;quot;,
-      &amp;quot;Source Serif Pro&amp;quot;,
-      serif,
-      &amp;quot;Apple Color Emoji&amp;quot;,
-      &amp;quot;Segoe UI Emoji&amp;quot;,
-      &amp;quot;Segoe UI Symbol&amp;quot;;
-  font-weight: bold;
-}&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;sourceCode&#34; id=&#34;cb1&#34;&gt;&lt;pre class=&#34;sourceCode css&#34;&gt;&lt;code class=&#34;sourceCode css&#34;&gt;&lt;span id=&#34;cb1-1&#34;&gt;&lt;a href=&#34;#cb1-1&#34;&gt;&lt;/a&gt;body {&lt;/span&gt;
+&lt;span id=&#34;cb1-2&#34;&gt;&lt;a href=&#34;#cb1-2&#34;&gt;&lt;/a&gt;  &lt;span class=&#34;kw&#34;&gt;font-family&lt;/span&gt;:&lt;/span&gt;
+&lt;span id=&#34;cb1-3&#34;&gt;&lt;a href=&#34;#cb1-3&#34;&gt;&lt;/a&gt;      Optima&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-4&#34;&gt;&lt;a href=&#34;#cb1-4&#34;&gt;&lt;/a&gt;      Candara&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-5&#34;&gt;&lt;a href=&#34;#cb1-5&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Linux Biolinum&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-6&#34;&gt;&lt;a href=&#34;#cb1-6&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Libertinus Sans&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-7&#34;&gt;&lt;a href=&#34;#cb1-7&#34;&gt;&lt;/a&gt;      -apple-system&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-8&#34;&gt;&lt;a href=&#34;#cb1-8&#34;&gt;&lt;/a&gt;      BlinkMacSystemFont&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-9&#34;&gt;&lt;a href=&#34;#cb1-9&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Segoe UI&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-10&#34;&gt;&lt;a href=&#34;#cb1-10&#34;&gt;&lt;/a&gt;      Cantarell&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-11&#34;&gt;&lt;a href=&#34;#cb1-11&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Helvetica Neue&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-12&#34;&gt;&lt;a href=&#34;#cb1-12&#34;&gt;&lt;/a&gt;      Helvetica&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-13&#34;&gt;&lt;a href=&#34;#cb1-13&#34;&gt;&lt;/a&gt;      Ubuntu&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-14&#34;&gt;&lt;a href=&#34;#cb1-14&#34;&gt;&lt;/a&gt;      Roboto&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-15&#34;&gt;&lt;a href=&#34;#cb1-15&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Oxygen-Sans&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-16&#34;&gt;&lt;a href=&#34;#cb1-16&#34;&gt;&lt;/a&gt;      Noto&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-17&#34;&gt;&lt;a href=&#34;#cb1-17&#34;&gt;&lt;/a&gt;      Arial&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-18&#34;&gt;&lt;a href=&#34;#cb1-18&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;dv&#34;&gt;sans-serif&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-19&#34;&gt;&lt;a href=&#34;#cb1-19&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Apple Color Emoji&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-20&#34;&gt;&lt;a href=&#34;#cb1-20&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Segoe UI Emoji&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-21&#34;&gt;&lt;a href=&#34;#cb1-21&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Segoe UI Symbol&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-22&#34;&gt;&lt;a href=&#34;#cb1-22&#34;&gt;&lt;/a&gt;}&lt;/span&gt;
+&lt;span id=&#34;cb1-23&#34;&gt;&lt;a href=&#34;#cb1-23&#34;&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-24&#34;&gt;&lt;a href=&#34;#cb1-24&#34;&gt;&lt;/a&gt;h1&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt; h2&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt; h3&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt; h4&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt; h5&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt; h6&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt; subtitle {&lt;/span&gt;
+&lt;span id=&#34;cb1-25&#34;&gt;&lt;a href=&#34;#cb1-25&#34;&gt;&lt;/a&gt;  &lt;span class=&#34;kw&#34;&gt;font-family&lt;/span&gt;:&lt;/span&gt;
+&lt;span id=&#34;cb1-26&#34;&gt;&lt;a href=&#34;#cb1-26&#34;&gt;&lt;/a&gt;      Baskerville&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-27&#34;&gt;&lt;a href=&#34;#cb1-27&#34;&gt;&lt;/a&gt;      Constantia&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-28&#34;&gt;&lt;a href=&#34;#cb1-28&#34;&gt;&lt;/a&gt;      Georgia&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-29&#34;&gt;&lt;a href=&#34;#cb1-29&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Droid Serif&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-30&#34;&gt;&lt;a href=&#34;#cb1-30&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Times New Roman&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-31&#34;&gt;&lt;a href=&#34;#cb1-31&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Source Serif Pro&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-32&#34;&gt;&lt;a href=&#34;#cb1-32&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;dv&#34;&gt;serif&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-33&#34;&gt;&lt;a href=&#34;#cb1-33&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Apple Color Emoji&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-34&#34;&gt;&lt;a href=&#34;#cb1-34&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Segoe UI Emoji&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-35&#34;&gt;&lt;a href=&#34;#cb1-35&#34;&gt;&lt;/a&gt;      &lt;span class=&#34;st&#34;&gt;&amp;quot;Segoe UI Symbol&amp;quot;&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-36&#34;&gt;&lt;a href=&#34;#cb1-36&#34;&gt;&lt;/a&gt;  &lt;span class=&#34;kw&#34;&gt;font-weight&lt;/span&gt;: &lt;span class=&#34;dv&#34;&gt;bold&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-37&#34;&gt;&lt;a href=&#34;#cb1-37&#34;&gt;&lt;/a&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;section id=&#34;other-references-and-rejected-alternatives&#34; class=&#34;level2&#34;&gt;
 &lt;h2&gt;Other References and Rejected Alternatives&lt;/h2&gt;
 &lt;p&gt;I also referred heavily to Wikipedia for information about fonts included with &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS&#34;&gt;MacOS&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows&#34;&gt;Windows&lt;/a&gt;. I really like the friendly old workhorse &lt;a href=&#34;https://en.wikipedia.org/wiki/Trebuchet_MS&#34;&gt;Trebuchet MS&lt;/a&gt; as well as what seems to me its spiritual successor &lt;a href=&#34;https://en.wikipedia.org/wiki/Calibri&#34;&gt;Calibri&lt;/a&gt;, but Trebuchet MS seems to be a little heaver than I prefer, especially for a dark theme, and I couldn’t find any good Calibri equivalents with high Mac support. On the other hand, &lt;a href=&#34;https://en.wikipedia.org/wiki/Optima&#34;&gt;Optima&lt;/a&gt; and &lt;a href=&#34;https://en.wikipedia.org/wiki/Candara&#34;&gt;Candara&lt;/a&gt; seemed to have a similar character (pun intended) and also a possibly somewhat widely available Linux counterpart in &lt;a href=&#34;https://en.wikipedia.org/wiki/Linux_Libertine&#34;&gt;Linux Biolinum&lt;/a&gt;.&lt;/p&gt;
