@@ -86,43 +86,43 @@
 <p>But the more I thought about it, the less able I felt to justify loading like, hundreds of KBs of fonts to display a few KBs of text. For what? <em>Branding?</em> Let’s be real here.</p>
 <p>So I’ve switched to a font stack that relies on fonts already installed on your system, though not the <a href="https://systemfontstack.com/">defaults</a> that “system font stack” often refers to. Much as I like having a reasonably minimalist web site, I’ve also always enjoyed the aesthetics of fonts, so I do like to exercise a little agency in what things look like. I’m sticking with the sans serif body text, but switching to the widely available <a href="https://en.wikipedia.org/wiki/Optima">Optima</a> (for Macs) and <a href="https://en.wikipedia.org/wiki/Candara">Candara</a> (for more recent Windows machines) with a hodgepodge of fallbacks for various Linux systems. They’re a little more austere and less friendly and playful than Noway Round was, but they still look fine. Headers are still serifs, using the classic Baskerville which is widely available on both Mac and Windows machines, falling back to Microsoft’s Constantia and then to Georgia, one of the OG webfonts, where necessary.</p>
 <p>Here are the full CSS declarations, with many of the fallbacks taken from <a href="https://bitsofco.de/the-new-system-font-stack/">The New System Font Stack</a>:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb1-1"><a href="#cb1-1"></a>body {</span>
-<span id="cb1-2"><a href="#cb1-2"></a>  <span class="kw">font-family</span>:</span>
-<span id="cb1-3"><a href="#cb1-3"></a>      Optima<span class="op">,</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a>      Candara<span class="op">,</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>      <span class="st">&quot;Linux Biolinum&quot;</span><span class="op">,</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a>      <span class="st">&quot;Libertinus Sans&quot;</span><span class="op">,</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a>      -apple-system<span class="op">,</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a>      BlinkMacSystemFont<span class="op">,</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a>      <span class="st">&quot;Segoe UI&quot;</span><span class="op">,</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a>      Cantarell<span class="op">,</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a>      <span class="st">&quot;Helvetica Neue&quot;</span><span class="op">,</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a>      Helvetica<span class="op">,</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a>      Ubuntu<span class="op">,</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a>      Roboto<span class="op">,</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a>      <span class="st">&quot;Oxygen-Sans&quot;</span><span class="op">,</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a>      Noto<span class="op">,</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a>      Arial<span class="op">,</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a>      <span class="dv">sans-serif</span><span class="op">,</span></span>
-<span id="cb1-19"><a href="#cb1-19"></a>      <span class="st">&quot;Apple Color Emoji&quot;</span><span class="op">,</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a>      <span class="st">&quot;Segoe UI Emoji&quot;</span><span class="op">,</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a>      <span class="st">&quot;Segoe UI Symbol&quot;</span><span class="op">;</span></span>
-<span id="cb1-22"><a href="#cb1-22"></a>}</span>
-<span id="cb1-23"><a href="#cb1-23"></a></span>
-<span id="cb1-24"><a href="#cb1-24"></a>h1<span class="op">,</span> h2<span class="op">,</span> h3<span class="op">,</span> h4<span class="op">,</span> h5<span class="op">,</span> h6<span class="op">,</span> subtitle {</span>
-<span id="cb1-25"><a href="#cb1-25"></a>  <span class="kw">font-family</span>:</span>
-<span id="cb1-26"><a href="#cb1-26"></a>      Baskerville<span class="op">,</span></span>
-<span id="cb1-27"><a href="#cb1-27"></a>      Constantia<span class="op">,</span></span>
-<span id="cb1-28"><a href="#cb1-28"></a>      Georgia<span class="op">,</span></span>
-<span id="cb1-29"><a href="#cb1-29"></a>      <span class="st">&quot;Droid Serif&quot;</span><span class="op">,</span></span>
-<span id="cb1-30"><a href="#cb1-30"></a>      <span class="st">&quot;Times New Roman&quot;</span><span class="op">,</span></span>
-<span id="cb1-31"><a href="#cb1-31"></a>      <span class="st">&quot;Source Serif Pro&quot;</span><span class="op">,</span></span>
-<span id="cb1-32"><a href="#cb1-32"></a>      <span class="dv">serif</span><span class="op">,</span></span>
-<span id="cb1-33"><a href="#cb1-33"></a>      <span class="st">&quot;Apple Color Emoji&quot;</span><span class="op">,</span></span>
-<span id="cb1-34"><a href="#cb1-34"></a>      <span class="st">&quot;Segoe UI Emoji&quot;</span><span class="op">,</span></span>
-<span id="cb1-35"><a href="#cb1-35"></a>      <span class="st">&quot;Segoe UI Symbol&quot;</span><span class="op">;</span></span>
-<span id="cb1-36"><a href="#cb1-36"></a>  <span class="kw">font-weight</span>: <span class="dv">bold</span><span class="op">;</span></span>
-<span id="cb1-37"><a href="#cb1-37"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>body {</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span>:</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>      Optima<span class="op">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>      Candara<span class="op">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Linux Biolinum&quot;</span><span class="op">,</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Libertinus Sans&quot;</span><span class="op">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>      -apple-system<span class="op">,</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>      BlinkMacSystemFont<span class="op">,</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Segoe UI&quot;</span><span class="op">,</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>      Cantarell<span class="op">,</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Helvetica Neue&quot;</span><span class="op">,</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>      Helvetica<span class="op">,</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>      Ubuntu<span class="op">,</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>      Roboto<span class="op">,</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Oxygen-Sans&quot;</span><span class="op">,</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>      Noto<span class="op">,</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>      Arial<span class="op">,</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>      <span class="dv">sans-serif</span><span class="op">,</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Apple Color Emoji&quot;</span><span class="op">,</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Segoe UI Emoji&quot;</span><span class="op">,</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Segoe UI Symbol&quot;</span><span class="op">;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>h1<span class="op">,</span> h2<span class="op">,</span> h3<span class="op">,</span> h4<span class="op">,</span> h5<span class="op">,</span> h6<span class="op">,</span> subtitle {</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span>:</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>      Baskerville<span class="op">,</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>      Constantia<span class="op">,</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>      Georgia<span class="op">,</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Droid Serif&quot;</span><span class="op">,</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Times New Roman&quot;</span><span class="op">,</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Source Serif Pro&quot;</span><span class="op">,</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>      <span class="dv">serif</span><span class="op">,</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Apple Color Emoji&quot;</span><span class="op">,</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Segoe UI Emoji&quot;</span><span class="op">,</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;Segoe UI Symbol&quot;</span><span class="op">;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-weight</span>: <span class="dv">bold</span><span class="op">;</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 <section id="other-references-and-rejected-alternatives" class="level2">
 <h2>Other References and Rejected Alternatives</h2>
 <p>I also referred heavily to Wikipedia for information about fonts included with <a href="https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS">MacOS</a> and <a href="https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows">Windows</a>. I really like the friendly old workhorse <a href="https://en.wikipedia.org/wiki/Trebuchet_MS">Trebuchet MS</a> as well as what seems to me its spiritual successor <a href="https://en.wikipedia.org/wiki/Calibri">Calibri</a>, but Trebuchet MS seems to be a little heaver than I prefer, especially for a dark theme, and I couldn’t find any good Calibri equivalents with high Mac support. On the other hand, <a href="https://en.wikipedia.org/wiki/Optima">Optima</a> and <a href="https://en.wikipedia.org/wiki/Candara">Candara</a> seemed to have a similar character (pun intended) and also a possibly somewhat widely available Linux counterpart in <a href="https://en.wikipedia.org/wiki/Linux_Libertine">Linux Biolinum</a>.</p>
@@ -155,9 +155,10 @@
         <div class="colophon">
             
             <p>
-                Contact me? My email is my first initial and last name, which you can deduce from this website's URL, at gmail.com.
+                Contact me via <a href="mailto:ian@mccowan.space">email</a>.
                 I'm also on <a href="https://joinmastodon.org/">Mastodon</a>
-                as <a rel="me" href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>.
+                as <a rel="me" href="https://icosahedron.website/@valrus">@valrus@icosahedron.website</a>,
+                and on <a rel="me" href="https://github.com/valrus">GitHub</a>.
             </p>
             
         </div>
