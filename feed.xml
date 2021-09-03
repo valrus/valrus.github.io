@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2021-05-10T04:42:16Z</updated>
+    <updated>2021-09-03T05:13:29Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -13,6 +13,131 @@
         <uri>http://ian.mccowan.space/</uri>
     </author>
     
+    
+        <entry>
+            <title>Wingspan&#39;s Brilliant Learning Mechanism</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2021/09/02/learning_wingspan/" type="text/html" />
+            <id>http://ian.mccowan.space/2021/09/02/learning_wingspan/</id>
+            <updated>2021-09-02T04:48:00Z</updated>
+            
+            
+            <content type="html">&lt;!DOCTYPE html&gt;
+
+&lt;html xmlns=&#34;https://www.w3.org/1999/xhtml&#34; xml:lang=&#34;en&#34; lang=&#34;en&#34;&gt;
+  &lt;head&gt;
+    
+
+&lt;title&gt;a small clever post&lt;/title&gt;
+
+    &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html;charset=utf-8&#34; /&gt;
+    &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; href=&#34;http://ian.mccowan.space/assets/images/favicon.png&#34; /&gt;
+    &lt;link rel=&#34;shortcut icon&#34; type=&#34;image/png&#34; href=&#34;http://ian.mccowan.space/assets/images/favicon.png&#34; /&gt;
+    &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/colors.css&#34; /&gt;
+    
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/room.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/tufte-css/tufte.css&#34; /&gt;
+
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;http://ian.mccowan.space/assets/css/blogpost.css&#34; /&gt;
+
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    
+&lt;main&gt;
+    &lt;nav class=&#34;navigation&#34;&gt;
+        
+        &lt;h1&gt;
+            &lt;a class=&#34;sitename&#34; href=&#34;http://ian.mccowan.space/&#34;&gt;small clever rooms&lt;/a&gt;
+        &lt;/h1&gt;
+        
+        &lt;ul class=&#34;navigation-list&#34;&gt;
+            
+            
+            
+            
+            &lt;li&gt;
+                &lt;a href=&#34;http://ian.mccowan.space/livingroom/&#34;&gt;
+                    «
+                    Living Room
+                &lt;/a&gt;
+            &lt;/li&gt;
+            
+            
+            
+            &lt;li&gt;
+                &lt;a href=&#34;http://ian.mccowan.space/studio/&#34;&gt;
+                    
+                    Studio
+                &lt;/a&gt;
+            &lt;/li&gt;
+            
+            
+            
+            &lt;li&gt;
+                &lt;a href=&#34;http://ian.mccowan.space/study/&#34;&gt;
+                    
+                    Study
+                &lt;/a&gt;
+            &lt;/li&gt;
+            
+            
+            
+            &lt;li&gt;
+                &lt;a href=&#34;http://ian.mccowan.space/workshop/&#34;&gt;
+                    
+                    Workshop
+                &lt;/a&gt;
+            &lt;/li&gt;
+            
+            
+        &lt;/ul&gt;
+        
+        
+    &lt;/nav&gt;
+    
+&lt;article&gt;
+    &lt;h1&gt;
+        Wingspan&#39;s Brilliant Learning Mechanism
+    &lt;/h1&gt;
+    
+    &lt;p&gt;Recently I played &lt;a href=&#34;https://www.metafilter.com/192361/Is-Wingspan-actually-a-game-at-all-Is-it-art&#34;&gt;Wingspan&lt;/a&gt; with my mom and brother. My brother and I had played it before, but it had been a while, and my mom had never played it. My mom is not a particularly experienced modern board game player — though I think she picks things up quicker than she gives herself credit for — and Wingspan is not a simple game. But she was able to learn it remarkably smoothly thanks to an ingenious teaching mechanism: an instruction sheet with a fixed setup that completely prescribes all actions taken by all players for the first four turns.&lt;/p&gt;
+&lt;p&gt;It’s such a good idea I was shocked in retrospect that I’d never seen any other game do it. By removing all players’ agency in the very early game, it also removes the anxiety about having to make what are often some of a game’s most important strategic decisions when you least understand what’s going on. But it also lets the designers choose the opening moves to demonstrate as wide a variety of the game’s mechanics as possible.&lt;/p&gt;
+&lt;p&gt;Learning a game can be a tough hurdle even for seasoned gamers and this is the most effective onboarding I’ve ever seen, pun intended. The next time I find myself having to teach someone a new game, I’ll definitely consider putting together a first few turns on rails like Wingspan has. Actually, a repository of such game training wheels would be a good idea for a website. Who wants to make a website?&lt;/p&gt;
+
+&lt;/article&gt;
+
+    &lt;footer&gt;
+        &lt;div id=&#34;adjacent-posts&#34;&gt;
+    &lt;div id=&#34;older-post&#34;&gt;
+        
+        &lt;div class=&#34;arrow&#34;&gt;←&lt;/div&gt;
+        &lt;div class=&#34;older-link&#34;&gt;
+            &lt;a href=&#34;http://ian.mccowan.space/2021/02/07/2020_Retrospective/&#34;&gt;Who Wants A 2020 Retrospective?&lt;/a&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+    &lt;div id=&#34;newer-post&#34;&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+        
+        &lt;div class=&#34;colophon&#34;&gt;
+            
+            &lt;p&gt;
+                Contact me via &lt;a href=&#34;mailto:ian@mccowan.space&#34;&gt;email&lt;/a&gt;.
+                I&#39;m also on &lt;a href=&#34;https://joinmastodon.org/&#34;&gt;Mastodon&lt;/a&gt;
+                as &lt;a rel=&#34;me&#34; href=&#34;https://icosahedron.website/@valrus&#34;&gt;@valrus@icosahedron.website&lt;/a&gt;,
+                and on &lt;a rel=&#34;me&#34; href=&#34;https://github.com/valrus&#34;&gt;GitHub&lt;/a&gt;.
+            &lt;/p&gt;
+            
+        &lt;/div&gt;
+    &lt;/footer&gt;
+&lt;/main&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;</content>
+        </entry>
     
         <entry>
             <title>Who Wants A 2020 Retrospective?</title>
@@ -248,6 +373,11 @@ src=&#34;http://ian.mccowan.space/assets/images/posts/2020_Retrospective/patch_s
         
     &lt;/div&gt;
     &lt;div id=&#34;newer-post&#34;&gt;
+        
+        &lt;div class=&#34;newer-link&#34;&gt;
+            &lt;a href=&#34;http://ian.mccowan.space/2021/09/02/learning_wingspan/&#34;&gt;Wingspan&#39;s Brilliant Learning Mechanism&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;arrow&#34;&gt;→&lt;/div&gt;
         
     &lt;/div&gt;
 &lt;/div&gt;
