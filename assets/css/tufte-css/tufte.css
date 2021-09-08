@@ -215,9 +215,8 @@ img.mached {
 }
 
 figure {
-  margin: 0 0 3em 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
 }
 
 figcaption {

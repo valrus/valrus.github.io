@@ -10,6 +10,10 @@
     border-top: 1px solid var(--color-desc);
 }
 
+.song_section.album_section .playlist {
+    border-top: none;
+}
+
 .playlist li {
     position: relative;
     margin: 0px;
