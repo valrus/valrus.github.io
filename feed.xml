@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2022-03-11T06:50:38Z</updated>
+    <updated>2022-05-15T23:03:09Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -13,6 +13,59 @@
         <uri>http://ian.mccowan.space/</uri>
     </author>
     
+    
+        <entry>
+            <title>Zero Mocktails — Bitter Amaro</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2022/05/15/Zero_Bitter_Amaro/" type="text/html" />
+            <id>http://ian.mccowan.space/2022/05/15/Zero_Bitter_Amaro/</id>
+            <updated>2022-05-15T23:01:00Z</updated>
+            
+            <summary type="html">This is the first in what may be an erratic and inconsistent series&lt;span class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-0&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-0&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;By “may be” I mean it may or may not be a series at all. If it happens, it is &lt;em&gt;certain&lt;/em&gt; to be erratic and inconsistent.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; of blog posts about making and drinking mocktails from &lt;em&gt;Zero&lt;/em&gt;, a mocktail book from Alinea, the famous / notorious Chicago molecular gastronomy restaurant. It will be somewhat in the vein of my &lt;a href=&#34;http://ian.mccowan.space/2020/04/27/Foraged_And_Found_Week_1&#34;&gt;Foraged and Found posts&lt;/a&gt;, an exploration of unusual foodstuffs from someone trying most of them for the first time.</summary>
+            <content type="html">&lt;p&gt;This is the first in what may be an erratic and inconsistent series&lt;span class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-0&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-0&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;By “may be” I mean it may or may not be a series at all. If it happens, it is &lt;em&gt;certain&lt;/em&gt; to be erratic and inconsistent.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; of blog posts about making and drinking mocktails from &lt;em&gt;Zero&lt;/em&gt;, a mocktail book from Alinea, the famous / notorious Chicago molecular gastronomy restaurant. It will be somewhat in the vein of my &lt;a href=&#34;http://ian.mccowan.space/2020/04/27/Foraged_And_Found_Week_1&#34;&gt;Foraged and Found posts&lt;/a&gt;, an exploration of unusual foodstuffs from someone trying most of them for the first time.&lt;/p&gt;
+&lt;section id=&#34;background-and-why-this-recipe&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;Background and Why This Recipe&lt;/h2&gt;
+&lt;p&gt;I don’t drink alcohol, for the simple reason that I don’t like it and can’t “taste through it” to discern whatever unique qualities alcoholic drinks have. But I am intrigued by the complexity that other people are able to taste in cocktails and wines and such, so now that mocktails seem to be having a moment, I’ve acquired &lt;em&gt;Zero&lt;/em&gt; in hopes that I can get some of that drinking experience without alcohol.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Zero&lt;/em&gt; is divided into five sections: the “back bar” of real-world spirit approximations, “classic cocktails” which combine the back bar components to simulate well-known cocktails, “wines” which do the same but for wines and without depending on the back bar, “modern cocktails” which take non-alcoholic ingredients in some interesting new directions, and “etcetera” which is a real grab bag including a milkshake and a “breakfast stout.” This post is about the “bitter amaro” on page 36, in the “back bar” section. It’s apparently based on an Italian digestif named Cynar (CHEE-nar), but that didn’t mean anything to me when I decided I wanted to make it. Like most of the concoctions I’ve made so far from &lt;em&gt;Zero&lt;/em&gt;, I chose bitter amaro based on its ingredient list: many of the recipes that are most intriguing are ones that have ingredients that I have some idea where to find but would never expect to use in a drink. For bitter amaro this was the half-kilogram of “whole artichokes, roughly chopped” that accounts for about half of the non-water volume of the recipe.&lt;span class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span class=&#34;sidenote&#34;&gt;In doing some research for this post, I discovered that Cynar is also artichoke-based, which was a little disappointing. I was hoping the Alinea folks had invented a novel technique for simulating flavors available in alcoholic drinks by other means.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As interesting as an artichoke-based drink was, the process was even more so:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Combine the water and artichokes in a blender… allow to sit uncovered for 2 hours… the mixture will aggressively oxidize, turning nearly black.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I’d previously managed to find the three most esoteric of the required ingredients (the bittering agents gentian root, cinchona bark and angelica root) at a local specialty grocery store, so when I noticed artichokes on sale on a regular shopping trip, it was off to the races.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;process-and-adaptations&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;Process and Adaptations&lt;/h2&gt;
+&lt;p&gt;The recipe for bitter amaro calls for blending the water and artichokes in a blender, but I don’t have a full-size blender; just an immersion blender and a food processor. I opted to use the food processor for this, since the intent seemed just to be to pulverize it enough to get a lot of surface area and accelerate the oxidization.&lt;/p&gt;
+&lt;p&gt;The results turned out fine, I think; more on that below. But the process was unpleasant. I had to do it in three or four batches because the water kept sloshing out of the non-airtight seal between the food processor’s bowl and lid. And though it didn’t make it into the final product, the blended mixture had a lot of foam that didn’t recede for the entirety of the 2-hour oxidization period. I don’t know if this would have happened with a blender, but it was really only a problem when I tried to take pictures to show the color of the liquid.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;marginnote&#34;&gt; &lt;a href=&#34;http://ian.mccowan.space/assets/images/posts/Bitter_Amaro/mixture@2x.jpeg&#34; rel=&#34;bytebox&#34;&gt; &lt;img
+alt=&#34;A wide frying pan filled with liquid, with tan foam covering most of the top. A spatula is pushing aside some of the foam to show that the liquid is a dark brown with flecks of pale green vegetable matter in it. Serious witches&#39; brew vibes.&#34;
+src=&#34;http://ian.mccowan.space/assets/images/posts/Bitter_Amaro/mixture_thumb.jpeg&#34;
+&gt; &lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The other adaptation was that the recipe called for 200g of Coca-Cola. I do not keep Coke around in general but happened to have some fancy cola syrup from the same specialty grocery store I got my bittering agents from, so I used that instead. At the recommended dilution it was noticeably less sweet than Coke so I added a bit of agave nectar. For a recipe that measures ingredients by the gram, this was pretty imprecise, but I’m not a well-known molecular gastronomy establishment so precision and consistency are not terribly important to me if I can get the broad strokes right.&lt;/p&gt;
+&lt;p&gt;The recipe has you melt some sugar in a pan and then add the (strained) artichoke liquid to it, a bit at a time so as to incorporate it gradually. I don’t think I really have the hang of this in a couple ways: first, you’re not supposed to let the sugar start smoking, but unless you melt sugar all the time it’s hard to know when this will happen until it does. So I may have burnt the sugar a bit more than you’re supposed to, and I think the product may have been a bit more bitter than intended as a result. Also, adding the liquid did not go very smoothly for me. It’s always a bit scary adding liquid to a pan of 350-degree-plus sugar napalm, but at no point did it spatter or do anything that seemed like it might burn me. On the culinary rather than the safety side, though, I haven’t gotten the hang of incorporating the liquid smoothly without ending up with liquid on top of a layer of nearly solid and difficult-to-deal-with caramel. So when I added the rest of the ingredients for the simmering/steeping step of the process, I had to scrape and break up the sugar to get it to dissolve. I think the flavor of the final result probably wasn’t affected much if at all by this, but it definitely felt inelegant and frustrating to deal with.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;result&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;Result&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;marginnote&#34;&gt; &lt;a href=&#34;http://ian.mccowan.space/assets/images/posts/Bitter_Amaro/bottle@2x.jpeg&#34; rel=&#34;bytebox&#34;&gt; &lt;img
+alt=&#34;A bottle of dark brown liquid. It&#39;s not much to look at.&#34;
+src=&#34;http://ian.mccowan.space/assets/images/posts/Bitter_Amaro/bottle_thumb.jpeg&#34;
+&gt; &lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Despite the difficulties, I ended up with something complex, drinkable and interesting. As you’d expect both from its name and from the phrase “aggressively oxidize,” bitter amaro is quite bitter. But it’s not unpalatably so, and it’s balanced with a host of other interesting flavors. The artichoke flavor is not what you’d expect if you’re used to marinated artichokes, where you’re eating only the heart heavily seasoned with vinegar and other stuff. Instead, it has a weird, sort of spicy (in the “spice” sence, not the “heat” sense), a bit reminiscent of fennel with the anise flavor cooked out maybe. It’s hard to describe (which I suspect will be a recurring difficulty if I continue this series) but unique and surprisingly good as a beverage component.&lt;/p&gt;
+&lt;p&gt;I enjoy drinking this straight a lot more than I expected. A shot glass is enough — maybe more than enough — and it’s viscous enough from the caramelized sugar that tiny sips are the only sensible way to consume it. The experience of drinking it this way is one of almost-but-not-quite-overpowering sweetness that smoothly recedes to let the bitterness come through. And come through it does, and it lingers a bit longer than I’d probably prefer, though this is a problem easily remedied with a drink of water to wash it down.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Zero&lt;/em&gt; has only one other recipe that uses bitter amaro, and it’s “Amaro and Coke” which is exactly what you’d expect. I used my fancy cola syrup for this too, with seltzer water to make it “Coke-like,” and it’s a nice way to make soda feel more grown-up, though it’s still quite sweet. I think I have also tried bitter amaro straight with seltzer, and didn’t care for it as much: it’s so assertive that watering it down seems sort of contrary to its whole deal. All in all, pretty hard to make, but worth it. Your mileage may vary though: my partner reacts to it the same way I do when I try her wine, with a grimace and a shudder.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+            
+                <category term="mocktail" />
+            
+                <category term="zero" />
+            
+        </entry>
     
         <entry>
             <title>Soldering</title>
