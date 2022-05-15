@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2022-05-15T23:03:09Z</updated>
+    <updated>2022-05-15T23:58:21Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -73,27 +73,34 @@ src=&#34;http://ian.mccowan.space/assets/images/posts/Bitter_Amaro/bottle_thumb.
             <id>http://ian.mccowan.space/2021/10/05/soldering/</id>
             <updated>2021-10-05T17:02:00Z</updated>
             
-            
-            <content type="html">
-    
-        Soldering
-    
-    
-    I fear this decade’s project is repair.
-The circuit is sporadic, and the glow
-is dim, but for the eye-gleam of a crow
-or quiet prideful colors in your hair.
-But what are these against a hungry blaze
-that, out of sight, still smothers us in smoke?
-Our simple joys are made a bitter joke
-by grief and terror in these final days.
-Still, simple joy is all there ever was.
-And no encroaching eschaton can wreck
-the warm of hand in hand. So what the heck.
-Let’s gather hands on tools before the fuzz
-of static grows to swallow up us all.
-Let’s wire up a light against the fall.
-
+            <summary type="html">I fear this decade’s project is repair.&lt;br /&gt;
+The circuit is sporadic, and the glow&lt;br /&gt;
+is dim, but for the eye-gleam of a crow&lt;br /&gt;
+or quiet prideful colors in your hair.&lt;br /&gt;
+But what are these against a hungry blaze&lt;br /&gt;
+that, out of sight, still smothers us in smoke?&lt;br /&gt;
+Our simple joys are made a bitter joke&lt;br /&gt;
+by grief and terror in these final days.&lt;br /&gt;
+Still, simple joy is all there ever was.&lt;br /&gt;
+And no encroaching eschaton can wreck&lt;br /&gt;
+the warm of hand in hand. So what the heck.&lt;br /&gt;
+Let’s gather hands on tools before the fuzz&lt;br /&gt;
+of static grows to swallow up us all.&lt;br /&gt;
+Let’s wire up a light against the fall.</summary>
+            <content type="html">&lt;p&gt;I fear this decade’s project is repair.&lt;br /&gt;
+The circuit is sporadic, and the glow&lt;br /&gt;
+is dim, but for the eye-gleam of a crow&lt;br /&gt;
+or quiet prideful colors in your hair.&lt;br /&gt;
+But what are these against a hungry blaze&lt;br /&gt;
+that, out of sight, still smothers us in smoke?&lt;br /&gt;
+Our simple joys are made a bitter joke&lt;br /&gt;
+by grief and terror in these final days.&lt;br /&gt;
+Still, simple joy is all there ever was.&lt;br /&gt;
+And no encroaching eschaton can wreck&lt;br /&gt;
+the warm of hand in hand. So what the heck.&lt;br /&gt;
+Let’s gather hands on tools before the fuzz&lt;br /&gt;
+of static grows to swallow up us all.&lt;br /&gt;
+Let’s wire up a light against the fall.&lt;/p&gt;
 </content>
             
                 <category term="poem" />
