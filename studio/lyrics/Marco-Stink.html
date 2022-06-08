@@ -15,6 +15,14 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/lyric.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/audio.css" />
+<script src="/assets/js/audiojs/audio.min.js"></script>
+<script src="/assets/js/jquery-3.6.0.slim.min.js"></script>
+<script>
+$(function() {
+    var a = audiojs.createAll({css: false})
+ });
+</script>
 
   </head>
 
@@ -73,6 +81,11 @@
         
     </nav>
     
+<div class="figure" id="player">
+    <audio preload>
+        <source src="/assets/music/Marco Stink.mp3">
+    </audio>
+</div>
 
 <article>
     <h1>

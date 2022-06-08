@@ -4,7 +4,7 @@
   <head>
     
 
-<title>a small clever lyric</title>
+<title>small clever rooms: lyric</title>
 
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
@@ -15,6 +15,14 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/lyric.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/audio.css" />
+<script src="/assets/js/audiojs/audio.min.js"></script>
+<script src="/assets/js/jquery-3.6.0.slim.min.js"></script>
+<script>
+$(function() {
+    var a = audiojs.createAll({css: false})
+ });
+</script>
 
   </head>
 
@@ -73,6 +81,11 @@
         
     </nav>
     
+<div class="figure" id="player">
+    <audio preload>
+        <source src="/assets/music/A Dead Man.mp3">
+    </audio>
+</div>
 
 <article>
     <h1>
@@ -137,7 +150,7 @@ But it was never my job to be my father’s keeper.<br />
 Yeah, I could say you’re with God, but I’m a nonbeliever.<br />
 And you were too, so let’s dispense with the fantasies<br />
 of gentle zephyr breezes and canopies or whatever.<br />
-‘Cause what’s the fucking point of living in Xanadu<br />
+’Cause what’s the fucking point of living in Xanadu<br />
 when living with yourself is the last thing that you plan to do?<br />
 I guess that feeling nothing is all that you really wanted.<br />
 (I told you, I know I’m not the only one that’s haunted.)<br />

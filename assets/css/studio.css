@@ -1,6 +1,11 @@
 #wrapper {
-    width: 85%;
     margin: 10px auto;
+}
+
+#player {
+    position: sticky;
+    top: 60px;
+    z-index: 2;
 }
 
 .playlist {

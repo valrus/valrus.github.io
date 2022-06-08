@@ -5,7 +5,7 @@
     
 
 
-<title>a small clever lyric</title>
+<title>small clever rooms: lyric</title>
 
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
@@ -16,6 +16,14 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/lyric.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/audio.css" />
+<script src="/assets/js/audiojs/audio.min.js"></script>
+<script src="/assets/js/jquery-3.6.0.slim.min.js"></script>
+<script>
+$(function() {
+    var a = audiojs.createAll({css: false})
+ });
+</script>
 
 <link rel="stylesheet" href="/assets/css/bytebox.css" type="text/css" media="screen" />
 <script src="/assets/js/bytebox.min.js" type="text/javascript"></script>
@@ -78,6 +86,11 @@
     </nav>
     
 
+<div class="figure" id="player">
+    <audio preload>
+        <source src="/assets/music/Walrus Entourage 1.mp3">
+    </audio>
+</div>
 
 <article>
     <h1>
