@@ -11,7 +11,7 @@
 #bb_div {
     padding: 20px;
     z-index: 100;
-    background-color:rgb(37, 58, 107);
+    background-color: var(--color-body-bg);
     position: absolute;
     text-align: center;
 }
@@ -26,7 +26,7 @@ div#bb_div img  {
 #bb_da {
     margin: 0 auto;
     padding: 5px;
-    color: #FFFEF0;
+    color: var(--color-body);
     text-indent: 10px;
     font-family: "Bariol Serif", "Palatino Linotype", "Georgia", serif;
     font-weight: bold;
@@ -37,29 +37,5 @@ div#bb_div img  {
 #bb_l {
     position: absolute;
     z-index: 190;
-}
-
-#bb_pr,#bb_ne {
-    width: 100px;
-    z-index: 2000;
-    cursor: pointer;
-    display: block;
-    background: red;
-}
-
-#bb_pr {
-    background: url(../images/prev.png) left center no-repeat !important;
-}
-
-#bb_ne {
-    background: url(../images/next.png) right center no-repeat !important;
-}
-
-#bb_cl {
-    background: url(../images/close.png) top left no-repeat;
-    width: 45px;
-    height: 45px;
-    z-index: 2000;
-    cursor: pointer;
 }
 /*BYTEBOX END*/

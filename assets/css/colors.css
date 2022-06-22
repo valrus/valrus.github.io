@@ -9,6 +9,7 @@
     --color-highlight: #2D011A;
     --font-weight: 400;
     --line-weight: 1px;
+    --brightness-filter: brightness(0.05);
 }
 
 /* https://coolors.co/251e4a-d9ddff-b9b9f0-ccfffc-f1fec6 */
@@ -23,5 +24,6 @@
       --color-highlight: #FFAAAA;
       --font-weight: 300;
       --line-weight: 0.5px;
+      --brightness-filter: brightness(0.95);
     }
 }
