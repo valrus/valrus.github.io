@@ -147,6 +147,7 @@ main hr {
   margin-left: 22%;
   margin-top: 3rem;
   margin-bottom: 1rem;
+  overflow: visible; /* so that the :after doesn't get its top half cut off */
 }
 
 main hr:after {
