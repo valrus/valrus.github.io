@@ -307,8 +307,7 @@ div.sourceCode pre {width: auto;}
     table.table-wrapper { width: 90%; }
 }
 
-pre, code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-            font-size: 1.125rem; }
+pre, code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; }
 
 pre { color: var(--color-body);
       background: var(--color-body-bg);
