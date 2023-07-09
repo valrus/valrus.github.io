@@ -3,3 +3,4 @@ README.md
 _src
 .DS_Store
 .doit*
+/.tool-versions
