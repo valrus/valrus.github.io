@@ -224,15 +224,15 @@ figure {
 figcaption {
     float: right;
     clear: right;
-    margin-right: 18.5%;
+    margin-right: 0;
     margin-bottom: 1em;
-    font-size: 1.0rem;
+    font-size: 0.8rem;
     line-height: 1.6;
     vertical-align: baseline;
     position: relative;
 }
 
-figure.fullwidth figcaption { margin-right: 24%; }
+figure.fullwidth figcaption { margin-right: 5.5%; }
 
 a { color: var(--color-active);
     text-decoration: none;
@@ -290,7 +290,7 @@ img { max-width: 100%; margin-left: auto; margin-right: auto; display: block; }
 
 nav, .content,
 main>p, article>*, main>footer,
-div.sourceCode, div.figure, div footnotes, figure {
+div.sourceCode, div.figure, div footnotes {
   width: 55%;
   max-width: 700px;
 }

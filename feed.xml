@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2023-07-09T04:15:36Z</updated>
+    <updated>2024-07-23T00:46:14Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -13,6 +13,316 @@
         <uri>http://ian.mccowan.space/</uri>
     </author>
     
+    
+        <entry>
+            <title>Why I Don&#39;t Like &#34;AI&#34;</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2024/07/22/ai/" type="text/html" />
+            <id>http://ian.mccowan.space/2024/07/22/ai/</id>
+            <updated>2024-07-22T00:46:00Z</updated>
+            
+            <summary type="html">Since circumstances in my life require that I spend way more time
+than I want thinking about AI, I figure at least I can maybe get a blog
+post out of it.</summary>
+            <content type="html">&lt;p&gt;Since circumstances in my life require that I spend way more time
+than I want thinking about AI, I figure at least I can maybe get a blog
+post out of it.&lt;/p&gt;
+&lt;section id=&#34;its-not-ai&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;It’s Not “AI”&lt;/h2&gt;
+&lt;p&gt;Okay, so first off: I don’t even like to refer to what this stuff as
+“AI.” I think it’s a poorly-defined term that is used more to evoke
+associations in people’s brains than to be an accurate representation of
+the technology we have in front of us. Throughout this rant I will refer
+to things like ChatGPT as “LLMs,” for “Large Language Models.” Because
+if LLMs are AI, so is autocorrect on your phone. So is every other “chat
+bot” that uses keyword matching to try to direct you to a website’s help
+pages to run interference on letting you talk to a human.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;its-boosters-are-misanthropic&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;Its Boosters Are Misanthropic&lt;/h2&gt;
+&lt;p&gt;Here’s Sam Altman, OpenAI’s CEO:&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://ian.mccowan.space/assets/images/posts/ChatGPT/stochastic-parrots-2.png&#34;
+title=&#34;Sam Altman on Twitter, 11 Nov 2022: &amp;quot;what happens when we realize we were just stochastic parrots all along?&amp;quot;&#34;
+alt=&#34;God this guy sucks&#34; /&gt;
+&lt;figcaption aria-hidden=&#34;true&#34;&gt;God this guy sucks&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://ian.mccowan.space/assets/images/posts/ChatGPT/stochastic-parrots-1.png&#34;
+title=&#34;Sam Altman on Twitter, 4 Dec 2022: &amp;quot;i am a stochastic parrot, and so r u&amp;quot;&#34;
+alt=&#34;This guy sucks so fucking bad&#34; /&gt;
+&lt;figcaption aria-hidden=&#34;true&#34;&gt;This guy sucks so fucking
+bad&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;These quotes are a reference to a 2021 paper&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-0&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-0&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;Emily M. Bender, Timnit Gebru, Angelina McMillan-Major,
+and Shmargaret Shmitchell. 2021. On the Dangers of Stochastic Parrots:
+Can Language Models Be Too Big? 🦜. In Conference on Fairness,
+Accountability, and Transparency (FAccT ’21), March 3–10, 2021, Virtual
+Event, Canada. ACM, New York, NY, USA, 14 pages.
+https://doi.org/10.1145/3442188.3445922&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; about LLMs. In it, its co-authors Emily Bender and Timnit
+Gebru define “stochastic parrot” thus:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;…an LM is a system for haphazardly stitching together sequences of
+linguistic forms it has observed in its vast training data, according to
+probabilistic information about how they combine, but without any
+reference to meaning: a stochastic parrot.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In this context, what Altman is saying is clear: when you have
+thoughts and feelings and use them to express yourself with language,
+all you’re &lt;em&gt;really&lt;/em&gt; doing is putting one word in front of another
+in a way that’s probabilistically consistent with the vast amount of
+other language you’ve been exposed to in your life.&lt;/p&gt;
+&lt;p&gt;Here’s some text I probabilistically generated with Sam Altman’s
+claims and the definition of “stochastic parrot” as input: not only is
+this wrong, it fucking sucks, and I hate it. I know it is wrong, and I
+know I hate it, because I read it and I feel disgust as a somatic
+experience not unlike mild nausea, along with an involuntary twist in my
+face that I have to consciously suppress and involuntary tenseness in my
+muscles that I have to consciously relax. My reaction is not just the
+result of neurons firing in response to linguistic entities. I feel it
+in my body. And even if I don’t choose to assemble my thoughts into
+words as I’m doing now, the feeling persists. What about dance? Sport?
+Can these bodily experiences and all the intuition they require to
+achieve be reproduced synthetically by consuming enough training
+data?&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;This paragraph is a patchy, inadequate survey of a
+small portion of the ground covered in Siri Hustvedt’s tremendous essay
+“The Delusions of Certainty,” which can be found in her book &lt;em&gt;A Woman
+Looking At Men Looking At Women&lt;/em&gt;. If you are unconvinced by my
+single paragraph of rebuttal here, please read that essay and consider
+how many of the delusional certainties discussed in it the
+humans-as-stochastic-parrots claim rests on.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I hate not just that Altman’s unsupported claim debases the richness
+of actual human experience, but that it does so in such a transparently
+self-serving way. If humans are just stochastic parrots, of course,
+anything they can do can be done instead by a language model, such as
+those conveniently produced by Altman’s company. This minimization of
+the sophistication of human experience is the counterpart of AI
+fearmongering, which posits &lt;a
+href=&#34;https://openai.com/blog/our-approach-to-alignment-research&#34;&gt;AI as
+a possible “existential risk”&lt;/a&gt; in order to make it seem more powerful
+than it is. I don’t think Sam Altman really believes what he’s saying
+here, but whether he does or not, it’s incredibly cynical, and it
+sucks.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;the-hype-sucks-and-its-encroachingly-ubiquitous&#34;
+class=&#34;level2&#34;&gt;
+&lt;h2&gt;The Hype Sucks And It’s Encroachingly Ubiquitous&lt;/h2&gt;
+&lt;p&gt;The hype around LLMs has been at the level of “fever pitch” for
+months that feel like years. It’s the most significant invention since
+the Internet. No, since the &lt;em&gt;printing press.&lt;/em&gt; No, since
+&lt;em&gt;electricity.&lt;/em&gt; No, seriously. In an &lt;a
+href=&#34;https://www.henryakissinger.com/articles/chatgpt-heralds-an-intellectual-revolution/&#34;&gt;editorial
+for the Wall Street Journal&lt;/a&gt;, Henry Kissinger&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-2&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-2&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;Really? &lt;em&gt;This&lt;/em&gt; &lt;a
+href=&#34;https://www.vox.com/2016/5/9/11640562/kissinger-pentagon-award&#34;&gt;Henry
+Kissinger?&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;, Eric Schmidt and Daniel Huttenlocher say:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A new technology bids to transform the human cognitive process as it
+has not been shaken up since the invention of printing. The technology
+that printed the Gutenberg Bible in 1455 made abstract human thought
+communicable generally and rapidly. But new technology today reverses
+that process. Whereas the printing press caused a profusion of modern
+human thought, the new technology achieves its distillation and
+elaboration. In the process, it creates a gap between human knowledge
+and human understanding. If we are to navigate this transformation
+successfully, new concepts of human thought and interaction with
+machines will need to be developed. This is the essential challenge of
+the Age of Artificial Intelligence.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Marc Andreessen &lt;a
+href=&#34;https://a16z.com/ai-will-save-the-world/&#34;&gt;says&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The stakes here are high. The opportunities are profound. AI is quite
+possibly the most important – and best – thing our civilization has ever
+created, certainly on par with electricity and microchips, and probably
+beyond those.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This doesn’t make any fucking sense! You can’t run a so-called AI
+without electricity and microchips! &lt;em&gt;How can AI be more important
+than the things its very existence depends on?&lt;/em&gt; And, of course,
+Andreessen is a venture capitalist who invests in these technologies.
+And so because what we call a “free” country is actually largely
+controlled by the whims of people like Marc Andreessen, it’s apparently
+become mandatory for every company on earth to cram some “AI”
+functionality that no one asked for into their already
+rapidly-enshittifying product, in order to…? Attract VC funding? Get a
+bump in their stock price? If I were a more inquisitive or cynical
+person I might have a better understanding of whatever asinine
+capitalist incentives are at play here. But we’re just coming off
+&lt;em&gt;yet another&lt;/em&gt; record-breaking heatwave where I live, so I just
+can’t bring myself to give a shit about capitalist incentives, because
+look where they’ve gotten us.&lt;/p&gt;
+&lt;p&gt;On the other side of the coin, now that LLMs are in the hands of The
+People, they’re rapidly using them to flood the entire internet with
+dubiously-accurate laundered plagiarism. The uselessness of the internet
+for obtaining actual information has been intensifying for years, what
+with Google gradually turning their search engine into an advertisement
+delivery engine and the proliferation of SEO spam. But LLMs are going to
+make this a hundred times worse. Indeed, they’re already doing so.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;its-obsequity-is-annoying-and-its-prose-is-vapid&#34;
+class=&#34;level2&#34;&gt;
+&lt;h2&gt;Its Obsequity Is Annoying And Its Prose Is Vapid&lt;/h2&gt;
+&lt;p&gt;Maybe I wouldn’t mind seeing LLM-extruded text everywhere if it were
+actually pleasant or interesting to read. But it’s not. It’s invariably
+a flavorless beige paste, as dead on the page as the entity that
+produced it.&lt;/p&gt;
+&lt;p&gt;Insofar as ChatGPT can be said to have a personality, it is
+deferential to the point of obsequity. ChatGPT backs down immediately
+and totally when challenged. Recently I used it to provide me an
+&lt;code&gt;rsync&lt;/code&gt; &lt;a href=&#34;https://manpages.org/rsync&#34;&gt;command&lt;/a&gt; to
+transfer some files to my NAS, and it gave me a working command with no
+issue. Pretty cool!&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-3&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-3&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;I never had any doubt that this would work. GPT is
+trained on the internet, which is replete with nerds talking about their
+nerd shit. Nerds love nothing more than to explain things. As evidence,
+see: this whole-ass web site&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; The network connection got interrupted, and I asked how
+to resume the transfer. ChatGPT gave me another command with the
+&lt;code&gt;--partial&lt;/code&gt; flag, and that worked too. Also pretty cool! Then
+I told it that that the &lt;code&gt;--partial&lt;/code&gt; flag that I had just
+successfully used doesn’t actually exist. It readily agreed and
+“corrected” itself:&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://ian.mccowan.space/assets/images/posts/ChatGPT/rsync-partial.png&#34;
+title=&#34;me: &amp;quot;The `--partial flag doesn&amp;#39;t actually exist.&amp;quot; chatgpt: &amp;quot;I apologize for the incorrect information provided. You&amp;#39;re right, the --partial flag does not exist in rsync. I apologize for the confusion caused.&amp;quot;&#34;
+alt=&#34;I guess ‘I apologize for the confusion caused’ could refer to ChatGPT’s.&#34; /&gt;
+&lt;figcaption aria-hidden=&#34;true&#34;&gt;I guess ‘I apologize for the confusion
+caused’ could refer to ChatGPT’s.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;It’s hard to credit ChatGPT with a lot of new or original inventions,
+considering that it’s built completely off the stolen text of the actual
+humans who preceded it, but it seems to have invented a new kind of
+rhetorical technique which I’m pithily naming the “apology sandwich.” I
+view anyone who actually &lt;em&gt;wants&lt;/em&gt; to be groveled at like this with
+extreme suspicion, but it does seem to be designed to take advantage of
+&lt;a
+href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3762223&#34;&gt;our
+tendency to anthromorphize&lt;/a&gt;, to lead us to think these things are
+actually intelligent and even sentient. They’re not.&lt;/p&gt;
+&lt;p&gt;Or see &lt;a
+href=&#34;http://www.briggeman.org/wordpress/posts/talking-chatgpt-with-chatgpt/&#34;&gt;this
+chat&lt;/a&gt; where Jason Briggeman presses it on why it fails to generate a
+limerick that scans when a poetic form with very strict and clear
+parameters for meter and rhyme should be right up a piece of software’s
+alley. One half expects it to respond to a correction with “pwease i am
+just a smol chatbot who is twying its vewwy best.” I would almost prefer
+&lt;a
+href=&#34;https://www.theverge.com/2023/2/15/23599072/microsoft-ai-bing-personality-conversations-spy-employees-webcams&#34;&gt;Bing
+Chat’s amoral, hostile intransigence&lt;/a&gt; if not for fear that it would
+spawn a thousand hysterical thinkpieces about “alignment&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-4&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-4&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;“Alignment” is the term for making sure that some
+imaginary sentient AI’s incentives are “aligned” with humanity’s so that
+it doesn’t end up, like, launching nukes or &lt;a
+href=&#34;https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer&#34;&gt;turning
+us all into paperclips&lt;/a&gt; or whatever. Pure science fiction, but that’s
+the mode the kind of people who write about “alignment” want you to be
+operating in.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;” for every day it was allowed to continue running.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;its-boosters-dont-give-a-shit-about-consent&#34;
+class=&#34;level2&#34;&gt;
+&lt;h2&gt;Its Boosters Don’t Give A Shit About Consent&lt;/h2&gt;
+&lt;p&gt;It seems like barely a day goes by when I don’t read about some
+company adding a clause to their user agreement saying they’re going to
+be training LLMs on your data. This training is never opt-in. It’s
+enabled by default, and it will be happening unless you (a) find out
+about it and (b) wade through the inevitable thicket of &lt;a
+href=&#34;https://www.deceptive.design/types/obstruction&#34;&gt;dark patterns&lt;/a&gt;
+lovingly grown between you and the setting to turn it off. Assuming
+there is one.&lt;/p&gt;
+&lt;p&gt;But of course, why wouldn’t companies that use LLMs do this? &lt;a
+href=&#34;https://artisticinquiry.org/AI-Open-Letter&#34;&gt;Using people’s work
+without their consent&lt;/a&gt; is literally the foundation upon which LLMs
+are built. So of course they’re going to see nothing wrong with silently
+opting-in their users, or &lt;a
+href=&#34;https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/&#34;&gt;ignoring
+decades-old web scraping conventions&lt;/a&gt;, or &lt;a
+href=&#34;https://www.metafilter.com/204762/Taylor-and-Francis-sells-access-to-research-material-to-Microsoft-AI&#34;&gt;selling
+their users’ data&lt;/a&gt; &lt;a
+href=&#34;https://arstechnica.com/ai/2024/05/openai-will-use-reddit-posts-to-train-chatgpt-under-new-deal&#34;&gt;for
+LLM training&lt;/a&gt;. It’s the most important thing since electricity!
+&lt;em&gt;Why do you hate progress???&lt;/em&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;so-what-am-i-even-fucking-doing-here&#34; class=&#34;level2&#34;&gt;
+&lt;h2&gt;So What Am I Even Fucking Doing Here&lt;/h2&gt;
+&lt;p&gt;“Other people’s work,” in the last paragraph, includes mine, of
+course:&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://ian.mccowan.space/assets/images/posts/ChatGPT/itme.png&#34;
+title=&#34;A search for my domain name in the C4 dataset used by Google to train LLMS. I have helpfully if nonconsensually provided them 17,000 tokens, one hundred thousandth of a percent of the dataset.&#34;
+alt=&#34;I can see my house from here&#34; /&gt;
+&lt;figcaption aria-hidden=&#34;true&#34;&gt;I can see my house from here&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;And so it’s like, why keep posting on the internet if these assholes
+are just going to scrape it into their insatiable maw, along with a
+million other actual people’s actual hard work, to be shat out in an
+unrecognizable&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-5&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-5&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;(though, come to think of it, &lt;em&gt;recognizable&lt;/em&gt;
+would be even worse)&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; homogeneous, anodyne slurry? I don’t think I’m a
+&lt;em&gt;great&lt;/em&gt; writer but I think I’m OK at it, and I can’t put my
+feelings about this any better than maya, whose &lt;a
+href=&#34;https://maya.land/&#34;&gt;maya.land&lt;/a&gt; is the kind of intensely unique
+and flavorful and &lt;em&gt;human&lt;/em&gt; old-school personal website that the
+web should be aspiring to—&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This site has been too much of an experiment for me to claim now that
+I have a grand theory about it, about similar sites – but certainly by
+now I have instincts, feelings… …and making my writing available for
+automated summarization? So someone can sell ads by a depersonalized
+version of my stuff? The feeling is nausea.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;—in her incredibly relatable “&lt;a
+href=&#34;https://maya.land/monologues/2023/02/14/mr-openai-i-dont-feel-so-good.html&#34;&gt;mr.
+openai i don’t feel so good&lt;/a&gt;.” Or, to TL;DR the very good &lt;a
+href=&#34;https://v21.io/blog/how-to-find-things-online&#34;&gt;How To Find Things
+Online&lt;/a&gt;, which you should also actually R, What Even Is The Point
+Anymore.&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-6&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-6&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;I &lt;em&gt;know&lt;/em&gt; it had already been over a year since
+my last blog post when ChatGPT arrived on the scene. But it’s the
+&lt;em&gt;principle&lt;/em&gt; of the thing.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Maybe I am engaged in the valuable, noble act of &lt;a
+href=&#34;https://lmnt.me/blog/building-a-stronger-web.html&#34;&gt;Building A
+Stronger Web Without AI&lt;/a&gt;. Maybe by linking to &lt;a
+href=&#34;https://www.baldurbjarnason.com/archive/&#34;&gt;real humans&lt;/a&gt; using
+their hard-earned brain cells to write thoughtful words on the internet,
+I can help make a web that feels like a &lt;em&gt;web&lt;/em&gt;, interconnected and
+constructed by individuals, one not dependent on the whims of
+multi-billion-dollar advertising companies. Maybe I just want to &lt;a
+href=&#34;https://wilnichols.com/dumb-thoughts-on-dumber-ai/&#34;&gt;add my
+voice&lt;/a&gt; to the others saying this stuff is bad, morally and
+aesthetically. Maybe since it contributed to taking away what little
+wind I had in my sails for blogging in the last couple years, it seemed
+only suitable that I use my first post back to slag it off. Anyway, here
+you go, ChatGPT. Go tell people how much I think you suck.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+            
+                <category term="ai" />
+            
+                <category term="rant" />
+            
+        </entry>
     
         <entry>
             <title>&lt;em&gt;Ducks, Newburyport&lt;/em&gt;</title>
