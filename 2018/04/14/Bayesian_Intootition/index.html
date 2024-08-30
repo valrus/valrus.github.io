@@ -73,6 +73,15 @@
                                 </li>
                             
                         
+                            
+                                <li>
+                                    <a href="/outside/">
+                                        
+                                        Outside
+                                    </a>
+                                </li>
+                            
+                        
                     </ul>
                 
             
@@ -83,36 +92,122 @@
         Bayesian In-toot-ition
     </h1>
     
-    <p>Someone in <a href="https://fediverse.party/">the Fediverse</a> tooted<span class="sidenote-wrapper"><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span class="sidenote">The Fediverse is, loosely speaking, a constellation of open source social media replacements, of which <a href="https://joinmastodon.org/">Mastodon</a>, on which <a href="https://icosahedron.website/@valrus">I have an account</a>, is one. Yes, the analogue of “tweeting” is called “tooting” there.<br />
+    <p>Someone in <a href="https://fediverse.party/">the Fediverse</a>
+tooted<span
+class="sidenote-wrapper"><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span
+class="sidenote">The Fediverse is, loosely speaking, a constellation of
+open source social media replacements, of which <a
+href="https://joinmastodon.org/">Mastodon</a>, on which <a
+href="https://icosahedron.website/@valrus">I have an account</a>, is
+one. Yes, the analogue of “tweeting” is called “tooting” there.<br />
 <br />
 </span></span> a probability problem:</p>
 <blockquote>
-<p>A, B and C toot the truth with a probability of 1/3 and lie with a probability of 2/3.</p>
-<p>A makes a toot and B toots an observation on whether or not A was tooting the truth or not. C toots that B confirmed A was truthful.</p>
+<p>A, B and C toot the truth with a probability of 1/3 and lie with a
+probability of 2/3.</p>
+<p>A makes a toot and B toots an observation on whether or not A was
+tooting the truth or not. C toots that B confirmed A was truthful.</p>
 <p>What is the actual probability that A’s toot was truthful?</p>
 </blockquote>
-<p>If you’re into solving this kind of problem, please stop reading this post and work it out for yourself now. Subsequent paragraphs will discuss the solution in detail.</p>
+<p>If you’re into solving this kind of problem, please stop reading this
+post and work it out for yourself now. Subsequent paragraphs will
+discuss the solution in detail.</p>
 <section id="the-obvious-answer" class="level2">
 <h2>The Obvious Answer</h2>
-<p>My first guess, and the obvious “this is a trick question” answer, was ⅓, on the assumption that the only relevant information is in the first sentence. But I second guessed myself, because the question seemed naggingly similar to the infamous <a href="http://marilynvossavant.com/game-show-problem/">Monty Hall problem</a>, where the “obvious” answer is also wrong, and quite counterintuitively so to most people including myself. I worked out the problem in a different way, and got a different answer. But the poster of the original toot asserted that the correct answer is ⅓: the information about B and C is all irrelevant, and the answer is given to you in the first paragraph.</p>
-<p>Still, that feeling of similarity to the Monty Hall problem bothered me, and though my probability class is pretty far behind me now, I did dimly recall learning about something called <a href="https://en.wikipedia.org/wiki/Bayesian_inference">Bayesian inference</a>, which basically lets you update the probability of a hypothesis (in this case, “A told the truth”) as you get more information with the use of a pretty simple equation.</p>
+<p>My first guess, and the obvious “this is a trick question” answer,
+was ⅓, on the assumption that the only relevant information is in the
+first sentence. But I second guessed myself, because the question seemed
+naggingly similar to the infamous <a
+href="http://marilynvossavant.com/game-show-problem/">Monty Hall
+problem</a>, where the “obvious” answer is also wrong, and quite
+counterintuitively so to most people including myself. I worked out the
+problem in a different way, and got a different answer. But the poster
+of the original toot asserted that the correct answer is ⅓: the
+information about B and C is all irrelevant, and the answer is given to
+you in the first paragraph.</p>
+<p>Still, that feeling of similarity to the Monty Hall problem bothered
+me, and though my probability class is pretty far behind me now, I did
+dimly recall learning about something called <a
+href="https://en.wikipedia.org/wiki/Bayesian_inference">Bayesian
+inference</a>, which basically lets you update the probability of a
+hypothesis (in this case, “A told the truth”) as you get more
+information with the use of a pretty simple equation.</p>
 </section>
 <section id="bayesd-and-confused" class="level2">
 <h2>Bayes’d and Confused</h2>
-<p><a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes’s Theorem</a> isn’t generally stated this way, but I like the following statement of it: think of <span class="math inline">\(X\)</span> as the event whose probability we’re trying to determine and <span class="math inline">\(E\)</span> as the event that we consider to be evidence for (or against) it.</p>
-<p><span class="math display">\[ P(X|E) = {P(E|X) \over P(E)} \cdot P(X) \]</span></p>
-<p>Since <span class="math inline">\(P(X|E)\)</span> is the probability that <span class="math inline">\(X\)</span> occurred given that we’ve observed <span class="math inline">\(E\)</span> and <span class="math inline">\(P(X)\)</span> is the probability of <span class="math inline">\(P(X)\)</span> happening in absence of any other information, this formulation is nice because you can think of that factor <span class="math inline">\(P(E|X) / P(E)\)</span> as the effect that our observing <span class="math inline">\(E\)</span> has on the likelihood that <span class="math inline">\(X\)</span> occurred.</p>
-<p>What does that factor mean, though? First off, it’s not a probability. If <span class="math inline">\(X\)</span> makes <span class="math inline">\(E\)</span> more likely, the numerator will be larger than the demoninator, so it won’t be less than 1 like a good probability should. But that framing also lets us think of it as a regular old ratio: since the numerator is “<span class="math inline">\(E\)</span> given <span class="math inline">\(X\)</span>” and the demoninator is “<span class="math inline">\(E\)</span> alone,” the ratio is basically “how much more likely does <span class="math inline">\(X\)</span> make <span class="math inline">\(E\)</span>?” So the full theorem, using this formulation, can be stated as:</p>
+<p><a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes’s
+Theorem</a> isn’t generally stated this way, but I like the following
+statement of it: think of <span class="math inline">\(X\)</span> as the
+event whose probability we’re trying to determine and <span
+class="math inline">\(E\)</span> as the event that we consider to be
+evidence for (or against) it.</p>
+<p><span class="math display">\[ P(X|E) = {P(E|X) \over P(E)} \cdot P(X)
+\]</span></p>
+<p>Since <span class="math inline">\(P(X|E)\)</span> is the probability
+that <span class="math inline">\(X\)</span> occurred given that we’ve
+observed <span class="math inline">\(E\)</span> and <span
+class="math inline">\(P(X)\)</span> is the probability of <span
+class="math inline">\(P(X)\)</span> happening in absence of any other
+information, this formulation is nice because you can think of that
+factor <span class="math inline">\(P(E|X) / P(E)\)</span> as the effect
+that our observing <span class="math inline">\(E\)</span> has on the
+likelihood that <span class="math inline">\(X\)</span> occurred.</p>
+<p>What does that factor mean, though? First off, it’s not a
+probability. If <span class="math inline">\(X\)</span> makes <span
+class="math inline">\(E\)</span> more likely, the numerator will be
+larger than the demoninator, so it won’t be less than 1 like a good
+probability should. But that framing also lets us think of it as a
+regular old ratio: since the numerator is “<span
+class="math inline">\(E\)</span> given <span
+class="math inline">\(X\)</span>” and the demoninator is “<span
+class="math inline">\(E\)</span> alone,” the ratio is basically “how
+much more likely does <span class="math inline">\(X\)</span> make <span
+class="math inline">\(E\)</span>?” So the full theorem, using this
+formulation, can be stated as:</p>
 <blockquote>
-<p>The conditional probability of some event <span class="math inline">\(X\)</span>, given some evidence <span class="math inline">\(E\)</span>, is equal to the unconditional probability of <span class="math inline">\(X\)</span> times the effect of <span class="math inline">\(X\)</span> on the probability of <span class="math inline">\(E\)</span>.</p>
+<p>The conditional probability of some event <span
+class="math inline">\(X\)</span>, given some evidence <span
+class="math inline">\(E\)</span>, is equal to the unconditional
+probability of <span class="math inline">\(X\)</span> times the effect
+of <span class="math inline">\(X\)</span> on the probability of <span
+class="math inline">\(E\)</span>.</p>
 </blockquote>
-<p>Given that <span class="math inline">\(E\)</span> has <em>already occurred</em>, if we know that <span class="math inline">\(X\)</span>’s occurring would have made it more likely, then we have more reason to believe <span class="math inline">\(X\)</span> itself happened than in the absence of any information about <span class="math inline">\(E\)</span> (and vice versa). That’s the intuition that Bayes’s theorem makes precise; regardless of whether the intuition is intuitive to you, the theorem is true, and I’m going to move on to applying it to the Toot Enigma and determining whether the answer actually is ⅓.</p>
+<p>Given that <span class="math inline">\(E\)</span> has <em>already
+occurred</em>, if we know that <span class="math inline">\(X\)</span>’s
+occurring would have made it more likely, then we have more reason to
+believe <span class="math inline">\(X\)</span> itself happened than in
+the absence of any information about <span
+class="math inline">\(E\)</span> (and vice versa). That’s the intuition
+that Bayes’s theorem makes precise; regardless of whether the intuition
+is intuitive to you, the theorem is true, and I’m going to move on to
+applying it to the Toot Enigma and determining whether the answer
+actually is ⅓.</p>
 </section>
 <section id="the-toot-enigma" class="level2">
 <h2>The Toot Enigma</h2>
-<p>Alright, so first off: there is, I <em>suppose</em>, a case to be made that by saying “actual probability,” the original tooter specifically meant “probability in the absense of any additional evidence,” in which case all the Bayes stuff is irrelevant and the answer is straightforwardly, indeed <em>tautologically</em> ⅓. But I think that interpretation of the problem is not only contrary to how probability problems are usually understood (if you’re trying to determine how likely something is, wouldn’t you <em>always</em> want to take into account all relevant evidence?), but also <em>painfully boring</em>. So, Bayes to the rescue.</p>
-<p>Here, <span class="math inline">\(X\)</span> is the event whose probability we’re trying to determine: “A told the truth.” <span class="math inline">\(E\)</span> is the available evidence: “C said B confirmed A told the truth.” Since we’re told that <span class="math inline">\(E\)</span> has occurred, we’re interested in finding <span class="math inline">\(P(X|E)\)</span>. We’re also given that <span class="math inline">\(P(X) = 1/3\)</span>. So to finish the calculation, we need <span class="math inline">\(P(E)\)</span> and <span class="math inline">\(P(E|X)\)</span>.</p>
-<p>I made a truth table for this, to take into account the eight (<span class="math inline">\(2^3\)</span>) different combinations of truth or falsehood on the part of A, B and C. For each of these, “T” means “told the truth” and “F” means “lied.”</p>
+<p>Alright, so first off: there is, I <em>suppose</em>, a case to be
+made that by saying “actual probability,” the original tooter
+specifically meant “probability in the absense of any additional
+evidence,” in which case all the Bayes stuff is irrelevant and the
+answer is straightforwardly, indeed <em>tautologically</em> ⅓. But I
+think that interpretation of the problem is not only contrary to how
+probability problems are usually understood (if you’re trying to
+determine how likely something is, wouldn’t you <em>always</em> want to
+take into account all relevant evidence?), but also <em>painfully
+boring</em>. So, Bayes to the rescue.</p>
+<p>Here, <span class="math inline">\(X\)</span> is the event whose
+probability we’re trying to determine: “A told the truth.” <span
+class="math inline">\(E\)</span> is the available evidence: “C said B
+confirmed A told the truth.” Since we’re told that <span
+class="math inline">\(E\)</span> has occurred, we’re interested in
+finding <span class="math inline">\(P(X|E)\)</span>. We’re also given
+that <span class="math inline">\(P(X) = 1/3\)</span>. So to finish the
+calculation, we need <span class="math inline">\(P(E)\)</span> and <span
+class="math inline">\(P(E|X)\)</span>.</p>
+<p>I made a truth table for this, to take into account the eight (<span
+class="math inline">\(2^3\)</span>) different combinations of truth or
+falsehood on the part of A, B and C. For each of these, “T” means “told
+the truth” and “F” means “lied.”</p>
 <table style="width:47%;">
 <colgroup>
 <col style="width: 9%" />
@@ -136,82 +231,124 @@
 <td style="text-align: center;">T</td>
 <td style="text-align: center;">T</td>
 <td style="text-align: center;">T</td>
-<td style="text-align: left;">A tells the truth. B confirms it. C says B confirmed A.</td>
+<td style="text-align: left;">A tells the truth. B confirms it. C says B
+confirmed A.</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">T</td>
 <td style="text-align: center;">T</td>
 <td style="text-align: center;">F</td>
-<td style="text-align: left;">A tells the truth. B confirms it. C lies that B didn’t confirm A.</td>
+<td style="text-align: left;">A tells the truth. B confirms it. C lies
+that B didn’t confirm A.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">T</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">T</td>
-<td style="text-align: left;">A tells the truth. B says A lied. C says B says A lied.</td>
+<td style="text-align: left;">A tells the truth. B says A lied. C says B
+says A lied.</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
 <td style="text-align: center;">T</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">F</td>
-<td style="text-align: left;">A tells the truth. B says A lied. C lies that B confirmed A.</td>
+<td style="text-align: left;">A tells the truth. B says A lied. C lies
+that B confirmed A.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">T</td>
 <td style="text-align: center;">T</td>
-<td style="text-align: left;">A lies. B says A lied. C says B didn’t confirm A.</td>
+<td style="text-align: left;">A lies. B says A lied. C says B didn’t
+confirm A.</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">T</td>
 <td style="text-align: center;">F</td>
-<td style="text-align: left;">A lies. B says A lied. C lies and says B confirmed A.</td>
+<td style="text-align: left;">A lies. B says A lied. C lies and says B
+confirmed A.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">7</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">T</td>
-<td style="text-align: left;">A lies. B lies that A told the truth. C says B confirmed A.</td>
+<td style="text-align: left;">A lies. B lies that A told the truth. C
+says B confirmed A.</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">8</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">F</td>
 <td style="text-align: center;">F</td>
-<td style="text-align: left;">A lies. B lies that A told the truth. C lies that B didn’t confirm A.</td>
+<td style="text-align: left;">A lies. B lies that A told the truth. C
+lies that B didn’t confirm A.</td>
 </tr>
 </tbody>
 </table>
-<p>First let’s find <span class="math inline">\(P(E)\)</span>. <span class="math inline">\(E\)</span> is any case where C says B confirmed A: 1, 4, 6 and 7. The probabilities of those cases are:</p>
+<p>First let’s find <span class="math inline">\(P(E)\)</span>. <span
+class="math inline">\(E\)</span> is any case where C says B confirmed A:
+1, 4, 6 and 7. The probabilities of those cases are:</p>
 <ul>
-<li>1: <code>TTT</code> - <span class="math inline">\((1/3)^3 = 1/27\)</span></li>
-<li>4: <code>TFF</code> - <span class="math inline">\((1/3)(2/3)^2 = 4/27\)</span></li>
-<li>6: <code>FTF</code> - <span class="math inline">\((2/3)(1/3)(2/3) = 4/27\)</span></li>
-<li>7: <code>FFT</code> - <span class="math inline">\((2/3)^2(1/3) = 4/27\)</span></li>
+<li>1: <code>TTT</code> - <span class="math inline">\((1/3)^3 =
+1/27\)</span></li>
+<li>4: <code>TFF</code> - <span class="math inline">\((1/3)(2/3)^2 =
+4/27\)</span></li>
+<li>6: <code>FTF</code> - <span class="math inline">\((2/3)(1/3)(2/3) =
+4/27\)</span></li>
+<li>7: <code>FFT</code> - <span class="math inline">\((2/3)^2(1/3) =
+4/27\)</span></li>
 </ul>
 <p>with a sum of <span class="math inline">\(13/27\)</span>.</p>
-<p>Next, <span class="math inline">\(P(E|X)\)</span>: the conditional probability that C says B confirmed A, given that A told the truth. This is easiest to calculate as <span class="math inline">\(P(E \cap X) / P(X)\)</span>: <span class="math inline">\(P(E \cap X)\)</span>, the probability that A tells the truth <em>and</em> C says B confirms A, is just the subset of the cases of <span class="math inline">\(P(E)\)</span> where A also told the truth: 1 and 4. Those have a combined probability of <span class="math inline">\(5/27\)</span>. Finally, <span class="math inline">\(P(X) = 1/3\)</span>. So, <span class="math inline">\(P(E|X) = P(E \cap X) / P(X) = (5/27) / (1/3) = 5/9\)</span>.</p>
+<p>Next, <span class="math inline">\(P(E|X)\)</span>: the conditional
+probability that C says B confirmed A, given that A told the truth. This
+is easiest to calculate as <span class="math inline">\(P(E \cap X) /
+P(X)\)</span>: <span class="math inline">\(P(E \cap X)\)</span>, the
+probability that A tells the truth <em>and</em> C says B confirms A, is
+just the subset of the cases of <span
+class="math inline">\(P(E)\)</span> where A also told the truth: 1 and
+4. Those have a combined probability of <span
+class="math inline">\(5/27\)</span>. Finally, <span
+class="math inline">\(P(X) = 1/3\)</span>. So, <span
+class="math inline">\(P(E|X) = P(E \cap X) / P(X) = (5/27) / (1/3) =
+5/9\)</span>.</p>
 <p>Putting this all together in Bayes’s theorem:</p>
-<p><span class="math display">\[P(X|E) = {P(E|X) \over P(E)} \cdot P(X) = { { 5 \over 9} \over {13 \over 27} } \cdot {1 \over 3 } = {5 \over 9} \cdot {27 \over 13} \cdot {1 \over 3} = { 5 \over 13 }\]</span></p>
-<p>That’s a bit more than ⅓: the additional information about B and C actually did give us a little more confidence that A told the truth!</p>
+<p><span class="math display">\[P(X|E) = {P(E|X) \over P(E)} \cdot P(X)
+= { { 5 \over 9} \over {13 \over 27} } \cdot {1 \over 3 } = {5 \over 9}
+\cdot {27 \over 13} \cdot {1 \over 3} = { 5 \over 13 }\]</span></p>
+<p>That’s a bit more than ⅓: the additional information about B and C
+actually did give us a little more confidence that A told the truth!</p>
 </section>
 <section id="conclusion" class="level2">
 <h2>Conclusion</h2>
-<p>Probability is complicated and counterintuitive. Never trust your intuition unless you’ve got a theorem backing it up.</p>
+<p>Probability is complicated and counterintuitive. Never trust your
+intuition unless you’ve got a theorem backing it up.</p>
 </section>
 <section id="epilogue-a-simpler-solution" class="level2">
 <h2>Epilogue: A Simpler Solution</h2>
-<p>We were looking for <span class="math inline">\(P(X|E)\)</span>. That doesn’t actually require a detour through Bayes’s theorem: we could have just used the definition of conditional probability, combined with the truth table above. <span class="math inline">\(P(X \cap E)\)</span> and <span class="math inline">\(P(E \cap X)\)</span> are the same, so:</p>
-<p><span class="math display">\[P(X|E) = {P(X \cap E) \over P(E)} = { {5 \over 27 } \over {13 \over 27} } = {5 \over 13}\]</span></p>
-<p>But I just thought this post was more fun with a detour through Bayes’s theorem, which is quite possibly the most important theorem in probability theory.</p>
-<p>(Thanks to <a href="https://ask.metafilter.com/321013/Help-me-figure-out-whats-up-with-this-probability-question">Ask MetaFilter</a> for backing me up when I was doubting myself on this one. The discussion there is worth reading, especially <a href="https://ask.metafilter.com/321013/Help-me-figure-out-whats-up-with-this-probability-question#4629395">this comment</a> for a concise justification of why we need to take the information about B and C into account.)</p>
+<p>We were looking for <span class="math inline">\(P(X|E)\)</span>. That
+doesn’t actually require a detour through Bayes’s theorem: we could have
+just used the definition of conditional probability, combined with the
+truth table above. <span class="math inline">\(P(X \cap E)\)</span> and
+<span class="math inline">\(P(E \cap X)\)</span> are the same, so:</p>
+<p><span class="math display">\[P(X|E) = {P(X \cap E) \over P(E)} = { {5
+\over 27 } \over {13 \over 27} } = {5 \over 13}\]</span></p>
+<p>But I just thought this post was more fun with a detour through
+Bayes’s theorem, which is quite possibly the most important theorem in
+probability theory.</p>
+<p>(Thanks to <a
+href="https://ask.metafilter.com/321013/Help-me-figure-out-whats-up-with-this-probability-question">Ask
+MetaFilter</a> for backing me up when I was doubting myself on this one.
+The discussion there is worth reading, especially <a
+href="https://ask.metafilter.com/321013/Help-me-figure-out-whats-up-with-this-probability-question#4629395">this
+comment</a> for a concise justification of why we need to take the
+information about B and C into account.)</p>
 </section>
 
 </article>

@@ -72,6 +72,15 @@
                                 </li>
                             
                         
+                            
+                                <li>
+                                    <a href="/outside/">
+                                        
+                                        Outside
+                                    </a>
+                                </li>
+                            
+                        
                     </ul>
                 
             
@@ -82,19 +91,51 @@
         Compiling Textual
     </h1>
     
-    <p>Okay, I’m sure that by the time I need this again it will be defunct in some way because such is the nature of XCode, but nevertheless I’ve done this twice and struggled for way longer than necessary with what I think was more or less the same thing both times. So, for my own reference and that of anyone trying this for themselves, here’s the steps for how I successfully compiled <a href="https://github.com/Codeux/Textual">Textual</a> 3.1.0 with XCode 4.6.3. These instructions assume you have XCode and Git installed and some basic familiarity with the command line.</p>
+    <p>Okay, I’m sure that by the time I need this again it will be defunct
+in some way because such is the nature of XCode, but nevertheless I’ve
+done this twice and struggled for way longer than necessary with what I
+think was more or less the same thing both times. So, for my own
+reference and that of anyone trying this for themselves, here’s the
+steps for how I successfully compiled <a
+href="https://github.com/Codeux/Textual">Textual</a> 3.1.0 with XCode
+4.6.3. These instructions assume you have XCode and Git installed and
+some basic familiarity with the command line.</p>
 <ol type="1">
-<li>Clone <a href="https://github.com/Codeux/Textual.git">the Textual repo</a> into some directory. I used <code>~/Code/Textual</code> and did it with the <a href="http://mac.github.com/">Mac Github app</a> by clicking the “Clone in Desktop” button on the right side of <a href="https://github.com/Codeux/Textual">Textual’s Github page</a>.</li>
-<li>Check out a released version of Textual. Go to the folder where you checked it out and issue the command <code>git tag -l</code> to list the available tags. Pick one (probably the one with the biggest number, I dunno) and do <code>git checkout tags/&lt;tag&gt;</code> where <tag> is the tag you chose. In this case it was <code>v3.1.0</code>.</li>
-<li>Follow steps 3–5 in <a href="http://www.numlock.ch/news/mac_os_x/how-to-compile-textual-open-source-irc-client-on-mac-os-x/">these instructions</a>.</li>
-<li>Open the “Frameworks” folder in your checked out Textual folder. It will have some subfolders in it: five, as of this writing. You care about three of them: “Auto Hyperlinks”, “Blowfish Encryption” and “System Information”. For each of these three, do the following:
+<li>Clone <a href="https://github.com/Codeux/Textual.git">the Textual
+repo</a> into some directory. I used <code>~/Code/Textual</code> and did
+it with the <a href="http://mac.github.com/">Mac Github app</a> by
+clicking the “Clone in Desktop” button on the right side of <a
+href="https://github.com/Codeux/Textual">Textual’s Github page</a>.</li>
+<li>Check out a released version of Textual. Go to the folder where you
+checked it out and issue the command <code>git tag -l</code> to list the
+available tags. Pick one (probably the one with the biggest number, I
+dunno) and do <code>git checkout tags/&lt;tag&gt;</code> where <tag> is
+the tag you chose. In this case it was <code>v3.1.0</code>.</li>
+<li>Follow steps 3–5 in <a
+href="http://www.numlock.ch/news/mac_os_x/how-to-compile-textual-open-source-irc-client-on-mac-os-x/">these
+instructions</a>.</li>
+<li>Open the “Frameworks” folder in your checked out Textual folder. It
+will have some subfolders in it: five, as of this writing. You care
+about three of them: “Auto Hyperlinks”, “Blowfish Encryption” and
+“System Information”. For each of these three, do the following:
 <ul>
 <li>Open the folder and then the “Source” subfolder.</li>
-<li>Drag the file with the <code>.xcodeproj</code> extension onto the “Main Project (Textual)” project in the Project Navigator in XCode. The Project Navigator is the left-hand sidebar with the little folder icon at the top selected; you may have to left-most button above the “View” control in the toolbar to turn it on. <a href="/assets/images/posts/Compiling_Textual/Adding_Frameworks.png" rel="bytebox">Here’s a screenshot summing up what does where.</a></li>
-<li>Turn off code signing for the resulting (sub?)project in XCode. That means repeat step 5 from the instructions linked in step 3 above.</li>
+<li>Drag the file with the <code>.xcodeproj</code> extension onto the
+“Main Project (Textual)” project in the Project Navigator in XCode. The
+Project Navigator is the left-hand sidebar with the little folder icon
+at the top selected; you may have to left-most button above the “View”
+control in the toolbar to turn it on.
+<a href="/assets/images/posts/Compiling_Textual/Adding_Frameworks.png" rel="bytebox">Here’s
+a screenshot summing up what does where.</a></li>
+<li>Turn off code signing for the resulting (sub?)project in XCode. That
+means repeat step 5 from the instructions linked in step 3 above.</li>
 </ul></li>
-<li>Follow steps 6–8 in the <a href="http://www.numlock.ch/news/mac_os_x/how-to-compile-textual-open-source-irc-client-on-mac-os-x/">aforementioned instructions</a>.</li>
-<li>The app will be in the <code>Build Results/Release</code> subdirectory of your Textual checkout. Put it in your <code>Applications</code> folder.</li>
+<li>Follow steps 6–8 in the <a
+href="http://www.numlock.ch/news/mac_os_x/how-to-compile-textual-open-source-irc-client-on-mac-os-x/">aforementioned
+instructions</a>.</li>
+<li>The app will be in the <code>Build Results/Release</code>
+subdirectory of your Textual checkout. Put it in your
+<code>Applications</code> folder.</li>
 </ol>
 
 </article>

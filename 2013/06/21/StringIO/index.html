@@ -67,6 +67,15 @@
                                 </li>
                             
                         
+                            
+                                <li>
+                                    <a href="/outside/">
+                                        
+                                        Outside
+                                    </a>
+                                </li>
+                            
+                        
                     </ul>
                 
             
@@ -77,12 +86,32 @@
         StringIO
     </h1>
     
-    <p>I recently discovered the <code>StringIO</code> module and have been using it surprisingly often. It’s not a terribly flashy module, being roughly equivalent to a C++ <code>stringstream</code>, but it is proving useful more than I expected. There are a couple use cases that have come up more than once just in the last couple weeks:</p>
+    <p>I recently discovered the <code>StringIO</code> module and have been
+using it surprisingly often. It’s not a terribly flashy module, being
+roughly equivalent to a C++ <code>stringstream</code>, but it is proving
+useful more than I expected. There are a couple use cases that have come
+up more than once just in the last couple weeks:</p>
 <ul>
-<li>I’m trying to run a command that produces output to stdout and read that output with a function that expects a file. Instead of piping the command’s output to a file, I can just initialize a <code>StringIO</code> with the result of <code>subprocess.check_output()</code> and pass it into the function. Intermediate files suck and I hate them. Using a <code>StringIO</code>, by contrast, is so fresh and so clean, clean.</li>
-<li>I’m trying to write unit tests for functions or methods that read things from files. A unit test that depends on a file isn’t very, you know, unit-y. So instead I can keep it all in the test suite by putting the contents of a test file into a <code>StringIO</code> and passing that to the function or method I want to test. Poof, no filthy, error-prone external files sitting around and begriming the purity of my unit tests.</li>
+<li>I’m trying to run a command that produces output to stdout and read
+that output with a function that expects a file. Instead of piping the
+command’s output to a file, I can just initialize a
+<code>StringIO</code> with the result of
+<code>subprocess.check_output()</code> and pass it into the function.
+Intermediate files suck and I hate them. Using a <code>StringIO</code>,
+by contrast, is so fresh and so clean, clean.</li>
+<li>I’m trying to write unit tests for functions or methods that read
+things from files. A unit test that depends on a file isn’t very, you
+know, unit-y. So instead I can keep it all in the test suite by putting
+the contents of a test file into a <code>StringIO</code> and passing
+that to the function or method I want to test. Poof, no filthy,
+error-prone external files sitting around and begriming the purity of my
+unit tests.</li>
 </ul>
-<p>In retrospect, at least the second of these things seems obvious: like it should be a bog-standard way to write unit tests that don’t depend on external resources. But I’ve done a fair amount of cruising StackOverflow and other places looking at Python unit test best practices and haven’t ever stumbled across it before.</p>
+<p>In retrospect, at least the second of these things seems obvious:
+like it should be a bog-standard way to write unit tests that don’t
+depend on external resources. But I’ve done a fair amount of cruising
+StackOverflow and other places looking at Python unit test best
+practices and haven’t ever stumbled across it before.</p>
 
 </article>
 
