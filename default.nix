@@ -3,7 +3,7 @@ with import <nixpkgs> { };
 let
   pythonPackages = python3Packages;
 in pkgs.mkShell rec {
-  name = "impurePythonEnv";
+  name = "peppermynt";
   venvDir = "./.venv";
   buildInputs = [
     pythonPackages.python
