@@ -34,7 +34,7 @@ jobs:
     - name: Check Valid robots.txt
       env:
         ROBOTS: ${{ steps.fetch-robots-txt.outputs.* }}
-      if: ${{ !(contains(env.ROBOTS, "User-agent:") && contains(env.ROBOTS, "Disallow:")) }}
+      if: ${{ !(contains(env.ROBOTS, 'User-agent:') && contains(env.ROBOTS, 'Disallow:')) }}
       run: exit 1
 
     - name: Verify Changed files
