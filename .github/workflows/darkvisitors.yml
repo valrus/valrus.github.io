@@ -12,7 +12,4 @@ jobs:
 
     steps:
     - name: Dark Visitors robots.txt
-      uses: valrus/dark-visitors-robots@v1.0.0
-      with:
-        cron_hour: 2
-        cron_minute: 55
+      uses: valrus/dark-visitors-robots@v1.1.0
