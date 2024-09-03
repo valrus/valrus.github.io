@@ -30,7 +30,15 @@ jobs:
         -d '{"agent_types": ["AI Data Scraper", "Undocumented AI Agent"], "disallow": "/"}'
         -o robots.txt
 
+    - name: Verify Changed files
+      uses: tj-actions/verify-changed-files@v20
+      id: verify-robots-changed
+      with:
+        files: |
+           robots.txt
+
     - name: Commit and push robots.txt
+      if: steps.verify-robots-changed.outputs.files_changed == 'true'
       run: |
         git add robots.txt
         git commit -m "Update robots.txt daily from darkvisitors API"
