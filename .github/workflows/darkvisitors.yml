@@ -12,4 +12,4 @@ jobs:
 
     steps:
     - name: Dark Visitors robots.txt
-      uses: valrus/dark-visitors-robots@v1.1.0
+      uses: valrus/dark-visitors-robots@v1.2.0
