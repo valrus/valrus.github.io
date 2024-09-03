@@ -4,6 +4,7 @@ name: Fetch and Commit robots.txt
 on:
   schedule:
     - cron: "55 2 * * *"
+  workflow_dispatch:  # Allow manual triggers
 
 jobs:
   fetch-and-commit:
