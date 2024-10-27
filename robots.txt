@@ -1,3 +1,9 @@
+# AI Data Scraper
+# https://darkvisitors.com/agents/ai2bot
+
+User-agent: AI2Bot
+Disallow: /
+
 # Undocumented AI Agent
 # https://darkvisitors.com/agents/anthropic-ai
 
