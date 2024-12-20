@@ -6,3 +6,6 @@ rebuild:
 
 serve:
 	peppermynt serve
+
+_src/_assets/js/%.min.js: _src/_assets/js/_uncompressed/%.js
+	uglifyjs -c -o $@ $<
