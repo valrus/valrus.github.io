@@ -1,0 +1,30 @@
+#controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#controls .nav-button {
+    font-size: 200%;
+    border: none;
+    background: none;
+    padding: 8px;
+}
+
+#controls .nav-button:disabled {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.sit-spot-images {
+    width: 100%;
+}
+
+.sit-spot-image {
+    width: 100%;
+    aspect-ratio: 4/3 auto;
+}
