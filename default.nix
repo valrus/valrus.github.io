@@ -10,6 +10,7 @@ in pkgs.mkShell rec {
     pythonPackages.venvShellHook
     pandoc
     haskellPackages.pandoc-sidenote
+    uglify-js
   ];
 
   postVenvCreation = ''
