@@ -57,6 +57,13 @@ body
   /* color: var(--color-desc); */
 }
 
+@media only screen and (max-width: 1280px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 /* === Inline Text Styles === */
 
 .details {
