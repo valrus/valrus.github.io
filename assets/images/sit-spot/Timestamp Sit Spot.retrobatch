@@ -12,22 +12,22 @@
 	<array>
 		<dict>
 			<key>canvasOrigin</key>
-			<string>{400, 80}</string>
+			<string>{480, 239}</string>
 			<key>class</key>
 			<string>OTWriteNode</string>
 			<key>inputFileNameTokens</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0FycmF5AISECE5TT2Jq
-			ZWN0AIWEAWkCkoSEhAhOU1N0cmluZwGUhAErCHNpdHNwb3QuhpKE
-			hIQRT1RUb2tlbkZpZWxkVG9rZW4AlJKElpcrJENhcHR1cmVEYXRl
-			IHl5eXktTU0tZGQuSEhtbXNzIENhcHR1cmVEYXRlJIaGhg==
+			ZWN0AIWEAWkBkoSEhBFPVFRva2VuRmllbGRUb2tlbgCUkoSEhAhO
+			U1N0cmluZwGUhAErKyRDYXB0dXJlRGF0ZSB5eXl5LU1NLWRkLkhI
+			bW1zcyBDYXB0dXJlRGF0ZSSGhoY=
 			</data>
 			<key>inputLossyCompressionQuality</key>
-			<real>0.5</real>
+			<real>1</real>
 			<key>inputOpenFolderOnFinish</key>
 			<true/>
 			<key>inputOverwriteExistingFiles</key>
-			<false/>
+			<integer>1</integer>
 			<key>inputProgressive</key>
 			<false/>
 			<key>inputRemoveAlphaChannelIfOpaque</key>
@@ -78,7 +78,7 @@
 		</dict>
 		<dict>
 			<key>canvasOrigin</key>
-			<string>{160, 80}</string>
+			<string>{160, 79}</string>
 			<key>class</key>
 			<string>OTFolderNode</string>
 			<key>inputFolderURLBookmarkData</key>
@@ -115,9 +115,7 @@
 			<key>inputSortOption</key>
 			<integer>0</integer>
 			<key>outputsIds</key>
-			<array>
-				<string>350f6d15-b98f-4569-9acc-cf5d6d5c2066</string>
-			</array>
+			<array/>
 			<key>proccessId</key>
 			<string>36fb7d13-f6cd-4fd4-b66e-9fade756e5a3</string>
 		</dict>
