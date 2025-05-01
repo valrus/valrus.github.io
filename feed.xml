@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2024-08-30T22:01:27Z</updated>
+    <updated>2025-05-01T05:10:19Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -13,6 +13,213 @@
         <uri>http://ian.mccowan.space/</uri>
     </author>
     
+    
+        <entry>
+            <title>Exterior // Interior</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2025/04/30/little_things/" type="text/html" />
+            <id>http://ian.mccowan.space/2025/04/30/little_things/</id>
+            <updated>2025-04-30T05:10:00Z</updated>
+            
+            <summary type="html">This weekend I spent a little time updating my &lt;a
+href=&#34;http://ian.mccowan.space/outside/sit-spot.html&#34;&gt;Sit Spot&lt;/a&gt; page, a page about literally
+doing nothing over and over. I upgraded the back/next arrows from the
+clunky, juvenile ⬅️ and ➡️ to svelte, elegant isosceles triangles to
+provide a more restrained and cosmopolitan navigation experience. I
+added datestamps to the image captions, because what’s the point of
+keeping a record of the same nothing nearly every day if you can’t use
+it to mark the implacable passage of time? And because adding images was
+a tedious, highly manual process involving copy/pasting a directory
+listing into a file and tweaking its formatting by hand, and because I
+somewhat derangedly made &lt;a
+href=&#34;https://codeberg.org/valrus/peppermynt&#34;&gt;my own fork&lt;/a&gt; of a &lt;a
+href=&#34;https://github.com/uhnomoli/mynt&#34;&gt;largely defunct static site
+generator&lt;/a&gt; and thus can mess with it however I please, I added some
+little features to it to alleviate this precise tedium somewhat.</summary>
+            <content type="html">&lt;p&gt;This weekend I spent a little time updating my &lt;a
+href=&#34;http://ian.mccowan.space/outside/sit-spot.html&#34;&gt;Sit Spot&lt;/a&gt; page, a page about literally
+doing nothing over and over. I upgraded the back/next arrows from the
+clunky, juvenile ⬅️ and ➡️ to svelte, elegant isosceles triangles to
+provide a more restrained and cosmopolitan navigation experience. I
+added datestamps to the image captions, because what’s the point of
+keeping a record of the same nothing nearly every day if you can’t use
+it to mark the implacable passage of time? And because adding images was
+a tedious, highly manual process involving copy/pasting a directory
+listing into a file and tweaking its formatting by hand, and because I
+somewhat derangedly made &lt;a
+href=&#34;https://codeberg.org/valrus/peppermynt&#34;&gt;my own fork&lt;/a&gt; of a &lt;a
+href=&#34;https://github.com/uhnomoli/mynt&#34;&gt;largely defunct static site
+generator&lt;/a&gt; and thus can mess with it however I please, I added some
+little features to it to alleviate this precise tedium somewhat.&lt;/p&gt;
+&lt;p&gt;If my web page has a “readership,” it is completely opaque to me — I
+have no analytics, no comments, nothing telling me I’m not chucking this
+effort directly into a Null Vortex — and this page in particular is not
+one that would reward repeat visits. So like. Who will know? Why
+bother?&lt;/p&gt;
+&lt;p&gt;My &lt;a href=&#34;http://ian.mccowan.space/2024/07/22/ai&#34;&gt;last post&lt;/a&gt; asked this question too,
+and didn’t really have a satisfying answer. It was like: maybe I’m
+contributing in some minute measure to the much-vaunted (in some
+circles) “&lt;a href=&#34;https://smallweb.page/home&#34;&gt;small web&lt;/a&gt;?” I guess?
+But that’s not really why I did the work I did (and it was work) over
+the weekend. And I want a better answer about what’s motivating me these
+days. So I’m going to dump some thoughts into a list.&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;&lt;p&gt;Okay so I read &lt;a
+href=&#34;https://bookshop.org/p/books/how-to-do-nothing-resisting-the-attention-economy-jenny-odell/8076119&#34;&gt;&lt;em&gt;How
+to Do Nothing&lt;/em&gt;&lt;/a&gt; by Jenny Odell recently so I just sort of had
+doing nothing on the brain. Updating my web page was not &lt;em&gt;doing
+nothing&lt;/em&gt; doing nothing, but it is doing a kind of nothing in the
+sense that I understand Odell to mean it: no one is making any money off
+my web page (notwithstanding the infinitesimal value it’s surely
+providing to AI scrapers, but I’m trying to be positive for once in my
+life here) and in its own small way it sits in opposition to the
+“attention economy” if only because probably no one is paying any
+attention to it. So there was just kind of fertile psychological ground
+for doing some like… tilling? I don’t know, I’m not a gardener, but you
+get what I mean.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Alright. I lied when I said &lt;em&gt;no one&lt;/em&gt; is paying attention
+to my web page. But how do I even know? Well, what happened was someone
+boosted &lt;a href=&#34;https://kayserifserif.place/&#34;&gt;Katherine Yang&lt;/a&gt;’s &lt;a
+href=&#34;https://sunny.garden/@kayserifserif/114268711259377892&#34;&gt;Mastodon
+post&lt;/a&gt; about her &lt;a href=&#34;https://tree.kayserifserif.place/&#34;&gt;In The
+Year of a Tree&lt;/a&gt; into my timeline and I was like: Hey that looks like
+my thing! (It’s not &lt;em&gt;my thing&lt;/em&gt; really, Katherine started hers
+first and even if she didn’t I got the idea from a book, but like,
+&lt;em&gt;this instance&lt;/em&gt; of it that I did is mine) And so I replied to it
+like: Hey I love this! It’s like my thing but better!&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-0&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-0&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;&lt;em&gt;In the Year of a Tree&lt;/em&gt; is, objectively, better.
+The pictures are better, the presentation is better, the tree changes
+more interestingly than my evergreens. But I’m actually really happy
+with mine for what it is, which is a document of time well spent doing
+nothing. The fixity of the evergreens helps convey the full extent of
+the nothing I’m doing. The fact that the pictures are kind of shitty
+makes it more about the repetition and the practice than the aesthetics.
+I like that &lt;em&gt;In the Year of a Tree&lt;/em&gt; has the same ugly rooftop in
+every picture. It’s aesthetically interesting to have the hard lines
+against the lush or spindly organics of the tree, but it also conveys a
+similarly approachable sense of just working with what’s there rather
+than being too fussy or artsy about it. Letting the tree do the
+talking.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; And she replied like “lovely!” and said enough more
+specific stuff that I can confidently say that at least &lt;em&gt;one&lt;/em&gt;
+person has paid attention to my web page, at least once.&lt;/p&gt;
+&lt;p&gt;I’m trying not to edit this post a lot but I did write and then
+delete a mediocre joke about, like, “attention economy, here I come!”
+before I thought: No, actually, this is a real thing. Having made this
+little project and put it on my web site did really enable this sweet
+moment of connection with a total stranger about a similar non-effortful
+effort we made to observe and appreciate and maybe see a little more or
+deeply at least &lt;em&gt;different&lt;/em&gt; than we might in the attention
+economy that Jenny Odell would have us resist.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;And so but then shortly after that I got an email out of the blue
+from someone appreciating my Sit Spot page, and I’m kind of reluctant to
+mention this one but I found their blog and read some of it and sent
+them an email back about some of the stuff on it and never got a reply,
+and it was kind of like a &lt;em&gt;different&lt;/em&gt; email I got a while back
+from someone claiming to have been following my (very sporadic and also
+largely disregarded) &lt;a href=&#34;http://ian.mccowan.space/studio&#34;&gt;music&lt;/a&gt; for a long time and
+expressing appreciation for a particular old song of mine, and I replied
+enthusiastically and never heard back from &lt;em&gt;them&lt;/em&gt; either, and so
+in both cases I was like: Was this even real? Is someone running a bot
+that like finds people’s websites and AI-generates nice emails to send
+them? Because that’s sort of a nice idea but also kind of shitty in
+execution if the person is looking for an actual connection with a
+human, and in both cases I felt like kind of a dupe for actually
+replying in the hopes of getting that, so it’s weird and embarrassing
+and vulnerable to even include this, but I can’t deny that it did
+contribute to my wanting to give my web page a little love.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I really haven’t been posting here a lot in, like, the last
+several years. Part of it is that I always feel like a blog post has to
+be a big production for whatever reason. Small things I can just throw
+on Mastodon, which doesn’t generally feel shitty to use, even though it
+&lt;em&gt;does&lt;/em&gt; have that gross attention-economy social-media little
+engagement dopamine hit thing going on, but at least that does mean that
+my posts are actually reaching other humans. But it’s all so
+&lt;em&gt;transient&lt;/em&gt;. I can go back and read my feed, and sometimes I do
+because I think I’m funny, and that’s fine. But my web site feels like
+an &lt;em&gt;edifice&lt;/em&gt;, you know? I’ve been updating it, even if only at a
+glacial pace at times, for over a decade. It means that at this point I
+feel like additions to it need to be &lt;em&gt;worthy&lt;/em&gt; of inclusion, even
+though some of &lt;a href=&#34;http://ian.mccowan.space/2013/08/06/Python_Cuddles&#34;&gt;my earliest
+posts&lt;/a&gt; are really just unnecessarily verbose Mastodon toots. But so
+as a whole, I’m proud of it, and I want to make more blog posts to
+contribute to the edifice, but it always seems like so much
+&lt;em&gt;work&lt;/em&gt;, and do I actually even have anything worth putting that
+much effort into saying? If I have an idea for a little improvement to a
+random buried page that I know one or possibly even two people have
+looked at, even if they don’t look at it again, it’s still a way to kind
+of keep in touch with my website. Like, hey bud. I know I haven’t done a
+real post in a while. But I still care about you.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;At work I do Professional Software Developer shit. Unit,
+functional, integration AND end-to-end tests. Minimum Viable Products.
+“Built on AWS.” Observability. Scalability. I get why it’s all important
+for trying to do a thing that a lot of people depend on in some way. And
+it’s kind of interesting, in its own way. But a cursory look at my
+personal programming projects is enough to see it’s not the scale that I
+would choose to work at, if I could do whatever I wanted. It doesn’t
+feel to me like &lt;em&gt;play&lt;/em&gt;, which, I mean, fair enough, it’s work,
+but I did get into this profession in 2013 or whatever because I thought
+this could be fun. I don’t think what I do for work now is fun, mostly.
+But hand-coding a website and the tool I use to build it, with no
+stakes? That’s still fun. Maybe it’s a kind of nostalgia, which I’m
+deeply suspicious of but susceptible to nonetheless. Or maybe it really
+is just all about the fact that there’s no pressure, no one asking
+anything of me, just me taking a thing that’s mine and making it a
+little better.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Immediate follow-up question, which you may not be asking but which I
+want to try to answer regardless: why post about it? When I’m so
+confident that if anyone ever actually reads my site I’ll never know
+about it?&lt;/p&gt;
+&lt;p&gt;Well, a couple days after the tweaks I just finished exhaustively
+cataloguing my motivations for, I came across this &lt;a
+href=&#34;https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing&#34;&gt;wonderful
+essay&lt;/a&gt; about writing and it made me miss writing prose like I write
+code for my website: not really for anyone (but it’s cool if someone
+sees it and lets me know somehow), certainly not because anything
+&lt;em&gt;depends&lt;/em&gt; on it, but just… I don’t know, exactly. For some of the
+reasons articulated in that essay, like:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Writing is a costly signal of caring about something.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Or, perhaps, if I wanted to make this a sort of sequel to my &lt;a
+href=&#34;http://ian.mccowan.space/2024/07/22/ai&#34;&gt;last blog post&lt;/a&gt;, over nine months ago,
+because:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It used to be that our only competitors were made of carbon. Now some
+of our competitors are made out of silicon. New competition should make
+us better at competing—this is our chance to be more thoughtful about
+writing than we’ve ever been before. No system can optimize for
+everything, so what are our minds optimized for, and how can I double
+down on &lt;em&gt;that&lt;/em&gt;? How can I go even deeper into the territory where
+the machines fear to tread, territories that I only notice
+&lt;em&gt;because&lt;/em&gt; they’re treacherous for machines?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And what is it that I want to expensively signal that I care about?
+What is it I hope to double down on? The word that keeps bobbing to the
+surface of my brain, even after I push it down to see if I can make room
+for anything else to float up, is &lt;em&gt;interiority&lt;/em&gt;: I have it, my
+new silicon competitors do not, I want to double down on it, &lt;a
+href=&#34;https://news.fsu.edu/news/science-technology/2025/02/17/why-does-chatgpt-delve-so-much-fsu-researchers-begin-to-uncover-why-chatgpt-overuses-certain-words/&#34;&gt;delve&lt;/a&gt;
+deeper into it, make an effort to account for my own human inclinations
+and desires. I don’t know if this is “where the machines fear to tread”
+or if I’m being “more thoughtful about writing than… ever before” but it
+feels intuitively like a promising direction.&lt;/p&gt;
+&lt;p&gt;I can’t not undermine my own supposed insights or imagine being read
+by my worst critic, so let me just say: I don’t really think there’s
+anything &lt;em&gt;revolutionary&lt;/em&gt; or &lt;em&gt;groundbreaking&lt;/em&gt; about the
+concept of “&lt;a
+href=&#34;https://arstechnica.com/gadgets/2019/01/the-linux-of-social-media-how-livejournal-pioneered-then-lost-web-blogging/&#34;&gt;journaling
+in public&lt;/a&gt;.” But in 2025 it feels like something worth re-affirming
+the value of, even if only to myself.&lt;/p&gt;
+</content>
+            
+                <category term="meta" />
+            
+                <category term="personal" />
+            
+        </entry>
     
         <entry>
             <title>Why I Don&#39;t Like “AI”</title>
