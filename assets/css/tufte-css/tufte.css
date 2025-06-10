@@ -176,10 +176,12 @@ p, ol, ul { font-size: 1.4rem;
 
 ul {
   font-size: 1.2rem;
+  padding-left: 0;
 }
 
 ol {
   font-size: 1.2rem;
+  padding-left: 0;
 }
 
 p { margin-top: 1.4rem;
@@ -205,7 +207,7 @@ strong {
   font-weight: bold;
 }
 
-ul { list-style-type: none; }
+ul { list-style-type: disc; }
 
 img.mached {
   width: 41px;
