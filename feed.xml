@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2025-06-14T00:19:26Z</updated>
+    <updated>2025-06-28T20:11:13Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -15,82 +15,204 @@
     
     
         <entry>
+            <title>a meander about writing and language</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2025/06/28/language/" type="text/html" />
+            <id>http://ian.mccowan.space/2025/06/28/language/</id>
+            <updated>2025-06-28T20:11:00Z</updated>
+            
+            <summary type="html">Recently I wrote about how an essay I read, &lt;a
+href=&#34;https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing&#34;&gt;28
+Slightly Rude Notes on Writing&lt;/a&gt;, made me want to write more. The &lt;a
+href=&#34;http://ian.mccowan.space/2025/04/30/little_things&#34;&gt;post&lt;/a&gt; didn’t have a really sharp
+thesis, and it didn’t have an intended audience. This flew in the face
+of I’d been led to believe is “good writing,” where it’s important to
+know your audience, and to write for that audience, and to have an
+objective, and to focus your writing such that it attains that objective
+concisely. But in attempting to find links to justify my claim that this
+is what’s commonly considered to constitute “good writing,” I found a
+different source saying “if it’s not professional, it’s fine to just
+write for yourself,” so: I didn’t have an audience or an objective for
+that last post and I’m sure as hell not gonna have one here.</summary>
+            <content type="html">&lt;p&gt;Recently I wrote about how an essay I read, &lt;a
+href=&#34;https://www.experimental-history.com/p/28-slightly-rude-notes-on-writing&#34;&gt;28
+Slightly Rude Notes on Writing&lt;/a&gt;, made me want to write more. The &lt;a
+href=&#34;http://ian.mccowan.space/2025/04/30/little_things&#34;&gt;post&lt;/a&gt; didn’t have a really sharp
+thesis, and it didn’t have an intended audience. This flew in the face
+of I’d been led to believe is “good writing,” where it’s important to
+know your audience, and to write for that audience, and to have an
+objective, and to focus your writing such that it attains that objective
+concisely. But in attempting to find links to justify my claim that this
+is what’s commonly considered to constitute “good writing,” I found a
+different source saying “if it’s not professional, it’s fine to just
+write for yourself,” so: I didn’t have an audience or an objective for
+that last post and I’m sure as hell not gonna have one here.&lt;/p&gt;
+&lt;p&gt;But. But but but. When I say I want to write more, but I don’t have a
+topic or an audience in mind, what is it I actually want? The phrase
+that leaps to my mind is “putting words together.” It is—or can be—a
+fun, brain-stretching challenge to choose words, assemble them into
+sentences that flow smoothly (or clunk joltingly), stuff sentences full
+of digressions in subordinate clauses. To cut long sentences with short
+ones. To wrangle paragraphs, each with an arc that feels inevitable,
+into a journey that goes somewhere surprising, or at least a little
+interesting.&lt;/p&gt;
+&lt;p&gt;I’m not a professional writer and I don’t claim to be great at this;
+it’s still a fun challenge, though. As with all art, the space of
+possibilities is too large to navigate any way but intuitively, and I’ve
+done enough reading and writing to have some trust in my intuition.&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-0&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-0&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;In the middle of writing this post, I &lt;a
+href=&#34;https://elftheory.substack.com/p/someone-who-really-gets-you&#34;&gt;came
+across&lt;/a&gt; the aphorism “intuition fails in high dimensions.” Because I
+know just enough math to be dangerous, I tend to think of a lot of
+things as high-dimensional spaces, so I was somewhat gratified to see
+that the phrase &lt;a
+href=&#34;https://cacm.acm.org/research/a-few-useful-things-to-know-about-machine-learning/&#34;&gt;refers
+specifically to machine learning&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; But! But! The question remains: what’s the point of
+writing if it’s not &lt;em&gt;about&lt;/em&gt; something? What does “writing for its
+own sake” actually look like?&lt;/p&gt;
+&lt;p&gt;The train of thought that led to this post occurred while I was in
+the back seat of a car returning from a family vacation, and somewhere
+in my musing I looked out the window at the sky and had what felt like a
+slightly sophomoric thought: how could a piece of writing be &lt;em&gt;like a
+cloud&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;Bear with me. I mean like a cloud in that it doesn’t have a purpose
+or a goal: it’s just there, doesn’t need to justify its existence,
+doesn’t &lt;em&gt;mean&lt;/em&gt; anything. Let me get the obvious out of the way
+first: it is not possible to write something like this. There is too
+much meaning and human intentionality in language to use it to create
+something truly meaningless. But still. What kinds of writing might come
+closest to this? A few things come to mind:&lt;/p&gt;
+&lt;ol type=&#34;1&#34;&gt;
+&lt;li&gt;&lt;p&gt;Aleatoric writing, by which I mean writing produced in part by
+chance. This approach to writing poetry is not uncommon. Legend has it
+that many of Radiohead’s Thom Yorke’s lyrics for &lt;em&gt;Kid A&lt;/em&gt; and
+&lt;em&gt;Amnesiac&lt;/em&gt; were “written” this way, by pulling words or phrases
+out of a hat (whether the hat is literal or figurative is not known to
+me). Legend further has it that the bridge of System of a Down’s “Chop
+Suey!” came from Serj Tankian’s pulling a book off Rick Rubin’s shelf,
+opening to a random page, and using the first line his eye fell on.&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-1&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;I confess I personally find it a bit farfetched that
+Tankian &lt;em&gt;just happened&lt;/em&gt; to flip to what is probably one of the
+Bible’s most recognizable turns of phrase, but the point is that this is
+a done thing.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This kind of writing dates back at least to the Dada art movement, as
+documented in Allison Parrish’s “&lt;a
+href=&#34;https://posts.decontextualize.com/language-models-poetry/&#34;&gt;Language
+models can only write poetry&lt;/a&gt;,”&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-2&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-2&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;Allison Parrish has thought a lot more about the kinds
+of things I’m talking about in this post, and she’s written about them
+more sharply than I could hope to. I really recommend reading
+this.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; which has an example formed by the “words from a hat”
+method (and argues that the large language models of 2025 are a
+sophisticated version of same). Even with this method, it’s impossible
+to excise intentionality from the process entirely: you need to choose
+the words that you put into the hat. Even if you take them out of a
+random book on your shelf, you still (presumably) employed your own
+judgment in acquiring that book; even if you use a book you don’t own,
+it’s probably in your native language, and so forth. And with a poem
+constructed this way, we kind of can’t help but try to ascribe meaning
+to it (well, I can’t, anyway). But still, there’s something cloudlike
+about a poem constructed this way. After all, clouds aren’t
+&lt;em&gt;completely&lt;/em&gt; random there are, after all, physical constraints on
+their formation that just lack anything we’d call “intentionality.” And
+a viewer can still ascribe meaning to a cloud. But there are a couple
+other interesting cases I wanted to explore.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Zen koans. My (Western layperson’s) understanding is that many
+koans are self-contradictory, paradoxical, intended to thwart the
+reader’s understanding. Of course, even acknowledging that they are
+“intended” to do anything means recognizing how they are un-cloudlike.
+Text that refuses its own meaning does not become meaningless; the
+refusal is layered on top of the meaning rather than nullifying it. But
+there is still a cloudlike &lt;em&gt;unconcern&lt;/em&gt; to a koan. It may be
+intended to help guide the reader towards enlightenment, but it’s not
+trying to &lt;em&gt;convince&lt;/em&gt;. I think a koan is less like a cloud than a
+poem drawn from a hat. But it seems to have a similar indifference to
+the reader’s comprehension.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Haiku. I get the sense that they are generally sort of intended
+to convey something about the natural world: often sort of a snapshot in
+time, always self-contained, rarely “meaning” anything. Like koans, I do
+think haiku are intentful, but the best of them do seem to float like a
+cloud, to have been pulled from the air rather than
+constructed.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If texts from east Asia spring to mind more readily for me here, I
+suppose it’s because many seem less intent on persuading or informing
+than Western work. I may also have &lt;a
+href=&#34;https://kenliu.name/blog/book/laozis-dao-de-jing/&#34;&gt;Ken Liu’s
+translation of the Dao De Jing&lt;/a&gt; on the brain, having read it
+recently. Much of the Dao De Jing has the flavor of Zen koans, to me: &lt;a
+href=&#34;https://roadrunnertwice.dreamwidth.org/603805.html&#34;&gt;another recent
+reader&lt;/a&gt; described its tone well as “deliberately aggravating and
+provocative, but in a gentle way.” But I bring it up here because in
+some of his interstitial commentary, Liu mentions the
+&lt;em&gt;inadequacy&lt;/em&gt; of language to explain the Dao and how Laozi
+basically just wrote it down because his followers asked him to.&lt;/p&gt;
+&lt;p&gt;I have other thoughts about language churning around and this post
+didn’t get to half of what I wanted to set down, but it’s long enough
+already. So I’ll leave the rest, ambitiously, for a future
+installment.&lt;/p&gt;
+</content>
+            
+                <category term="meta" />
+            
+                <category term="personal" />
+            
+        </entry>
+    
+        <entry>
             <title>Stony the Road by Henry Louis Gates, Jr.</title>
             <link rel="alternate" href="http://ian.mccowan.space/2025/06/13/stony_the_road/" type="text/html" />
             <id>http://ian.mccowan.space/2025/06/13/stony_the_road/</id>
             <updated>2025-06-13T00:40:00Z</updated>
             
-            <summary type="html">Hey have you played &lt;em&gt;Disco Elysium&lt;/em&gt;? It’s a video game with
+            
+            <content type="html">
+    Stony the Road by Henry Louis Gates, Jr.
+    
+    SPL Book Bingo 2025, Book 3: BIPOC* Historical Fiction/Nonfiction
+    
+    Hey have you played Disco Elysium? It’s a video game with
 this character in it named Measurehead, who is a physically and verbally
 imposing man blocking your passage to a critical location. When you talk
 to him to try to get by, he greets you by saying “YOUR BODY BETRAYS YOUR
-DEGENERACY,” (capital letters are &lt;em&gt;sic&lt;/em&gt;) and the conversation
+DEGENERACY,” (capital letters are sic) and the conversation
 goes downhill from there. Measurehead, as befits his name, is also an
 absolutely huge racist who spouts intricate nonsense about phrenology
 and haplogroups to justify his belief that people of his specific
 ancestry are destined to claim dominion over the world. I was put in
-mind of Measurehead several times while reading &lt;em&gt;Stony the Road&lt;/em&gt;
+mind of Measurehead several times while reading Stony the Road
 because much of it is an exhausting, uncomfortable deluge of propaganda
 used by white people in the years after Reconstruction to portray Black
 people as inferior or even subhuman as a pretext for curtailing the
 rights they’d only recently been granted upon the (nominal) end of
-slavery in the US. It’s not &lt;em&gt;the same&lt;/em&gt; as the blatherings of
+slavery in the US. It’s not the same as the blatherings of
 Measurehead—who, in a grimly amusing inversion, is what we would call
-Black (&lt;em&gt;Disco Elysium&lt;/em&gt;’s geopolitics parallel the real world’s
+Black (Disco Elysium’s geopolitics parallel the real world’s
 but are not the same) and praises the “ham sandwich race” for inventing
 such wonders of the world as eugenics and munitions before asserting
 their modern-day decadence and softness consigns them to the dustbin of
 history—but it certainly rhymes. Reading about the “race scientific”
-distinctions between “monogenesis” and “polygenesis” in &lt;em&gt;Stony the
-Road&lt;/em&gt; was like listening to Measurehead talk about the “three
-categories of race”&lt;span
-class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-0&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-0&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
-class=&#34;sidenote&#34;&gt;A representative sample of this description: “THERE ARE
+distinctions between “monogenesis” and “polygenesis” in Stony the
+Road was like listening to Measurehead talk about the “three
+categories of race”A representative sample of this description: “THERE ARE
 THREE CATEGORIES OF RACE: TYPE A, TYPE B, AND THE VILE C-F RACE CAULDRON
 OF PEDERASTY. [TYPE A] ARE THE SEMENESE, THE AREOPAGITE, AND THE
-OCCIDENTALS – EXCLUDING THE &lt;em&gt;MAUN&lt;/em&gt; OF COURSE. THE MAUN ARE
+OCCIDENTALS – EXCLUDING THE MAUN OF COURSE. THE MAUN ARE
 RIDDLED WITH ECZEMA TO THE POINT WHERE THEY FIND IT IMPOSSIBLE TO SMILE.
-THEY ARE ALL LACTOSE INTOLERANT – A COMMON RESULT OF INBREEDING…”&lt;br /&gt;
-&lt;br /&gt;
-&lt;/span&gt;&lt;/span&gt; in &lt;em&gt;Disco Elysium&lt;/em&gt;. Meticulous categorization,
+THEY ARE ALL LACTOSE INTOLERANT – A COMMON RESULT OF INBREEDING…”
+
+ in Disco Elysium. Meticulous categorization,
 fractally nuanced rabbit holes of sterile intellectualizing, every one
-terminating in a dead end.</summary>
-            <content type="html">&lt;p&gt;Hey have you played &lt;em&gt;Disco Elysium&lt;/em&gt;? It’s a video game with
-this character in it named Measurehead, who is a physically and verbally
-imposing man blocking your passage to a critical location. When you talk
-to him to try to get by, he greets you by saying “YOUR BODY BETRAYS YOUR
-DEGENERACY,” (capital letters are &lt;em&gt;sic&lt;/em&gt;) and the conversation
-goes downhill from there. Measurehead, as befits his name, is also an
-absolutely huge racist who spouts intricate nonsense about phrenology
-and haplogroups to justify his belief that people of his specific
-ancestry are destined to claim dominion over the world. I was put in
-mind of Measurehead several times while reading &lt;em&gt;Stony the Road&lt;/em&gt;
-because much of it is an exhausting, uncomfortable deluge of propaganda
-used by white people in the years after Reconstruction to portray Black
-people as inferior or even subhuman as a pretext for curtailing the
-rights they’d only recently been granted upon the (nominal) end of
-slavery in the US. It’s not &lt;em&gt;the same&lt;/em&gt; as the blatherings of
-Measurehead—who, in a grimly amusing inversion, is what we would call
-Black (&lt;em&gt;Disco Elysium&lt;/em&gt;’s geopolitics parallel the real world’s
-but are not the same) and praises the “ham sandwich race” for inventing
-such wonders of the world as eugenics and munitions before asserting
-their modern-day decadence and softness consigns them to the dustbin of
-history—but it certainly rhymes. Reading about the “race scientific”
-distinctions between “monogenesis” and “polygenesis” in &lt;em&gt;Stony the
-Road&lt;/em&gt; was like listening to Measurehead talk about the “three
-categories of race”&lt;span
-class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-0&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-0&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
-class=&#34;sidenote&#34;&gt;A representative sample of this description: “THERE ARE
-THREE CATEGORIES OF RACE: TYPE A, TYPE B, AND THE VILE C-F RACE CAULDRON
-OF PEDERASTY. [TYPE A] ARE THE SEMENESE, THE AREOPAGITE, AND THE
-OCCIDENTALS – EXCLUDING THE &lt;em&gt;MAUN&lt;/em&gt; OF COURSE. THE MAUN ARE
-RIDDLED WITH ECZEMA TO THE POINT WHERE THEY FIND IT IMPOSSIBLE TO SMILE.
-THEY ARE ALL LACTOSE INTOLERANT – A COMMON RESULT OF INBREEDING…”&lt;br /&gt;
-&lt;br /&gt;
-&lt;/span&gt;&lt;/span&gt; in &lt;em&gt;Disco Elysium&lt;/em&gt;. Meticulous categorization,
-fractally nuanced rabbit holes of sterile intellectualizing, every one
-terminating in a dead end.&lt;/p&gt;
-&lt;p&gt;I read this book for my book club because some people in it were
+terminating in a dead end.
+I read this book for my book club because some people in it were
 curious about the throughline between Reconstruction and the moment we
 find ourselves in now. For me, a blinders-on ignoramus who typically
 avoids learning about history unless compelled to (this book club has
