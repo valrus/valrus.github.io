@@ -113,6 +113,12 @@ User-agent: Meta-ExternalAgent
 Disallow: /
 
 # AI Data Scraper
+# https://darkvisitors.com/agents/netestate-imprint-crawler
+
+User-agent: netEstate Imprint Crawler
+Disallow: /
+
+# AI Data Scraper
 # https://darkvisitors.com/agents/omgili
 
 User-agent: omgili
