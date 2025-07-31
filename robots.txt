@@ -4,7 +4,16 @@
 User-agent: GPT-3
 Disallow: /
 
-User-agent: GPT-4
+# AI Data Scraper
+# https://darkvisitors.com/agents/amazonbot
+
+User-agent: Amazonbot
+Disallow: /
+
+# Undocumented AI Agent
+# https://darkvisitors.com/agents/anthropic-ai
+
+User-agent: anthropic-ai
 Disallow: /
 
 User-agent: GPT-5
@@ -22,7 +31,16 @@ Disallow: /
 User-agent: GPT-9
 Disallow: /
 
-User-agent: GPT-10
+# AI Data Scraper
+# https://darkvisitors.com/agents/cloudvertexbot
+
+User-agent: CloudVertexBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://darkvisitors.com/agents/cohere-ai
+
+User-agent: cohere-ai
 Disallow: /
 
 User-agent: Megatron-LM
@@ -49,6 +67,24 @@ Disallow: /
 User-agent: GPT-Neo
 Disallow: /
 
+# AI Data Scraper
+# https://darkvisitors.com/agents/google-extended
+
+User-agent: Google-Extended
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/googleother
+
+User-agent: GoogleOther
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/gptbot
+
+User-agent: GPTBot
+Disallow: /
+
 User-agent: MarianMT
 Disallow: /
 
@@ -56,6 +92,12 @@ User-agent: mBART
 Disallow: /
 
 User-agent: CamemBERT
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/meta-externalagent
+
+User-agent: meta-externalagent
 Disallow: /
 
 User-agent: ELECTRA
@@ -74,6 +116,12 @@ User-agent: ProphetNet
 Disallow: /
 
 User-agent: LayoutLM
+Disallow: /
+
+# AI Data Scraper
+# https://darkvisitors.com/agents/timpibot
+
+User-agent: Timpibot
 Disallow: /
 
 User-agent: BigBird
