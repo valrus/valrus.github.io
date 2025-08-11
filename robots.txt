@@ -4,12 +4,6 @@
 User-agent: GPT-3
 Disallow: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/amazonbot
-
-User-agent: Amazonbot
-Disallow: /
-
 # Undocumented AI Agent
 # https://darkvisitors.com/agents/anthropic-ai
 
