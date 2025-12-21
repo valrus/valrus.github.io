@@ -18,24 +18,20 @@ h1.section-header {
     border-bottom: 1px solid var(--color-desc);
 }
 
-.song_section.album_section .playlist {
+.song-section.album-section .playlist {
     border-top: none;
 }
 
-.playlist .playlist-item {
+.playlist .track {
     margin: 0px;
     padding: 5px 2px 5px;
     cursor: pointer;
 }
 
-.playlist-item-content {
+.track-content {
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
-}
-
-.playlist li>a {
-    margin-left: 3px;
 }
 
 span.music-icons {
@@ -47,26 +43,14 @@ span.music-icons {
     border-bottom: none;
 }
 
-li.playing {
-    color: var(--color-active);
+.track.playing {
+    color: var(--color-hover);
+    list-style-type: '♬ ';
 }
 
-li.playing a {
+.track.playing a {
     color: var(--color-hover);
     border-bottom: none;
-}
-
-li.playing:before {
-    content: '♬';
-    width: 14px;
-    height: 14px;
-    padding: 3px;
-    margin: 0px;
-    position: absolute;
-    left: -24px;
-    top: 5px;
-    color: var(--color-active);
-    font-size: 1.2rem;
 }
 
 .album {
@@ -86,17 +70,17 @@ li.playing:before {
     color: var(--color-hover);
 }
 
-.album_cover {
+.album-cover {
     margin-left: 0;
     margin-right: 20px;
 }
 
-.album_title {
+.album-title {
     display: inline;
     padding: 0;
 }
 
-.album_details {
+.album-details {
     margin-top: 0.1ex;
     margin-bottom: 0;
     font-size: 85%;
