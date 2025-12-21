@@ -11,7 +11,7 @@
 .playlist {
     padding: 0px;
     margin: 0px 0px 10px;
-    list-style: decimal inside;
+    list-style: decimal outside;
     border-top: 1px solid var(--color-desc);
 }
 
@@ -19,25 +19,29 @@
     border-top: none;
 }
 
-.playlist li {
-    position: relative;
+.playlist .playlist-item {
     margin: 0px;
     padding: 5px 2px 5px;
     cursor: pointer;
+}
+
+.playlist-item-content {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .playlist li>a {
     margin-left: 3px;
 }
 
-.song-icon {
-    border-bottom: none;
+span.music-icons {
+    cursor: s-resize default;
+    flex-shrink: 0;
 }
 
-span.music_icons {
-    right: 5px;
-    position: absolute;
-    cursor: s-resize default;
+.song-icon {
+    border-bottom: none;
 }
 
 li.playing {
