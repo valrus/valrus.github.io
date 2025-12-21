@@ -4,10 +4,7 @@
 User-agent: GPT-3
 Disallow: /
 
-# Undocumented AI Agent
-# https://darkvisitors.com/agents/anthropic-ai
-
-User-agent: anthropic-ai
+User-agent: GPT-4
 Disallow: /
 
 User-agent: GPT-5
@@ -112,10 +109,34 @@ Disallow: /
 User-agent: LayoutLM
 Disallow: /
 
+User-agent: CamemBERT
+Disallow: /
+
+User-agent: ELECTRA
+Disallow: /
+
+User-agent: XLM-RoBERTa
+Disallow: /
+
+User-agent: DeBERTa
+Disallow: /
+
 # AI Data Scraper
 # https://darkvisitors.com/agents/timpibot
 
 User-agent: Timpibot
+Disallow: /
+
+User-agent: BigBird
+Disallow: /
+
+User-agent: FlauBERT
+Disallow: /
+
+User-agent: ProphetNet
+Disallow: /
+
+User-agent: LayoutLM
 Disallow: /
 
 User-agent: BigBird
