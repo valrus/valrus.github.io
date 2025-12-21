@@ -12,7 +12,10 @@
     padding: 0px;
     margin: 0px 0px 10px;
     list-style: decimal outside;
-    border-top: 1px solid var(--color-desc);
+}
+
+h1.section-header {
+    border-bottom: 1px solid var(--color-desc);
 }
 
 .song_section.album_section .playlist {
@@ -74,6 +77,10 @@ li.playing:before {
     margin-bottom: 1em;
 }
 
+.section-header {
+    margin-bottom: 1rem;
+}
+
 .album:hover {
     border-color: var(--color-hover);
     color: var(--color-hover);
@@ -92,4 +99,5 @@ li.playing:before {
 .album_details {
     margin-top: 0.1ex;
     margin-bottom: 0;
+    font-size: 85%;
 }
