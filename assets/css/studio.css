@@ -64,6 +64,7 @@ span.music-icons {
 .track.playing a {
     color: var(--color-hover);
     border-bottom: none;
+    cursor: default;
 }
 
 .album {
