@@ -12,10 +12,6 @@
     padding: 0px;
     margin: 0px 0px 10px;
     list-style: decimal outside;
-<<<<<<< HEAD
-=======
-    border-top: 1px solid var(--color-desc);
->>>>>>> ddce0518 (add Every Song)
 }
 
 h1.section-header {
@@ -43,22 +39,13 @@ span.music-icons {
     flex-shrink: 0;
 }
 
-.playlist li>a {
-    margin-left: 3px;
-}
-
-span.music-icons {
-    cursor: s-resize default;
-    flex-shrink: 0;
+.song-icon {
+    border-bottom: none;
 }
 
 .track.playing {
     color: var(--color-hover);
     list-style-type: '♬ ';
-}
-
-.song-icon {
-    border-bottom: none;
 }
 
 .track.playing a {
