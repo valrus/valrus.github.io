@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2026-02-15T18:59:10Z</updated>
+    <updated>2026-08-18T03:47:18Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -13,6 +13,30 @@
         <uri>http://ian.mccowan.space/</uri>
     </author>
     
+    
+        <entry>
+            <title>Weather</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2026/08/17/weather/" type="text/html" />
+            <id>http://ian.mccowan.space/2026/08/17/weather/</id>
+            <updated>2026-08-17T03:47:00Z</updated>
+            
+            <summary type="html">Your thoughts are just weather that happens to you.&lt;br /&gt;
+And you’re just whatever they’re happening to.&lt;br /&gt;
+It may seem to you that the storm wants you dead,&lt;br /&gt;
+but the storm wanting anything’s all in your head.</summary>
+            <content type="html">&lt;p&gt;Your thoughts are just weather that happens to you.&lt;br /&gt;
+And you’re just whatever they’re happening to.&lt;br /&gt;
+It may seem to you that the storm wants you dead,&lt;br /&gt;
+but the storm wanting anything’s all in your head.&lt;/p&gt;
+&lt;p&gt;The wind doesn’t blow just to knock down the tree,&lt;br /&gt;
+the rain doesn’t long to return to the sea,&lt;br /&gt;
+the waves don’t intend to bring vessels to rest;&lt;br /&gt;
+the driftwood lays smooth on the beach nonetheless.&lt;/p&gt;
+</content>
+            
+                <category term="poem" />
+            
+        </entry>
     
         <entry>
             <title>Pat cried but did not Accept that he cried</title>
