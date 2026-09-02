@@ -4,10 +4,16 @@
     z-index: 2;
 }
 
-article {
-  text-align: center;
+.small-clever-rooms {
+    article {
+        text-align: center;
+    }
 }
 
-#blogdesc, .thefooter{
-    text-align: left;
+@media (min-width: 761px) {
+    .small-clever-rooms {
+        section>* {
+            width: 55%;
+        }
+    }
 }

@@ -32,6 +32,7 @@ h1.section-header {
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
+    gap: 1em;
 }
 
 span.music-icons {
@@ -64,6 +65,7 @@ span.music-icons {
 
 .section-header {
     margin-bottom: 1rem;
+    padding-right: 1ex;
 }
 
 .album:hover {
@@ -72,8 +74,13 @@ span.music-icons {
 }
 
 .album-cover {
+    flex: 0 0 100px;
     margin-left: 0;
     margin-right: 20px;
+}
+
+.album-cover>img {
+    display: flex;
 }
 
 .album-title {

@@ -7,18 +7,20 @@
     <title>small clever rooms: Converting a Module to a Package</title>
     
       <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
       <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
       <link rel="stylesheet" type="text/css" href="/assets/css/colors.css" />
     
     <link rel="stylesheet" type="text/css" href="/assets/css/room.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte-base.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/small-clever-rooms.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/blogpost.css" />
 
   </head>
 
-  <body>
+  <body class="small-clever-rooms">
     
     <main>
         <nav class="navigation">
@@ -82,9 +84,10 @@
         </nav>
         
 <article>
-    <h1>Converting a Module to a Package</h1>
-    
-    <p>It’s happened often (well, twice) that I’ve had a Python module that
+    <section>
+        <h1>Converting a Module to a Package</h1>
+        
+        <p>It’s happened often (well, twice) that I’ve had a Python module that
 started to get a little too big for its britches: maybe approaching 1000
 lines, maybe just including several subclasses which are related but
 really ought to have their own files. Documentation on the Python
@@ -122,6 +125,7 @@ to, say, add a subclass to <code>Widget</code>, you can do so in
 <code>Widget.py</code> without cluttering up the <code>Grommet</code>
 code.</p>
 
+    </section>
 </article>
 
         <footer>

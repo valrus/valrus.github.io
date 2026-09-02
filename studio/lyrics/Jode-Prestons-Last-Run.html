@@ -7,12 +7,14 @@
     <title>small clever rooms: lyric</title>
     
       <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
       <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
       <link rel="stylesheet" type="text/css" href="/assets/css/colors.css" />
     
     <link rel="stylesheet" type="text/css" href="/assets/css/room.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte-base.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/small-clever-rooms.css" />
 
 <link rel="stylesheet" type="text/css" href="/assets/css/lyric.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/audio.css" />
@@ -26,7 +28,7 @@ $(function() {
 
   </head>
 
-  <body>
+  <body class="small-clever-rooms">
     
     <main>
         <nav class="navigation">
@@ -90,16 +92,21 @@ $(function() {
             
         </nav>
         
-<div class="figure" id="player">
-    <audio preload>
-        <source src="/assets/music/Jode Preston's Last Run.mp3">
-    </audio>
-</div>
+<article>
+    <section>
+        <div class="figure" id="player">
+            <audio preload>
+                <source src="/assets/music/Jode Preston's Last Run.mp3">
+            </audio>
+        </div>
+    </section>
+</article>
 
 <article>
-    <h1>Jode Preston's Last Run</h1>
-    
-    <p>Hi, Jode.<br />
+    <section>
+        <h1>Jode Preston's Last Run</h1>
+        
+        <p>Hi, Jode.<br />
 Your team is dead,<br />
 but you’re still out there on first base.<br />
 Dust off your cleats!<br />
@@ -110,6 +117,7 @@ but you already want them back.</p>
 <p>Come on home, Jode:<br />
 one last moment of glory before the fade to black.</p>
 
+    </section>
 </article>
 
 

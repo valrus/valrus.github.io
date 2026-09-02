@@ -66,7 +66,7 @@
     width: 70%;
     background: var(--color-body-bg);
     height: 14px;
-    margin: 5px 0px;
+    margin: 5px 5px 5px 0;
     overflow: hidden;
     border: 1px dashed var(--color-desc);
 }

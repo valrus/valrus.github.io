@@ -22,16 +22,7 @@ Disallow: /
 User-agent: GPT-9
 Disallow: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/cloudvertexbot
-
-User-agent: CloudVertexBot
-Disallow: /
-
-# Undocumented AI Agent
-# https://darkvisitors.com/agents/cohere-ai
-
-User-agent: cohere-ai
+User-agent: GPT-10
 Disallow: /
 
 User-agent: Megatron-LM
@@ -58,24 +49,6 @@ Disallow: /
 User-agent: GPT-Neo
 Disallow: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/google-extended
-
-User-agent: Google-Extended
-Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/googleother
-
-User-agent: GoogleOther
-Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/gptbot
-
-User-agent: GPTBot
-Disallow: /
-
 User-agent: MarianMT
 Disallow: /
 
@@ -85,12 +58,6 @@ Disallow: /
 User-agent: CamemBERT
 Disallow: /
 
-# AI Data Scraper
-# https://darkvisitors.com/agents/meta-externalagent
-
-User-agent: meta-externalagent
-Disallow: /
-
 User-agent: ELECTRA
 Disallow: /
 
@@ -98,36 +65,6 @@ User-agent: XLM-RoBERTa
 Disallow: /
 
 User-agent: DeBERTa
-Disallow: /
-
-User-agent: FlauBERT
-Disallow: /
-
-User-agent: ProphetNet
-Disallow: /
-
-User-agent: LayoutLM
-Disallow: /
-
-User-agent: CamemBERT
-Disallow: /
-
-User-agent: ELECTRA
-Disallow: /
-
-User-agent: XLM-RoBERTa
-Disallow: /
-
-User-agent: DeBERTa
-Disallow: /
-
-# AI Data Scraper
-# https://darkvisitors.com/agents/timpibot
-
-User-agent: Timpibot
-Disallow: /
-
-User-agent: BigBird
 Disallow: /
 
 User-agent: FlauBERT
