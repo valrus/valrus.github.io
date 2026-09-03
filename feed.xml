@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://ian.mccowan.space/" />
     <link rel="self" href="http://ian.mccowan.space/feed.xml" type="application/atom+xml" />
     <id>http://ian.mccowan.space/</id>
-    <updated>2026-09-03T00:12:33Z</updated>
+    <updated>2026-09-03T04:08:32Z</updated>
     
     <author>
         <name>Ian McCowan</name>
@@ -15,23 +15,178 @@
     
     
         <entry>
+            <title>Break Points</title>
+            <link rel="alternate" href="http://ian.mccowan.space/2026/09/02/break-points/" type="text/html" />
+            <id>http://ian.mccowan.space/2026/09/02/break-points/</id>
+            <updated>2026-09-02T04:08:00Z</updated>
+            
+            <summary type="html">I really needed a day off from work, so I took one. And then I spent
+all day doing Code Things anyway.</summary>
+            <content type="html">&lt;p&gt;I really needed a day off from work, so I took one. And then I spent
+all day doing Code Things anyway.&lt;/p&gt;
+&lt;p&gt;I read a post somewhere or other gently chastising people for not
+making their Indie Web™ sites mobile-friendly.&lt;span
+class=&#34;sidenote-wrapper&#34;&gt;&lt;label for=&#34;sn-0&#34; class=&#34;margin-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-0&#34; class=&#34;margin-toggle&#34;/&gt;&lt;span
+class=&#34;sidenote&#34;&gt;It was probably on &lt;a
+href=&#34;https://bubbles.town/&#34;&gt;Bubbles&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt; Lots of people only look at websites on phones these
+days, so I was doing all zero of my readers a huge disservice by having
+a mobile version of my site use a design aesthetic known in “the biz”
+(my room) as Desktop But Smaller. My heavy use of &lt;a
+href=&#34;https://gwern.net/sidenote&#34;&gt;sidenotes&lt;/a&gt; meant that some 40% of
+any potential phone reader’s 3-inch-wide screen would be reserved for
+the possibility of my going off on some dumbshit digression in the
+middle of one of my biannual posts.&lt;/p&gt;
+&lt;p&gt;Well, no more. Now my web site’s delicious Content will span the full
+expanse of a phone screen, and sidenotes will be shown only when you tap
+the little number telling you I have some additional irrelevant nonsense
+to blather about. It’s precisely as Tufte intended.&lt;/p&gt;
+&lt;p&gt;If you peek under the hood, you’ll see that I do actually use &lt;a
+href=&#34;https://edwardtufte.github.io/tufte-css/&#34;&gt;Tufte CSS&lt;/a&gt;, which
+supports everything I described in the last paragraph and has done so
+for a long time. So like, what the hell?&lt;/p&gt;
+&lt;p&gt;Well, I’m not using &lt;em&gt;stock&lt;/em&gt; Tufte CSS: among other things, I
+wanted it to be more purple. So when I added it to my website, I did one
+complicated and forward-looking thing and one simple and &lt;a
+href=&#34;https://grugbrain.dev/&#34;&gt;grug-brained&lt;/a&gt; thing that completely
+negated any value I might have gotten out of the complicated thing.&lt;/p&gt;
+&lt;p&gt;The complicated thing was forking &lt;a
+href=&#34;https://github.com/edwardtufte/tufte-css&#34;&gt;tufte-css&lt;/a&gt; and adding
+&lt;a href=&#34;https://github.com/valrus/tufte-css&#34;&gt;my fork&lt;/a&gt; as a Git
+submodule. This enabled me to pull updates from upstream if I wanted to
+get the latest and greatest.&lt;/p&gt;
+&lt;p&gt;The grug-brained thing was making my modifications by just fucking
+editing &lt;code&gt;tufte.css&lt;/code&gt; directly, thereby ensuring that any
+attempt to &lt;em&gt;actually&lt;/em&gt; pull upstream changes would be met with an
+increasingly convoluted nightmare of merge conflicts. Obviously, I
+didn’t really think this through. But it’s just a personal web page, and
+I like to think I’ve learned a thing or two about software since
+then.&lt;/p&gt;
+&lt;p&gt;So anyway, I guessed that mobile looked bad either because my changes
+broke the &lt;a
+href=&#34;https://www.w3schools.com/css/css_rwd_mediaqueries.asp&#34;&gt;media
+queries&lt;/a&gt; that were so obviously actually present in
+&lt;code&gt;tufte.css&lt;/code&gt; or because those media queries were added after I
+made my fork, uh, nine years ago. Fine, then. Merge conflicts ahoy I
+guess.&lt;/p&gt;
+&lt;p&gt;About a half hour through squinting at diffs and trying to recall
+what the hell I was thinking nine years ago, I managed to notice that
+what I was doing was not smart. If I want to be able to continue to pull
+upstream changes, carrying on with an adulterated &lt;code&gt;tufte.css&lt;/code&gt;
+is not the way to go. How about, instead, leaving that damn file alone
+and making my &lt;em&gt;own&lt;/em&gt; CSS that overrides whatever I want to
+change?&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;think&lt;/em&gt; CSS overrides happen in, like, sequential order if
+two conflicting rules exist. But I didn’t want to rely on that. Instead
+I just slapped a &lt;code&gt;.small-clever-rooms&lt;/code&gt; class on some node
+real high up in the DOM and then put all my overrides inside a
+&lt;code&gt;.small-clever-rooms {}&lt;/code&gt; in my custom CSS (itself named
+&lt;code&gt;small-clever-rooms.css&lt;/code&gt;, natch). That was enough to ensure
+that my rules would win over the &lt;code&gt;tufte.css&lt;/code&gt; ones due to
+being &lt;a
+href=&#34;https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity&#34;&gt;more
+specific&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Mobile still looked the same, though. What the fuck?&lt;/p&gt;
+&lt;p&gt;One thing I realized after consulting some more docs was that my
+more-specific rules would supersede the media-query-wrapped ones in the
+base &lt;code&gt;tufte.css&lt;/code&gt;. So since I had something like this (across
+two files):&lt;/p&gt;
+&lt;div class=&#34;sourceCode&#34; id=&#34;cb1&#34;&gt;&lt;pre
+class=&#34;sourceCode css&#34;&gt;&lt;code class=&#34;sourceCode css&#34;&gt;&lt;span id=&#34;cb1-1&#34;&gt;&lt;a href=&#34;#cb1-1&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;fu&#34;&gt;.small-clever-rooms&lt;/span&gt; p {&lt;/span&gt;
+&lt;span id=&#34;cb1-2&#34;&gt;&lt;a href=&#34;#cb1-2&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;    &lt;span class=&#34;kw&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;ch&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;dv&#34;&gt;55&lt;/span&gt;&lt;span class=&#34;dt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-3&#34;&gt;&lt;a href=&#34;#cb1-3&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;}&lt;/span&gt;
+&lt;span id=&#34;cb1-4&#34;&gt;&lt;a href=&#34;#cb1-4&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-5&#34;&gt;&lt;a href=&#34;#cb1-5&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;im&#34;&gt;@media&lt;/span&gt; &lt;span class=&#34;fu&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kw&#34;&gt;max-width&lt;/span&gt;&lt;span class=&#34;ch&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;dv&#34;&gt;760&lt;/span&gt;&lt;span class=&#34;dt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;fu&#34;&gt;)&lt;/span&gt; {&lt;/span&gt;
+&lt;span id=&#34;cb1-6&#34;&gt;&lt;a href=&#34;#cb1-6&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;    p {&lt;/span&gt;
+&lt;span id=&#34;cb1-7&#34;&gt;&lt;a href=&#34;#cb1-7&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;        &lt;span class=&#34;kw&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;ch&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;dv&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;dt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-8&#34;&gt;&lt;a href=&#34;#cb1-8&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;    }&lt;/span&gt;
+&lt;span id=&#34;cb1-9&#34;&gt;&lt;a href=&#34;#cb1-9&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;the narrow width would win due to higher specificity even if the
+screen was small. I couldn’t think of a way to fix it that wouldn’t
+require me to override every &lt;code&gt;max-width&lt;/code&gt;-wrapped rule with
+another one with higher specificity.&lt;/p&gt;
+&lt;p&gt;At this point it was like 10:30am and I’d been stuck in website mode
+since 8:30 and I hadn’t even taken a shower yet, though at least I’d had
+breakfast. So I took a break to take my stupid shower, and then I
+figured out how to solve the stupid issue in the stupid shower. I hate
+that this kind of thing works so often.&lt;/p&gt;
+&lt;p&gt;The solution, which is probably obvious to anyone who’s spent more
+than 10 minutes thinking about CSS in the last 5 years, was to just
+freakin’ put my large-screen-specific overrides &lt;em&gt;in large-screen
+media queries&lt;/em&gt;. What a concept!&lt;/p&gt;
+&lt;div class=&#34;sourceCode&#34; id=&#34;cb2&#34;&gt;&lt;pre
+class=&#34;sourceCode css&#34;&gt;&lt;code class=&#34;sourceCode css&#34;&gt;&lt;span id=&#34;cb2-1&#34;&gt;&lt;a href=&#34;#cb2-1&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;im&#34;&gt;@media&lt;/span&gt; &lt;span class=&#34;fu&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kw&#34;&gt;min-width&lt;/span&gt;&lt;span class=&#34;ch&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;dv&#34;&gt;761&lt;/span&gt;&lt;span class=&#34;dt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;fu&#34;&gt;)&lt;/span&gt; {&lt;/span&gt;
+&lt;span id=&#34;cb2-2&#34;&gt;&lt;a href=&#34;#cb2-2&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;    &lt;span class=&#34;fu&#34;&gt;.small-clever-rooms&lt;/span&gt; p {&lt;/span&gt;
+&lt;span id=&#34;cb2-3&#34;&gt;&lt;a href=&#34;#cb2-3&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;        &lt;span class=&#34;kw&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;ch&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;dv&#34;&gt;55&lt;/span&gt;&lt;span class=&#34;dt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb2-4&#34;&gt;&lt;a href=&#34;#cb2-4&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;    }&lt;/span&gt;
+&lt;span id=&#34;cb2-5&#34;&gt;&lt;a href=&#34;#cb2-5&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;}&lt;/span&gt;
+&lt;span id=&#34;cb2-6&#34;&gt;&lt;a href=&#34;#cb2-6&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id=&#34;cb2-7&#34;&gt;&lt;a href=&#34;#cb2-7&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;im&#34;&gt;@media&lt;/span&gt; &lt;span class=&#34;fu&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kw&#34;&gt;max-width&lt;/span&gt;&lt;span class=&#34;ch&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;dv&#34;&gt;760&lt;/span&gt;&lt;span class=&#34;dt&#34;&gt;px&lt;/span&gt;&lt;span class=&#34;fu&#34;&gt;)&lt;/span&gt; {&lt;/span&gt;
+&lt;span id=&#34;cb2-8&#34;&gt;&lt;a href=&#34;#cb2-8&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;    p {&lt;/span&gt;
+&lt;span id=&#34;cb2-9&#34;&gt;&lt;a href=&#34;#cb2-9&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;        &lt;span class=&#34;kw&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;ch&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;dv&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;dt&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb2-10&#34;&gt;&lt;a href=&#34;#cb2-10&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;    }&lt;/span&gt;
+&lt;span id=&#34;cb2-11&#34;&gt;&lt;a href=&#34;#cb2-11&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Once I did that… mobile &lt;em&gt;still&lt;/em&gt; looked the same. What the
+&lt;em&gt;fuck?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The answer to this one, fortunately, was something so fundamental and
+important (though completely absent from my personal awareness) that the
+first answer turned up by a simple web search &lt;em&gt;was actually
+correct&lt;/em&gt;. Shocking in a 2026 where web search has been completely
+hollowed out by LLM slop. Anyway, it was this bit of boilerplate in
+&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;sourceCode&#34; id=&#34;cb3&#34;&gt;&lt;pre
+class=&#34;sourceCode html&#34;&gt;&lt;code class=&#34;sourceCode html&#34;&gt;&lt;span id=&#34;cb3-1&#34;&gt;&lt;a href=&#34;#cb3-1&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;dt&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kw&#34;&gt;meta&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb3-2&#34;&gt;&lt;a href=&#34;#cb3-2&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;ot&#34;&gt;    name&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;st&#34;&gt;&amp;quot;viewport&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb3-3&#34;&gt;&lt;a href=&#34;#cb3-3&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;ot&#34;&gt;    content&lt;/span&gt;&lt;span class=&#34;op&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;st&#34;&gt;&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span id=&#34;cb3-4&#34;&gt;&lt;a href=&#34;#cb3-4&#34; aria-hidden=&#34;true&#34; tabindex=&#34;-1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;dt&#34;&gt;/&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That “fixed” mobile, in the sense of making Tufte’s and my CSS
+actually apply. Having resolved that, it was time to settle in for a
+long and relaxing afternoon of knob twiddling and yak shaving. But
+hey:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mobile does in fact work now. Even the &lt;a href=&#34;http://ian.mccowan.space/studio&#34;&gt;studio&lt;/a&gt;
+looks better.&lt;/li&gt;
+&lt;li&gt;I migrated &lt;a href=&#34;http://thehotvoice.mccowan.space/&#34;&gt;I’ll Do The
+Hot Voice!&lt;/a&gt; to &lt;a
+href=&#34;https://codeberg.org/valrus/undertale-dialog-generator&#34;&gt;Codeberg&lt;/a&gt;
+and un-broke the link and the domain forwarding. Cool.&lt;/li&gt;
+&lt;li&gt;I wrote this post about it. As you may have noticed I’m not in the
+habit of actually writing posts.&lt;/li&gt;
+&lt;li&gt;I did some recreational code jorgling, which honestly I have to say
+the shine has kind of come off it in the age of push-button mediocre
+code generators that I’m required to use for work. On the other hand the
+gap between coding for work and coding for leisure has never felt wider
+since I’ll never intentionally type words at an LLM in my free
+time.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+                <category term="meta" />
+            
+        </entry>
+    
+        <entry>
             <title>Weather</title>
             <link rel="alternate" href="http://ian.mccowan.space/2026/08/17/weather/" type="text/html" />
             <id>http://ian.mccowan.space/2026/08/17/weather/</id>
             <updated>2026-08-17T03:47:00Z</updated>
             
-            <summary type="html">Your thoughts are just weather that happens to you.&lt;br /&gt;
-And you’re just whatever they’re happening to.&lt;br /&gt;
-It may seem to you that the storm wants you dead,&lt;br /&gt;
-but the storm wanting anything’s all in your head.</summary>
-            <content type="html">&lt;p&gt;Your thoughts are just weather that happens to you.&lt;br /&gt;
-And you’re just whatever they’re happening to.&lt;br /&gt;
-It may seem to you that the storm wants you dead,&lt;br /&gt;
-but the storm wanting anything’s all in your head.&lt;/p&gt;
-&lt;p&gt;The wind doesn’t blow just to knock down the tree,&lt;br /&gt;
-the rain doesn’t long to return to the sea,&lt;br /&gt;
-the waves don’t intend to bring vessels to rest;&lt;br /&gt;
-the driftwood lays smooth on the beach nonetheless.&lt;/p&gt;
+            
+            <content type="html">
+    
+        Weather
+        
+        Your thoughts are just weather that happens to you.
+And you’re just whatever they’re happening to.
+It may seem to you that the storm wants you dead,
+but the storm wanting anything’s all in your head.
+The wind doesn’t blow just to knock down the tree,
+the rain doesn’t long to return to the sea,
+the waves don’t intend to bring vessels to rest;
+the driftwood lays smooth on the beach nonetheless.
+
+    
 </content>
             
                 <category term="poem" />
