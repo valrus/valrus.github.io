@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    
+
+    <title>small clever rooms: Break Points</title>
+    
+      <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+      <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
+      <link rel="stylesheet" type="text/css" href="/assets/css/colors.css" />
+    
+    <link rel="stylesheet" type="text/css" href="/assets/css/room.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/tufte.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/tufte-css/small-clever-rooms.css" />
+
+<link rel="stylesheet" type="text/css" href="/assets/css/blogpost.css" />
+
+  </head>
+
+  <body class="small-clever-rooms">
+    
+    <main>
+        <nav class="navigation">
+            
+                <h1>
+                    <a class="sitename" href="/">small clever rooms</a>
+                </h1>
+                
+                    <ul class="navigation-list">
+                        
+                        
+                        
+                            
+                                <li>
+                                    <a href="/livingroom/">
+                                        «
+                                        living room
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/studio/">
+                                        
+                                        studio
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/study/">
+                                        
+                                        study
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/workshop/">
+                                        
+                                        workshop
+                                    </a>
+                                </li>
+                            
+                        
+                            
+                                <li>
+                                    <a href="/outside/">
+                                        
+                                        outside
+                                    </a>
+                                </li>
+                            
+                        
+                    </ul>
+                
+            
+        </nav>
+        
+<article>
+    <section>
+        <h1>Break Points</h1>
+        
+        <p>I really needed a day off from work, so I took one. And then I spent
+all day doing Code Things anyway.</p>
+<p>I read a post somewhere or other gently chastising people for not
+making their Indie Web™ sites mobile-friendly.<span
+class="sidenote-wrapper"><label for="sn-0" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-0" class="margin-toggle"/><span
+class="sidenote">It was probably on <a
+href="https://bubbles.town/">Bubbles</a>.<br />
+<br />
+</span></span> Lots of people only look at websites on phones these
+days, so I was doing all zero of my readers a huge disservice by having
+a mobile version of my site use a design aesthetic known in “the biz”
+(my room) as Desktop But Smaller. My heavy use of <a
+href="https://gwern.net/sidenote">sidenotes</a> meant that some 40% of
+any potential phone reader’s 3-inch-wide screen would be reserved for
+the possibility of my going off on some dumbshit digression in the
+middle of one of my biannual posts.</p>
+<p>Well, no more. Now my web site’s delicious Content will span the full
+expanse of a phone screen, and sidenotes will be shown only when you tap
+the little number telling you I have some additional irrelevant nonsense
+to blather about. It’s precisely as Tufte intended.</p>
+<p>If you peek under the hood, you’ll see that I do actually use <a
+href="https://edwardtufte.github.io/tufte-css/">Tufte CSS</a>, which
+supports everything I described in the last paragraph and has done so
+for a long time. So like, what the hell?</p>
+<p>Well, I’m not using <em>stock</em> Tufte CSS: among other things, I
+wanted it to be more purple. So when I added it to my website, I did one
+complicated and forward-looking thing and one simple and <a
+href="https://grugbrain.dev/">grug-brained</a> thing that completely
+negated any value I might have gotten out of the complicated thing.</p>
+<p>The complicated thing was forking <a
+href="https://github.com/edwardtufte/tufte-css">tufte-css</a> and adding
+<a href="https://github.com/valrus/tufte-css">my fork</a> as a Git
+submodule. This enabled me to pull updates from upstream if I wanted to
+get the latest and greatest.</p>
+<p>The grug-brained thing was making my modifications by just fucking
+editing <code>tufte.css</code> directly, thereby ensuring that any
+attempt to <em>actually</em> pull upstream changes would be met with an
+increasingly convoluted nightmare of merge conflicts. Obviously, I
+didn’t really think this through. But it’s just a personal web page, and
+I like to think I’ve learned a thing or two about software since
+then.</p>
+<p>So anyway, I guessed that mobile looked bad either because my changes
+broke the <a
+href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">media
+queries</a> that were so obviously actually present in
+<code>tufte.css</code> or because those media queries were added after I
+made my fork, uh, nine years ago. Fine, then. Merge conflicts ahoy I
+guess.</p>
+<p>About a half hour through squinting at diffs and trying to recall
+what the hell I was thinking nine years ago, I managed to notice that
+what I was doing was not smart. If I want to be able to continue to pull
+upstream changes, carrying on with an adulterated <code>tufte.css</code>
+is not the way to go. How about, instead, leaving that damn file alone
+and making my <em>own</em> CSS that overrides whatever I want to
+change?</p>
+<p>I <em>think</em> CSS overrides happen in, like, sequential order if
+two conflicting rules exist. But I didn’t want to rely on that. Instead
+I just slapped a <code>.small-clever-rooms</code> class on some node
+real high up in the DOM and then put all my overrides inside a
+<code>.small-clever-rooms {}</code> in my custom CSS (itself named
+<code>small-clever-rooms.css</code>, natch). That was enough to ensure
+that my rules would win over the <code>tufte.css</code> ones due to
+being <a
+href="https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity">more
+specific</a>.</p>
+<p>Mobile still looked the same, though. What the fuck?</p>
+<p>One thing I realized after consulting some more docs was that my
+more-specific rules would supersede the media-query-wrapped ones in the
+base <code>tufte.css</code>. So since I had something like this (across
+two files):</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">.small-clever-rooms</span> p {</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">width</span><span class="ch">:</span> <span class="dv">55</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">@media</span> <span class="fu">(</span><span class="kw">max-width</span><span class="ch">:</span> <span class="dv">760</span><span class="dt">px</span><span class="fu">)</span> {</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    p {</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">width</span><span class="ch">:</span> <span class="dv">100</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>the narrow width would win due to higher specificity even if the
+screen was small. I couldn’t think of a way to fix it that wouldn’t
+require me to override every <code>max-width</code>-wrapped rule with
+another one with higher specificity.</p>
+<p>At this point it was like 10:30am and I’d been stuck in website mode
+since 8:30 and I hadn’t even taken a shower yet, though at least I’d had
+breakfast. So I took a break to take my stupid shower, and then I
+figured out how to solve the stupid issue in the stupid shower. I hate
+that this kind of thing works so often.</p>
+<p>The solution, which is probably obvious to anyone who’s spent more
+than 10 minutes thinking about CSS in the last 5 years, was to just
+freakin’ put my large-screen-specific overrides <em>in large-screen
+media queries</em>. What a concept!</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode css"><code class="sourceCode css"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">@media</span> <span class="fu">(</span><span class="kw">min-width</span><span class="ch">:</span> <span class="dv">761</span><span class="dt">px</span><span class="fu">)</span> {</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">.small-clever-rooms</span> p {</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        <span class="kw">width</span><span class="ch">:</span> <span class="dv">55</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="im">@media</span> <span class="fu">(</span><span class="kw">max-width</span><span class="ch">:</span> <span class="dv">760</span><span class="dt">px</span><span class="fu">)</span> {</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    p {</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        <span class="kw">width</span><span class="ch">:</span> <span class="dv">100</span><span class="dt">%</span><span class="op">;</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Once I did that… mobile <em>still</em> looked the same. What the
+<em>fuck?</em></p>
+<p>The answer to this one, fortunately, was something so fundamental and
+important (though completely absent from my personal awareness) that the
+first answer turned up by a simple web search <em>was actually
+correct</em>. Shocking in a 2026 where web search has been completely
+hollowed out by LLM slop. Anyway, it was this bit of boilerplate in
+<code>&lt;head&gt;</code>:</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">meta</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ot">    name</span><span class="op">=</span><span class="st">&quot;viewport&quot;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ot">    content</span><span class="op">=</span><span class="st">&quot;width=device-width, initial-scale=1.0&quot;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="dt">/&gt;</span></span></code></pre></div>
+<p>That “fixed” mobile, in the sense of making Tufte’s and my CSS
+actually apply. Having resolved that, it was time to settle in for a
+long and relaxing afternoon of knob twiddling and yak shaving. But
+hey:</p>
+<ul>
+<li>Mobile does in fact work now. Even the <a href="/studio">studio</a>
+looks better.</li>
+<li>I migrated <a href="http://thehotvoice.mccowan.space/">I’ll Do The
+Hot Voice!</a> to <a
+href="https://codeberg.org/valrus/undertale-dialog-generator">Codeberg</a>
+and un-broke the link and the domain forwarding. Cool.</li>
+<li>I wrote this post about it. As you may have noticed I’m not in the
+habit of actually writing posts.</li>
+<li>I did some recreational code jorgling, which honestly I have to say
+the shine has kind of come off it in the age of push-button mediocre
+code generators that I’m required to use for work. On the other hand the
+gap between coding for work and coding for leisure has never felt wider
+since I’ll never intentionally type words at an LLM in my free
+time.</li>
+</ul>
+
+    </section>
+</article>
+
+        <footer>
+            <div id="post-tags">
+    
+        Tagged <span>&raquo;</span>
+        
+            <code><a href="/livingroom/tags/meta/">meta</a></code>
+        
+    
+</div>
+<div id="adjacent-posts">
+    <div id="older-post">
+        
+        <div class="arrow">←</div>
+        <div class="older-link">
+            <a href="/2026/08/17/weather/">Weather</a>
+        </div>
+        
+    </div>
+    <div id="newer-post">
+        
+    </div>
+</div>
+
+            
+            <div class="colophon">
+                
+                    <p>
+                        All rights reserved or whatever.
+                        Everything on this website is by me (except where otherwise attributed)
+                        and was created without AI (no exceptions).
+                        Contact me via <a href="mailto:ian@mccowan.space">email</a>.
+                        Or find me <a href="https://valrus.omg.lol/">other places</a>.
+                    </p>
+                
+            </div>
+        </footer>
+    </main>
+
+  </body>
+</html>
