@@ -164,28 +164,11 @@ body.small-clever-rooms {
 
     a {
         color: var(--color-active);
-        text-decoration: none;
-        border-bottom: var(--line-weight) solid var(--color-active);
-        padding-bottom: 1px;
     }
 
     a:hover,
     a:active {
         color: var(--color-hover);
-    }
-
-    a:link {
-        text-decoration: none;
-        background: none;
-        background-size: none;
-        background-repeat: none;
-        text-shadow: none;
-    }
-
-    a:link::selection,
-    a:link::-moz-selection {
-        text-shadow: none;
-        background: none;
     }
 
     main>footer {
