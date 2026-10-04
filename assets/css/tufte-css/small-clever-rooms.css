@@ -182,6 +182,11 @@ body.small-clever-rooms {
     main>footer p {
         font-size: 1rem;
     }
+
+    figcaption[aria-hidden="true"] {
+        /* until pandoc stops duplicating alt text as figcaption */
+        display: none;
+    }
 }
 
 @media (min-width: 761px) {
